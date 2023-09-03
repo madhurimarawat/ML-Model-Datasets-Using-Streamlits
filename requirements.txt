@@ -1,6 +1,6 @@
+python==3.10
 pandas
 seaborn
 matplotlib
 sklearn
 tabulate
-python==3.10
