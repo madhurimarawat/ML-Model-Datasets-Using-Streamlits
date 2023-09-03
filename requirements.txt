@@ -3,3 +3,4 @@ matplotlib==3.2.2
 numpy==1.18.1
 pandas==1.0.5
 python==3.10.4
+pip==23.2.1
