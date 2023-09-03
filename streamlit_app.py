@@ -46,19 +46,16 @@ algorithm=st.sidebar.selectbox("Select Supervised Learning Algorithm",
 # Now we need to load the builtin dataset
 # This is done using the load_dataset_name function
 def load_dataset(Data):
-
-    # Using Switch case by match in python
-    match Data:
-        case "Iris":
-            return datasets.load_iris()
-        case "Wine":
-            return datasets.load_wine()
-        case "Breast Cancer":
-            return datasets.load_breast_cancer()
-        case "Diabetes":
-            return datasets.load_diabetes()
-        case default:
-            return datasets.load_digits()
+    if Data == "Iris":
+        return datasets.load_iris()
+    elif Data == "Wine":
+        return datasets.load_wine()
+    elif Data == "Breast Cancer":
+        return datasets.load_breast_cancer()
+    elif Data == "Diabetes":
+        return datasets.load_diabetes()
+    else:
+        return datasets.load_digits()
 
 # Now we need to call function to load the dataset
 data=load_dataset(data_name)
@@ -71,142 +68,93 @@ Y = data.target
 
 # Adding Parameters so that we can select from various parameters
 def add_parameter(algorithm):
-
-    # Declaring a dictionary for storing parameters
     params = dict()
 
-    # Deciding parameters based on algorithm
-    match algorithm:
+    if algorithm == 'SVM':
+        c_regular = st.sidebar.slider('C (Regularization)', 0.01, 10.0)
+        kernel_custom = st.sidebar.selectbox('Kernel', ('linear', 'poly', 'rbf', 'sigmoid'))
+        params['C'] = c_regular
+        params['kernel'] = kernel_custom
 
-        # Adding paramters for SVM
-        case 'SVM':
+    elif algorithm == 'KNN':
+        k_n = st.sidebar.slider('Number of Neighbors (K)', 1, 20)
+        params['K'] = k_n
+        weights_custom = st.sidebar.selectbox('Weights', ('uniform', 'distance'))
+        params['weights'] = weights_custom
 
-             # Adding regularization parameter from range 0.01 to 10.0
-             c_regular = st.sidebar.slider('C (Regularization)', 0.01, 10.0)
-             # Kernel is the arguments in the ML model
-             # Polynomial ,Linear, Sigmoid and Radial Basis Function are types of kernals which we can add
-             kernel_custom = st.sidebar.selectbox('Kernel', ('linear', 'poly ', 'rbf', 'sigmoid'))
-             # Adding in dictionary
-             params['C'] = c_regular
-             params['kernel'] = kernel_custom
+    elif algorithm == 'Naive Bayes':
+        st.sidebar.info("This is a simple Algorithm. It doesn't have Parameters for Hyper-tuning.")
 
-        # Adding Parameters for KNN
-        case "KNN":
+    elif algorithm == 'Decision Tree':
+        max_depth = st.sidebar.slider('Max Depth', 2, 17)
+        criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'mse'))
+        splitter = st.sidebar.selectbox("Splitter", ("best", "random"))
+        params['max_depth'] = max_depth
+        params['criterion'] = criterion
+        params['splitter'] = splitter
 
-            # Adding number of Neighbour in Classifier
-            k_n = st.sidebar.slider('Number of Neighbors (K)', 1, 20)
-            # Adding in dictionary
-            params['K'] = k_n
-            # Adding weights
-            weights_custom = st.sidebar.selectbox('Weights', ('uniform', 'distance'))
-            # Adding to dictionary
-            params['weights'] = weights_custom
+        try:
+            random = st.sidebar.text_input("Enter Random State")
+            params['random_state'] = int(random)
+        except:
+            params['random_state'] = 4567
 
-        case 'Naive Bayes':
+    elif algorithm == 'Random Forest':
+        max_depth = st.sidebar.slider('Max Depth', 2, 17)
+        n_estimators = st.sidebar.slider('Number of Estimators', 1, 90)
+        criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'log_loss', 'mse'))
+        params['max_depth'] = max_depth
+        params['n_estimators'] = n_estimators
+        params['criterion'] = criterion
 
-            st.sidebar.info("This is a simple Algorithm.It dosen't have Parmeters for Hypertuning.")
+        try:
+            random = st.sidebar.text_input("Enter Random State")
+            params['random_state'] = int(random)
+        except:
+            params['random_state'] = 4567
 
-        case 'Decision Tree':
+    elif algorithm == 'Linear Regression':
+        fit_intercept = st.sidebar.selectbox("Fit Intercept", ('True', 'False'))
+        params['fit_intercept'] = bool(fit_intercept)
+        n_jobs = st.sidebar.selectbox("Number of Jobs", (None, -1))
+        params['n_jobs'] = n_jobs
 
-            # Taking max_depth
-            max_depth = st.sidebar.slider('Max Depth', 2, 17)
-            # Adding criterion
-            # mse is for regression
-            criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'mse'))
-            # Adding splitter
-            splitter = st.sidebar.selectbox("Splitter",("best","random"))
-            # Taking random state
-            # Adding to dictionary
-            params['max_depth'] = max_depth
-            params['criterion'] = criterion
-            params['splitter'] = splitter
-
-            # Exception Handling using try except block
-            # Because we are sending this input in algorithm model it will show error before any input is entered
-            # For this we will do a default random state till the user enters any state and after that it will be updated
-            try:
-                random = st.sidebar.text_input("Enter Random State")
-                params['random_state'] = int(random)
-            except:
-                params['random_state'] = 4567
-
-        # Adding Parameters for Random Foest
-        case "Random Forest":
-
-            # Taking max_depth
-            max_depth = st.sidebar.slider('Max Depth', 2, 17)
-            # Adding number of estimators
-            n_estimators = st.sidebar.slider('Number of Estimators', 1, 90)
-            # Adding criterion
-            # mse paramter is for regression
-            criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy','log_loss','mse'))
-            # Adding to dictionary
-            params['max_depth'] = max_depth
-            params['n_estimators'] = n_estimators
-            params['criterion'] = criterion
-
-            # Exception Handling using try except block
-            # Because we are sending this input in algorithm model it will show error before any input is entered
-            # For this we will do a default random state till the user enters any state and after that it will be updated
-            try:
-                random = st.sidebar.text_input("Enter Random State")
-                params['random_state'] = int(random)
-            except:
-                params['random_state'] = 4567
-
-        case "Linear Regression":
-
-            # Taking fit_intercept
-            fit_intercept=st.sidebar.selectbox("Fit Intercept",('True','False'))
-            params['fit_intercept']=bool(fit_intercept)
-            # Normalize does not work in linear regression
-            # Taking n_jobs
-            n_jobs=st.sidebar.selectbox("Number of Jobs",(None,-1))
-            params['n_jobs']=n_jobs
-
-        case default:
-
-            # Adding regularization parameter from range 0.01 to 10.0
-            c_regular = st.sidebar.slider('C (Regularization)', 0.01, 10.0)
-            params['C']=c_regular
-            # Taking fit_intercept
-            fit_intercept = st.sidebar.selectbox("Fit Intercept", ('True', 'False'))
-            params['fit_intercept'] = bool(fit_intercept)
-            # Taking Penalty only l2 and None is supported
-            penalty=st.sidebar.selectbox("Penalty",('l2',None))
-            params['penalty'] = penalty
-            # Taking n_jobs
-            n_jobs = st.sidebar.selectbox("Number of Jobs", (None, -1))
-            params['n_jobs'] = n_jobs
+    else:
+        c_regular = st.sidebar.slider('C (Regularization)', 0.01, 10.0)
+        params['C'] = c_regular
+        fit_intercept = st.sidebar.selectbox("Fit Intercept", ('True', 'False'))
+        params['fit_intercept'] = bool(fit_intercept)
+        penalty = st.sidebar.selectbox("Penalty", ('l2', None))
+        params['penalty'] = penalty
+        n_jobs = st.sidebar.selectbox("Number of Jobs", (None, -1))
+        params['n_jobs'] = n_jobs
 
     return params
 
 params = add_parameter(algorithm)
 
 # Now we will build ML Model for this dataset and calculate accuracy for that
-def model(data,algorithm,params):
-
-    match algorithm:
-        case 'KNN':
-            return KNeighborsClassifier(n_neighbors=params['K'], weights=params['weights'])
-        case 'SVM':
-            return SVC(C=params['C'], kernel=params['kernel'])
-        case 'Decision Tree':
-            return DecisionTreeClassifier(
-            criterion=params['criterion'],splitter=params['splitter'],
+def model(data, algorithm, params):
+    if algorithm == 'KNN':
+        return KNeighborsClassifier(n_neighbors=params['K'], weights=params['weights'])
+    elif algorithm == 'SVM':
+        return SVC(C=params['C'], kernel=params['kernel'])
+    elif algorithm == 'Decision Tree':
+        return DecisionTreeClassifier(
+            criterion=params['criterion'], splitter=params['splitter'],
             random_state=params['random_state'])
-        case 'Naive Bayes':
-            return GaussianNB()
-        case 'Random Forest':
-            return RandomForestClassifier(n_estimators=params['n_estimators'],
-            max_depth=params['max_depth'],
-            criterion=params['criterion'],
-            random_state=params['random_state']
-        )
-        case 'Linear Regression':
-            return LinearRegression(fit_intercept=params['fit_intercept'],n_jobs=params['n_jobs'])
-        case default:
-            return LogisticRegression(fit_intercept=params['fit_intercept'],penalty=params['penalty'],C=params['C'],n_jobs=params['n_jobs'])
+    elif algorithm == 'Naive Bayes':
+        return GaussianNB()
+    elif algorithm == 'Random Forest':
+        return RandomForestClassifier(n_estimators=params['n_estimators'],
+                                      max_depth=params['max_depth'],
+                                      criterion=params['criterion'],
+                                      random_state=params['random_state'])
+    elif algorithm == 'Linear Regression':
+        return LinearRegression(fit_intercept=params['fit_intercept'], n_jobs=params['n_jobs'])
+    else:
+        return LogisticRegression(fit_intercept=params['fit_intercept'],
+                                  penalty=params['penalty'], C=params['C'], n_jobs=params['n_jobs'])
 
 # Now we will write the dataset information
 # Since diabetes is a regression dataset, it does not have classes
@@ -283,42 +231,23 @@ fig = plt.figure()
 # Seaborn is used as matplotlib does not display all label names
 
 def choice(data_name):
+    if data_name == "Diabetes":
+        plt.scatter(X[:, 0], Y, c=Y, cmap='viridis', alpha=0.8)
+        plt.plot(x_test, predict, color="red")
+        plt.title("Regression Plot of Dataset")
+        plt.legend(['Actual Values', 'Best Line or General formula'])
+        plt.colorbar()
+    elif data_name == "Digits":
+        colors = ['purple', 'green', 'yellow', 'red', 'black', 'cyan', 'pink', 'magenta', 'grey', 'teal']
+        sns.scatterplot(x=X[:, 0], y=X[:, 1], data=X, hue=Y, palette=sns.color_palette(colors), cmap="viridis", alpha=0.4)
+        plt.legend(data.target_names, shadow=True)
+        plt.title("Scatter Plot of Dataset")
+    else:
+        colors = ['purple', 'green', 'yellow']
+        sns.scatterplot(x=X[:, 0], y=X[:, 1], data=X, hue=Y, palette=sns.color_palette(colors), alpha=0.4)
+        plt.legend(shadow=True)
+        plt.title("Scatter Plot of Dataset")
 
-    match data_name:
-
-        # Plotting Regression Plot for dataset diabetes
-        # Since this is a regression dataset we show regression line as well
-        case "Diabetes":
-
-            # PLotting the dataset
-            plt.scatter(X[:, 0], Y, c=Y, cmap='viridis', alpha=0.8)
-            # Plotting regression line
-            plt.plot(x_test, predict, color="red")
-            # Giving Title
-            plt.title("Regression Plot of Dataset")
-            # Giving Legends
-            plt.legend(['Actual Values', 'Best Line or General formula'])
-            # Showing the range of points using colorbar
-            plt.colorbar()
-
-        # Plotting for digits
-        # Since this dataset has many classes/target values we can plot it using seaborn
-        # Also viridis will be ignored here and it will plot by default according to its own settings
-        # But we can set Color palette according to our requirements
-        case "Digits":
-            colors=['purple', 'green', 'yellow','red','black','cyan','pink','magenta','grey','teal']
-            sns.scatterplot(x=X[:, 0], y=X[:, 1], data=X, hue=Y,palette=sns.color_palette(colors),cmap="viridis",alpha=0.4)
-            plt.legend(data.target_names,shadow=True)
-            plt.title("Scatter Plot of Dataset")
-
-        case default:
-            colors = ['purple','green','yellow']
-            sns.scatterplot(x=X[:, 0], y=X[:, 1], data=X, hue=Y, palette=sns.color_palette(colors), alpha=0.4,)
-            # Giving legend
-            # If we try to show the class target name it will show in different color than the ones that are plotted
-            plt.legend(shadow=True)
-            # Giving Title
-            plt.title("Scatter Plot of Dataset")
 
 
 choice(data_name)
