@@ -239,12 +239,12 @@ def choice(data_name):
         plt.colorbar()
     elif data_name == "Digits":
         colors = ['purple', 'green', 'yellow', 'red', 'black', 'cyan', 'pink', 'magenta', 'grey', 'teal']
-        sns.scatterplot(x=X[:, 0], y=X[:, 1], data=X, hue=Y, palette=sns.color_palette(colors), cmap="viridis", alpha=0.4)
+        sns.scatterplot(x=X[:, 0], y=X[:, 1], hue=Y, palette=sns.color_palette(colors), cmap="viridis", alpha=0.4)
         plt.legend(data.target_names, shadow=True)
         plt.title("Scatter Plot of Dataset")
     else:
         colors = ['purple', 'green', 'yellow']
-        sns.scatterplot(x=X[:, 0], y=X[:, 1], data=X, hue=Y, palette=sns.color_palette(colors), alpha=0.4)
+        sns.scatterplot(x=X[:, 0], y=X[:, 1], hue=Y, palette=sns.color_palette(colors), alpha=0.4)
         plt.legend(shadow=True)
         plt.title("Scatter Plot of Dataset")
 
