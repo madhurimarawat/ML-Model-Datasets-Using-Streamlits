@@ -110,7 +110,8 @@ def add_parameter(algorithm):
         max_depth = st.sidebar.slider('Max Depth', 2, 17)
         # Adding criterion
         # mse is for regression
-        criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'mse'))
+        # mse is giving error so it is removed
+        criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy'))
         # Adding splitter
         splitter = st.sidebar.selectbox("Splitter", ("best", "random"))
         # Taking random state
@@ -137,7 +138,8 @@ def add_parameter(algorithm):
         n_estimators = st.sidebar.slider('Number of Estimators', 1, 90)
         # Adding criterion
         # mse paramter is for regression
-        criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'log_loss', 'mse'))
+        # mse is giving error so it is removed
+        criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'log_loss'))
         # Adding to dictionary
         params['max_depth'] = max_depth
         params['n_estimators'] = n_estimators
