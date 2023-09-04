@@ -109,8 +109,8 @@ def add_parameter(algorithm):
         # Taking max_depth
         max_depth = st.sidebar.slider('Max Depth', 2, 17)
         # Adding criterion
-        # mse is for regression
-        # mse is giving error so it is removed
+        # mse is for regression- It is used in DecisionTreeRegressor
+	  # mse will give error in classifier so it is removed
         criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy'))
         # Adding splitter
         splitter = st.sidebar.selectbox("Splitter", ("best", "random"))
@@ -137,8 +137,8 @@ def add_parameter(algorithm):
         # Adding number of estimators
         n_estimators = st.sidebar.slider('Number of Estimators', 1, 90)
         # Adding criterion
-        # mse paramter is for regression
-        # mse is giving error so it is removed
+        # mse is for regression- It is used in RandomForestRegressor
+	  # mse will give error in classifier so it is removed
         criterion = st.sidebar.selectbox('Criterion', ('gini', 'entropy', 'log_loss'))
         # Adding to dictionary
         params['max_depth'] = max_depth
@@ -311,14 +311,14 @@ def choice(data_name):
         # If we try to show the class target name it will show in different color than the ones that are plotted
         plt.legend(data.target_names, shadow=True)
         # Giving Title
-        plt.title("Scatter Plot of Dataset")
+        plt.title("Scatter Plot of Dataset With Target Classes")
 
     # We cannot give data directly we have to specify the values for x and y
     else:
         colors = ['purple', 'green', 'yellow']
         sns.scatterplot(x=X[:, 0], y=X[:, 1], hue=Y, palette=sns.color_palette(colors), alpha=0.4)
         plt.legend(shadow=True)
-        plt.title("Scatter Plot of Dataset")
+        plt.title("Scatter Plot of Dataset With Target Classes")
 
 
 # Calling Function
