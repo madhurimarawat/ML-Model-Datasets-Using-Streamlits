@@ -67,7 +67,7 @@ You should be able to view the homepage of your app.
 3. Now add all the code in Github repository.<br><br>
 4. Go to streamlit and there is an option for new deployment.<br><br>
 5. Type your Github repository name and specify the file name. If you name your file as streamlit_app it will directly access it else you have to specify the path.<br><br>
-6. Now also make sure you upload all your libraries and requirement name in a ,kde>requirement.txt</kde> file.<br><br>
+6. Now also make sure you upload all your libraries and requirement name in a requirement.txt file.<br><br>
 7. Version can also be mentioned like this python==3.9.<br><br>
 8. When we mention version in the requirement file streamlit install all dependencies from there.<br><br>
 9. If everything went well our app will be deployed on web and you can share the link and access the app from all browsers.
