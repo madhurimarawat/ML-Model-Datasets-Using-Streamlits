@@ -492,7 +492,6 @@ def choice_classifier(data_name):
     if data_name == "Diabetes":
         plt.scatter(X[:, 0], X[:,1], c=Y, cmap='viridis', alpha=0.8)
         plt.title("Scatter Classification Plot of Dataset")
-        plt.legend(['Actual Values', 'Best Line or General formula'])
         plt.colorbar()
 
     # Plotting for digits
@@ -582,8 +581,12 @@ else:
     # Calling Function
     choice_classifier(data_name)
 
-if data_name != "Salary" and (data_name == "Naive Bayes Classification" and algorithm_type == 'Regressor'):
+if data_name != "Salary" and data_name != "Naive Bayes Classification":
     plt.xlabel('Principal Component 1')
     plt.ylabel('Principal Component 2')
 
+# Since we have done pca in naive bayes classification data for plotting regression plot
+if data_name == "Naive Bayes Classification" and algorithm_type == 'Regressor':
+    plt.xlabel('Principal Component 1')
+    plt.ylabel('Principal Component 2')
 st.pyplot(fig)
