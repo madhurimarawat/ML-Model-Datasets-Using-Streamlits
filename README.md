@@ -1,4 +1,4 @@
-# ML-Model-Inbuilt-Dataset-Using-Streamlits 
+# ML-Model-Datasets-Using-Streamlits 
 This repository contains my machine learning models implementation code using streamlit in the Python programming language.<br><br>
 <a href = "https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/"><img width="960" title = "Website Image" alt="Website Image" src="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits/assets/105432776/64584f95-f19c-426d-b647-a6310d0f0d2d"></a>
 <br><br>
