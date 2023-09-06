@@ -52,7 +52,7 @@ if algorithm != 'Linear Regression' and algorithm != 'Logistic Regression' and a
     algorithm_type = st.sidebar.selectbox("Select Algorithm Type",
                         ("Classifier","Regressor"))
 else:
-    st.sidebar.write(f"In {algorithm} Classifier and Regressor dosen't exist separately in this algorithm")
+    st.sidebar.write(f"In {algorithm} Classifier and Regressor dosen't exist separately")
     if algorithm == "Linear Regression":
         algorithm_type = "Regressor"
         st.sidebar.write("{} only does Regression".format(algorithm))
