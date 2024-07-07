@@ -1,0 +1,1310 @@
+pclass,survived,sex,age,sibsp,parch,ticket,fare,cabin,embarked,boat,body,home.dest,last_name,first_name,title
+1,1,1,29.0,0,0,24160.0,211.3375,43,0,2.0,160.8099173553719,"St Louis, MO",Allen, Elisabeth Walton,Miss
+1,1,0,0.9167,1,2,113781.0,151.55,79,0,11.0,160.8099173553719,"Montreal, PQ / Chesterville, ON",Allison, Hudson Trevor,Master
+1,0,1,2.0,1,2,113781.0,151.55,79,0,13.0,160.8099173553719,"Montreal, PQ / Chesterville, ON",Allison, Helen Loraine,Miss
+1,0,0,30.0,1,2,113781.0,151.55,79,0,13.0,135.0,"Montreal, PQ / Chesterville, ON",Allison, Hudson Joshua Creighton,Mr
+1,0,1,25.0,1,2,113781.0,151.55,79,0,13.0,160.8099173553719,"Montreal, PQ / Chesterville, ON",Allison, Hudson J C (Bessie Waldo Daniels),Mrs
+1,1,0,48.0,0,0,19952.0,26.55,149,0,3.0,160.8099173553719,"New York, NY",Anderson, Harry,Mr
+1,1,1,63.0,1,0,13502.0,77.9583,145,0,10.0,160.8099173553719,"Hudson, NY",Andrews, Kornelia Theodosia,Miss
+1,0,0,39.0,0,0,112050.0,0.0,15,0,13.0,160.8099173553719,"Belfast, NI",Andrews, Thomas Jr,Mr
+1,1,1,53.0,2,0,11769.0,51.4792,61,0,13.0,160.8099173553719,"Bayside, Queens, NY",Appleton, Edward Dale (Charlotte Lamson),Mrs
+1,0,0,71.0,0,0,17609.0,49.5042,80,1,13.0,22.0,"Montevideo, Uruguay",Artagaveytia, Ramon,Mr
+1,0,0,47.0,1,0,17757.0,227.525,97,1,13.0,124.0,"New York, NY",Astor, John Jacob,Col
+1,1,1,18.0,1,0,17757.0,227.525,97,1,4.0,160.8099173553719,"New York, NY",Astor, John Jacob (Madeleine Talmadge Force),Mrs
+1,1,1,24.0,0,0,17477.0,69.3,33,1,9.0,160.8099173553719,"Paris, France",Aubart, Leontine Pauline,Mme
+1,1,1,26.0,0,0,19877.0,78.85,80,0,6.0,160.8099173553719,"New York, NY",Barber," Ellen ""Nellie""",Miss
+1,1,0,80.0,0,0,27042.0,30.0,8,0,13.0,160.8099173553719,"Hessle, Yorks",Barkworth, Algernon Henry Wilson,Mr
+1,0,0,29.8811345124283,0,0,17318.0,25.925,80,0,13.0,160.8099173553719,"New York, NY",Baumann, John D,Mr
+1,0,0,24.0,0,1,17558.0,247.5208,48,1,13.0,160.8099173553719,"Montreal, PQ",Baxter, Quigg Edmond,Mr
+1,1,1,50.0,0,1,17558.0,247.5208,48,1,6.0,160.8099173553719,"Montreal, PQ",Baxter, James (Helene DeLaudeniere Chaput),Mrs
+1,1,1,32.0,0,0,11813.0,76.2917,120,1,8.0,160.8099173553719,"New York, NY",Bazzani, Albina,Miss
+1,0,0,36.0,0,0,13050.0,75.2417,96,1,13.0,160.8099173553719,"Winnipeg, MN",Beattie, Thomson,Mr
+1,1,0,37.0,1,1,11751.0,52.5542,131,0,5.0,160.8099173553719,"New York, NY",Beckwith, Richard Leonard,Mr
+1,1,1,47.0,1,1,11751.0,52.5542,131,0,5.0,160.8099173553719,"New York, NY",Beckwith, Richard Leonard (Sallie Monypeny),Mrs
+1,1,0,26.0,0,0,111369.0,30.0,77,1,5.0,160.8099173553719,"New York, NY",Behr, Karl Howell,Mr
+1,1,1,42.0,0,0,17757.0,227.525,80,1,4.0,160.8099173553719,"New York, NY",Bidois, Rosalie,Miss
+1,1,1,29.0,0,0,17483.0,221.7792,115,0,8.0,160.8099173553719,"New York, NY",Bird, Ellen,Miss
+1,0,0,25.0,0,0,13905.0,26.0,80,1,13.0,148.0,"San Francisco, CA",Birnbaum, Jakob,Mr
+1,1,0,25.0,1,0,11967.0,91.0792,42,1,7.0,160.8099173553719,"Dowagiac, MI",Bishop, Dickinson H,Mr
+1,1,1,19.0,1,0,11967.0,91.0792,42,1,7.0,160.8099173553719,"Dowagiac, MI",Bishop, Dickinson H (Helen Walton),Mrs
+1,1,1,35.0,0,0,17760.0,135.6333,116,0,8.0,160.8099173553719,"New York, NY",Bissette, Amelia,Miss
+1,1,0,28.0,0,0,110564.0,26.55,92,0,13.0,160.8099173553719,"Stockholm, Sweden / Washington, DC",Bjornstrom-Steffansson, Mauritz Hakan,Mr
+1,0,0,45.0,0,0,113784.0,35.5,185,0,13.0,160.8099173553719,"Trenton, NJ",Blackwell, Stephen Weart,Mr
+1,1,0,40.0,0,0,112277.0,31.0,12,1,7.0,160.8099173553719,"Glen Ridge, NJ",Blank, Henry,Mr
+1,1,1,30.0,0,0,36928.0,164.8667,100,0,8.0,160.8099173553719,"Youngstown, OH",Bonnell, Caroline,Miss
+1,1,1,58.0,0,0,113783.0,26.55,62,0,8.0,160.8099173553719,"Birkdale, England Cleveland, Ohio",Bonnell, Elizabeth,Miss
+1,0,0,42.0,0,0,110489.0,26.55,125,0,13.0,160.8099173553719,"London / Winnipeg, MB",Borebank, John James,Mr
+1,1,1,45.0,0,0,17608.0,262.375,80,1,4.0,160.8099173553719,"Cooperstown, NY",Bowen, Grace Scott,Miss
+1,1,1,22.0,0,1,113505.0,55.0,155,0,6.0,160.8099173553719,"St Leonards-on-Sea, England Ohio",Bowerman, Elsie Edith,Miss
+1,1,0,29.8811345124283,0,0,111427.0,26.55,80,0,9.0,160.8099173553719,"Los Angeles, CA",Bradley," George (""George Arthur Brayton"")",Mr
+1,0,0,41.0,0,0,113054.0,30.5,7,0,13.0,160.8099173553719,"Pomeroy, WA",Brady, John Bertram,Mr
+1,0,0,48.0,0,0,17591.0,50.4958,20,1,13.0,208.0,"Omaha, NE",Brandeis, Emil,Mr
+1,0,0,29.8811345124283,0,0,112379.0,39.6,80,1,13.0,160.8099173553719,"Philadelphia, PA",Brewe, Arthur Jackson,Dr
+1,1,1,44.0,0,0,17610.0,27.7208,38,1,6.0,160.8099173553719,"Denver, CO",Brown, James Joseph (Margaret Tobin),Mrs
+1,1,1,59.0,2,0,11769.0,51.4792,61,0,13.0,160.8099173553719,"Belmont, MA",Brown, John Murray (Caroline Lane Lamson),Mrs
+1,1,1,60.0,0,0,11813.0,76.2917,120,1,8.0,160.8099173553719,"Philadelphia, PA",Bucknell, William Robert (Emma Eliza Ward),Mrs
+1,1,1,41.0,0,0,16966.0,134.5,160,1,3.0,160.8099173553719,"New York, NY",Burns, Elizabeth Margaret,Miss
+1,0,0,45.0,0,0,113050.0,26.55,36,0,13.0,160.8099173553719,"Washington, DC",Butt, Archibald Willingham,Major
+1,0,0,29.8811345124283,0,0,113798.0,31.0,80,0,13.0,160.8099173553719,"New York, NY",Cairns, Alexander,Mr
+1,1,0,42.0,0,0,17476.0,26.2875,152,0,5.0,160.8099173553719,"New York, NY",Calderhead, Edward Pennington,Mr
+1,1,1,53.0,0,0,17606.0,27.4458,80,1,6.0,160.8099173553719,"Washington, DC",Candee, Edward (Helen Churchill Hungerford),Mrs
+1,1,0,36.0,0,1,17755.0,512.3292,45,1,3.0,160.8099173553719,"Austria-Hungary / Germantown, Philadelphia, PA",Cardeza, Thomas Drake Martinez,Mr
+1,1,1,58.0,0,1,17755.0,512.3292,45,1,3.0,160.8099173553719,"Germantown, Philadelphia, PA",Cardeza, James Warburton Martinez (Charlotte Wardle Drake),Mrs
+1,0,0,33.0,0,0,695.0,5.0,45,0,13.0,160.8099173553719,"New York, NY",Carlsson, Frans Olof,Mr
+1,0,0,28.0,0,0,113059.0,47.1,80,0,13.0,160.8099173553719,"Montevideo, Uruguay",Carrau, Francisco M,Mr
+1,0,0,17.0,0,0,113059.0,47.1,80,0,13.0,160.8099173553719,"Montevideo, Uruguay",Carrau, Jose Pedro,Mr
+1,1,0,11.0,1,2,113760.0,120.0,60,0,4.0,160.8099173553719,"Bryn Mawr, PA",Carter, William Thornton II,Master
+1,1,1,14.0,1,2,113760.0,120.0,60,0,4.0,160.8099173553719,"Bryn Mawr, PA",Carter, Lucile Polk,Miss
+1,1,0,36.0,1,2,113760.0,120.0,60,0,13.0,160.8099173553719,"Bryn Mawr, PA",Carter, William Ernest,Mr
+1,1,1,36.0,1,2,113760.0,120.0,60,0,4.0,160.8099173553719,"Bryn Mawr, PA",Carter, William Ernest (Lucile Polk),Mrs
+1,0,0,49.0,0,0,19924.0,26.0,80,0,13.0,160.8099173553719,"Ascot, Berkshire / Rochester, NY",Case, Howard Brown,Mr
+1,1,1,29.8811345124283,0,0,17770.0,27.7208,80,1,5.0,160.8099173553719,"New York, NY",Cassebeer, Henry Arthur Jr (Eleanor Genevieve Fosdick),Mrs
+1,0,0,36.0,1,0,19877.0,78.85,87,0,13.0,172.0,"Little Onn Hall, Staffs",Cavendish, Tyrell William,Mr
+1,1,1,76.0,1,0,19877.0,78.85,87,0,6.0,160.8099173553719,"Little Onn Hall, Staffs",Cavendish, Tyrell William (Julia Florence Siegel),Mrs
+1,0,0,46.0,1,0,5734.0,61.175,154,0,13.0,160.8099173553719,"Amenia, ND",Chaffee, Herbert Fuller,Mr
+1,1,1,47.0,1,0,5734.0,61.175,154,0,4.0,160.8099173553719,"Amenia, ND",Chaffee, Herbert Fuller (Carrie Constance Toogood),Mrs
+1,1,0,27.0,1,0,113806.0,53.1,173,0,5.0,160.8099173553719,"New York, NY / Ithaca, NY",Chambers, Norman Campbell,Mr
+1,1,1,33.0,1,0,113806.0,53.1,173,0,5.0,160.8099173553719,"New York, NY / Ithaca, NY",Chambers, Norman Campbell (Bertha Griggs),Mrs
+1,1,1,36.0,0,0,17608.0,262.375,49,1,4.0,160.8099173553719,"New York, NY",Chaudanson, Victorine,Miss
+1,1,1,30.0,0,0,110152.0,86.5,53,0,8.0,160.8099173553719,"London, England",Cherry, Gladys,Miss
+1,1,0,45.0,0,0,17594.0,29.7,19,1,7.0,160.8099173553719,"Paris, France",Chevre, Paul Romaine,Mr
+1,1,1,29.8811345124283,0,1,113505.0,55.0,155,0,6.0,160.8099173553719,"St Leonards-on-Sea, England Ohio",Chibnall, (Edith Martha Bowerman),Mrs
+1,0,0,29.8811345124283,0,0,112051.0,0.0,80,0,13.0,160.8099173553719,"Liverpool, England / Belfast",Chisholm, Roderick Robert Crispin,Mr
+1,0,0,27.0,1,0,13508.0,136.7792,109,1,13.0,160.8099173553719,"Los Angeles, CA",Clark, Walter Miller,Mr
+1,1,1,26.0,1,0,13508.0,136.7792,109,1,4.0,160.8099173553719,"Los Angeles, CA",Clark, Walter Miller (Virginia McDowell),Mrs
+1,1,1,22.0,0,0,113781.0,151.55,80,0,11.0,160.8099173553719,"New York, NY",Cleaver, Alice,Miss
+1,0,0,29.8811345124283,0,0,110465.0,52.0,2,0,13.0,160.8099173553719,"Stoughton, MA",Clifford, George Quincy,Mr
+1,0,0,47.0,0,0,5727.0,25.5875,167,0,13.0,160.8099173553719,"Victoria, BC",Colley, Edward Pomeroy,Mr
+1,1,1,39.0,1,1,17756.0,83.1583,164,1,14.0,160.8099173553719,"Lakewood, NJ",Compton, Sara Rebecca,Miss
+1,0,0,37.0,1,1,17756.0,83.1583,166,1,13.0,160.8099173553719,"Lakewood, NJ",Compton, Alexander Taylor Jr,Mr
+1,1,1,64.0,0,2,17756.0,83.1583,162,1,14.0,160.8099173553719,"Lakewood, NJ",Compton, Alexander Taylor (Mary Eliza Ingersoll),Mrs
+1,1,1,55.0,2,0,11770.0,25.7,61,0,2.0,160.8099173553719,"New York, NY",Cornell, Robert Clifford (Malvina Helen Lamson),Mrs
+1,0,0,29.8811345124283,0,0,113791.0,26.55,80,0,13.0,160.8099173553719,"Roachdale, IN",Crafton, John Bertram,Mr
+1,0,0,70.0,1,1,5735.0,71.0,27,0,13.0,269.0,"Milwaukee, WI",Crosby, Edward Gifford,Capt
+1,1,1,36.0,0,2,5735.0,71.0,27,0,7.0,160.8099173553719,"Milwaukee, WI",Crosby, Harriet R,Miss
+1,1,1,64.0,1,1,112901.0,26.55,29,0,7.0,160.8099173553719,"Milwaukee, WI",Crosby, Edward Gifford (Catherine Elizabeth Halstead),Mrs
+1,0,0,39.0,1,0,17599.0,71.2833,106,1,13.0,160.8099173553719,"New York, NY",Cumings, John Bradley,Mr
+1,1,1,38.0,1,0,17599.0,71.2833,106,1,4.0,160.8099173553719,"New York, NY",Cumings, John Bradley (Florence Briggs Thayer),Mrs
+1,1,0,51.0,0,0,113055.0,26.55,151,0,59.0,160.8099173553719,"Lima, Peru",Daly, Peter Denis ,Mr
+1,1,0,27.0,0,0,113804.0,30.5,80,0,3.0,160.8099173553719,"Philadelphia, PA",Daniel, Robert Williams,Mr
+1,1,1,33.0,0,0,113781.0,151.55,80,0,8.0,160.8099173553719,"New York, NY",Daniels, Sarah,Miss
+1,0,0,31.0,1,0,12750.0,52.0,51,0,13.0,160.8099173553719,"Montreal, PQ",Davidson, Thornton,Mr
+1,1,1,27.0,1,2,12750.0,52.0,51,0,3.0,160.8099173553719,"Montreal, PQ",Davidson, Thornton (Orian Hays),Mrs
+1,1,0,31.0,1,0,17474.0,57.0,26,0,3.0,160.8099173553719,"Calgary, AB",Dick, Albert Adrian,Mr
+1,1,1,17.0,1,0,17474.0,57.0,26,0,3.0,160.8099173553719,"Calgary, AB",Dick, Albert Adrian (Vera Gillespie),Mrs
+1,1,0,53.0,1,1,33638.0,81.8583,14,0,13.0,160.8099173553719,"San Francisco, CA",Dodge, Washington,Dr
+1,1,0,4.0,0,2,33638.0,81.8583,14,0,5.0,160.8099173553719,"San Francisco, CA",Dodge, Washington,Master
+1,1,1,54.0,1,1,33638.0,81.8583,14,0,5.0,160.8099173553719,"San Francisco, CA",Dodge, Washington (Ruth Vidaver),Mrs
+1,0,0,50.0,1,0,17761.0,106.425,107,1,13.0,62.0,"Deephaven, MN / Cedar Rapids, IA",Douglas, Walter Donald,Mr
+1,1,1,27.0,1,1,17558.0,247.5208,48,1,6.0,160.8099173553719,"Montreal, PQ",Douglas, Frederick Charles (Mary Helene Baxter),Mrs
+1,1,1,48.0,1,0,17761.0,106.425,107,1,2.0,160.8099173553719,"Deephaven, MN / Cedar Rapids, IA",Douglas, Walter Donald (Mahala Dutton),Mrs
+1,1,1,48.0,1,0,11755.0,39.6,3,1,1.0,160.8099173553719,London / Paris,Duff Gordon," (Lucille Christiana Sutherland) (""Mrs Morgan"")",Lady
+1,1,0,49.0,1,0,17485.0,56.9292,6,1,1.0,160.8099173553719,London / Paris,Duff Gordon," Cosmo Edmund (""Mr Morgan"")",Sir
+1,0,0,39.0,0,0,17580.0,29.7,4,1,13.0,133.0,"Philadelphia, PA",Dulles, William Crothers,Mr
+1,1,1,23.0,0,1,11767.0,83.1583,94,1,7.0,160.8099173553719,"Mt Airy, Philadelphia, PA",Earnshaw, Boulton (Olive Potter),Mrs
+1,1,1,38.0,0,0,17757.0,227.525,86,1,4.0,160.8099173553719,"New York, NY",Endres, Caroline Louise,Miss
+1,1,1,54.0,1,0,36947.0,78.2667,123,1,4.0,160.8099173553719,"Brookline, MA",Eustis, Elizabeth Mussey,Miss
+1,0,1,36.0,0,0,17531.0,31.6792,11,1,13.0,160.8099173553719,"New York, NY",Evans, Edith Corse,Miss
+1,0,0,29.8811345124283,0,0,17483.0,221.7792,114,0,13.0,160.8099173553719,"New York, NY",Farthing, John,Mr
+1,1,1,29.8811345124283,0,0,17598.0,31.6833,80,0,7.0,160.8099173553719,"New York, NY",Flegenheim, Alfred (Antoinette),Mrs
+1,1,1,29.8811345124283,0,0,17421.0,110.8833,80,1,4.0,160.8099173553719,"New York, NY",Fleming, Margaret,Miss
+1,1,0,36.0,0,0,17474.0,26.3875,153,0,5.0,160.8099173553719,"Brooklyn, NY",Flynn," John Irwin (""Irving"")",Mr
+1,0,0,30.0,0,0,113051.0,27.75,67,1,13.0,160.8099173553719,"New York, NY",Foreman, Benjamin Laventall,Mr
+1,1,1,24.0,3,2,19950.0,263.0,80,0,10.0,160.8099173553719,"Winnipeg, MB",Fortune, Alice Elizabeth,Miss
+1,1,1,28.0,3,2,19950.0,263.0,80,0,10.0,160.8099173553719,"Winnipeg, MB",Fortune, Ethel Flora,Miss
+1,1,1,23.0,3,2,19950.0,263.0,80,0,10.0,160.8099173553719,"Winnipeg, MB",Fortune, Mabel Helen,Miss
+1,0,0,19.0,3,2,19950.0,263.0,80,0,13.0,160.8099173553719,"Winnipeg, MB",Fortune, Charles Alexander,Mr
+1,0,0,64.0,1,4,19950.0,263.0,80,0,13.0,160.8099173553719,"Winnipeg, MB",Fortune, Mark,Mr
+1,1,1,60.0,1,4,19950.0,263.0,80,0,10.0,160.8099173553719,"Winnipeg, MB",Fortune, Mark (Mary McDougald),Mrs
+1,1,1,30.0,0,0,17485.0,56.9292,157,1,1.0,160.8099173553719,"New York, NY",Francatelli, Laura Mabel,Miss
+1,0,0,29.8811345124283,0,0,113778.0,26.55,130,0,13.0,160.8099173553719,"Westcliff-on-Sea, Essex",Franklin, Thomas Parham,Mr
+1,1,0,50.0,2,0,17611.0,133.65,80,0,5.0,160.8099173553719,"New York, NY",Frauenthal, Henry William,Dr
+1,1,0,43.0,1,0,17765.0,27.7208,135,1,5.0,160.8099173553719,"New York, NY",Frauenthal, Isaac Gerald,Mr
+1,1,1,29.8811345124283,1,0,17611.0,133.65,80,0,5.0,160.8099173553719,"New York, NY",Frauenthal, Henry William (Clara Heinsheimer),Mrs
+1,1,1,22.0,0,2,13568.0,49.5,37,1,5.0,160.8099173553719,"Zurich, Switzerland",Frolicher, Hedwig Margaritha,Miss
+1,1,0,60.0,1,1,13567.0,79.2,39,1,5.0,160.8099173553719,"Zurich, Switzerland",Frolicher-Stehli, Maxmillian,Mr
+1,1,1,48.0,1,1,13567.0,79.2,39,1,5.0,160.8099173553719,"Zurich, Switzerland",Frolicher-Stehli, Maxmillian (Margaretha Emerentia Stehli),Mrs
+1,0,0,29.8811345124283,0,0,112058.0,0.0,22,0,13.0,160.8099173553719,"New York, NY",Fry, Richard,Mr
+1,0,0,37.0,1,0,113803.0,53.1,70,0,13.0,160.8099173553719,"Scituate, MA",Futrelle, Jacques Heath,Mr
+1,1,1,35.0,1,0,113803.0,53.1,70,0,13.0,160.8099173553719,"Scituate, MA",Futrelle, Jacques Heath (Lily May Peel),Mrs
+1,0,0,47.0,0,0,111320.0,38.5,169,0,13.0,275.0,"St Anne's-on-Sea, Lancashire",Gee, Arthur H,Mr
+1,1,1,35.0,0,0,113503.0,211.5,75,1,4.0,160.8099173553719,"New York, NY",Geiger, Amalie,Miss
+1,1,1,22.0,0,1,112378.0,59.4,80,1,7.0,160.8099173553719,"New York, NY",Gibson, Dorothy Winifred,Miss
+1,1,1,45.0,0,1,112378.0,59.4,80,1,7.0,160.8099173553719,"New York, NY",Gibson, Leonard (Pauline C Boeson),Mrs
+1,0,0,24.0,0,0,17593.0,79.2,58,1,13.0,160.8099173553719,"New York, NY",Giglio, Victor,Mr
+1,1,0,49.0,1,0,17453.0,89.1042,112,1,5.0,160.8099173553719,"Paris, France / New York, NY",Goldenberg, Samuel L,Mr
+1,1,1,29.8811345124283,1,0,17453.0,89.1042,112,1,5.0,160.8099173553719,"Paris, France / New York, NY",Goldenberg, Samuel L (Edwiga Grabowska),Mrs
+1,0,0,71.0,0,0,17754.0,34.6542,16,1,13.0,160.8099173553719,"New York, NY",Goldschmidt, George B,Mr
+1,1,0,53.0,0,0,113780.0,28.5,91,1,13.0,160.8099173553719,"Washington, DC",Gracie, Archibald IV,Col
+1,1,1,19.0,0,0,112053.0,30.0,40,0,3.0,160.8099173553719,"Greenwich, CT",Graham, Margaret Edith,Miss
+1,0,0,38.0,0,1,17582.0,153.4625,111,0,13.0,147.0,"Winnipeg, MB",Graham, George Edward,Mr
+1,1,1,58.0,0,1,17582.0,153.4625,72,0,3.0,160.8099173553719,"Greenwich, CT",Graham, William Thompson (Edith Junkins),Mrs
+1,1,0,23.0,0,1,17759.0,63.3583,118,1,7.0,160.8099173553719,"New York, NY",Greenfield, William Bertram,Mr
+1,1,1,45.0,0,1,17759.0,63.3583,118,1,7.0,160.8099173553719,"New York, NY",Greenfield, Leo David (Blanche Strouse),Mrs
+1,0,0,46.0,0,0,17593.0,79.2,57,1,13.0,160.8099173553719,"New York, NY",Guggenheim, Benjamin,Mr
+1,1,0,25.0,1,0,11765.0,55.4417,165,1,5.0,160.8099173553719,"Brooklyn, NY",Harder, George Achilles,Mr
+1,1,1,25.0,1,0,11765.0,55.4417,165,1,5.0,160.8099173553719,"Brooklyn, NY",Harder, George Achilles (Dorothy Annan),Mrs
+1,1,0,48.0,1,0,17572.0,76.7292,129,1,3.0,160.8099173553719,"New York, NY",Harper, Henry Sleeper,Mr
+1,1,1,49.0,1,0,17572.0,76.7292,129,1,3.0,160.8099173553719,"New York, NY",Harper, Henry Sleeper (Myna Haxtun),Mrs
+1,0,0,29.8811345124283,0,0,113796.0,42.4,80,0,13.0,160.8099173553719,"New York, NY",Harrington, Charles H,Mr
+1,0,0,45.0,1,0,36973.0,83.475,105,0,13.0,160.8099173553719,"New York, NY",Harris, Henry Birkhardt,Mr
+1,1,1,35.0,1,0,36973.0,83.475,105,0,13.0,160.8099173553719,"New York, NY",Harris, Henry Birkhardt (Irene Wallach),Mrs
+1,0,0,40.0,0,0,112059.0,0.0,59,0,13.0,110.0,"New York, NY",Harrison, William,Mr
+1,1,0,27.0,0,0,17572.0,76.7292,141,1,3.0,160.8099173553719,"New York, NY",Hassab, Hammad,Mr
+1,1,0,29.8811345124283,0,0,16988.0,30.0,137,0,3.0,160.8099173553719,"Kingston, Surrey",Hawksford, Walter James,Mr
+1,1,1,24.0,0,0,11767.0,83.1583,94,1,7.0,160.8099173553719,"New York, NY",Hays, Margaret Bechstein,Miss
+1,0,0,55.0,1,1,12749.0,93.5,50,0,13.0,307.0,"Montreal, PQ",Hays, Charles Melville,Mr
+1,1,1,52.0,1,1,12749.0,93.5,50,0,3.0,160.8099173553719,"Montreal, PQ",Hays, Charles Melville (Clara Jennings Gregg),Mrs
+1,0,0,42.0,0,0,113038.0,42.5,23,0,13.0,160.8099173553719,London / Middlesex,Head, Christopher,Mr
+1,0,0,29.8811345124283,0,0,17463.0,51.8625,163,0,13.0,160.8099173553719,"Brighton, MA",Hilliard, Herbert Henry,Mr
+1,0,0,55.0,0,0,680.0,50.0,85,0,13.0,160.8099173553719,London / Birmingham,Hipkins, William Edward,Mr
+1,1,1,16.0,0,1,111361.0,57.9792,24,1,4.0,160.8099173553719,"Chicago, IL",Hippach, Jean Gertrude,Miss
+1,1,1,44.0,0,1,111361.0,57.9792,24,1,4.0,160.8099173553719,"Chicago, IL",Hippach, Louis Albert (Ida Sophia Fischer),Mrs
+1,1,1,51.0,1,0,13502.0,77.9583,119,0,10.0,160.8099173553719,"Hudson, NY",Hogeboom, John C (Anna Andrews),Mrs
+1,0,0,42.0,1,0,113789.0,52.0,80,0,13.0,38.0,"New York, NY",Holverson, Alexander Oskar,Mr
+1,1,1,35.0,1,0,113789.0,52.0,80,0,8.0,160.8099173553719,"New York, NY",Holverson, Alexander Oskar (Mary Aline Towner),Mrs
+1,1,0,35.0,0,0,111426.0,26.55,80,1,15.0,160.8099173553719,"Indianapolis, IN",Homer," Harry (""Mr E Haven"")",Mr
+1,1,0,38.0,1,0,19943.0,90.0,113,0,13.0,160.8099173553719,"New York, NY /  Stamford CT",Hoyt, Frederick Maxfield,Mr
+1,0,0,29.8811345124283,0,0,17600.0,30.6958,80,1,14.0,160.8099173553719,"New York, NY",Hoyt, William Fisher,Mr
+1,1,1,35.0,1,0,19943.0,90.0,113,0,13.0,160.8099173553719,"New York, NY /  Stamford CT",Hoyt, Frederick Maxfield (Jane Anne Forby),Mrs
+1,1,1,38.0,0,0,113572.0,80.0,30,0,6.0,160.8099173553719,"New York, NY",Icard, Amelie,Miss
+1,0,1,50.0,0,0,17595.0,28.7125,89,1,13.0,160.8099173553719,"Paris, France New York, NY",Isham, Ann Elizabeth,Miss
+1,1,0,49.0,0,0,112058.0,0.0,46,0,13.0,160.8099173553719,Liverpool,Ismay, Joseph Bruce,Mr
+1,0,0,46.0,0,0,694.0,26.0,80,0,13.0,80.0,"Bennington, VT",Jones, Charles Cresson,Mr
+1,0,0,50.0,0,0,113044.0,26.0,168,0,13.0,160.8099173553719,London,Julian, Henry Forbes,Mr
+1,0,0,32.5,0,0,113503.0,211.5,76,1,13.0,45.0,"New York, NY",Keeping, Edwin,Mr
+1,0,0,58.0,0,0,11771.0,29.7,35,1,13.0,258.0,"Buffalo, NY",Kent, Edward Austin,Mr
+1,0,0,41.0,1,0,17464.0,51.8625,124,0,13.0,160.8099173553719,"Southington / Noank, CT",Kenyon, Frederick R,Mr
+1,1,1,29.8811345124283,1,0,17464.0,51.8625,124,0,8.0,160.8099173553719,"Southington / Noank, CT",Kenyon, Frederick R (Marion),Mrs
+1,1,0,42.0,1,0,11753.0,52.5542,122,0,5.0,160.8099173553719,"Boston, MA",Kimball, Edwin Nelson Jr,Mr
+1,1,1,45.0,1,0,11753.0,52.5542,122,0,5.0,160.8099173553719,"Boston, MA",Kimball, Edwin Nelson Jr (Gertrude Parsons),Mrs
+1,0,0,29.8811345124283,0,0,113028.0,26.55,71,0,13.0,160.8099173553719,"Portland, OR",Klaber, Herman,Mr
+1,1,1,39.0,0,0,24160.0,211.3375,80,0,2.0,160.8099173553719,"New York, NY",Kreuchen, Emilie,Miss
+1,1,1,49.0,0,0,17465.0,25.9292,121,0,8.0,160.8099173553719,"New York, NY",Leader, Alice (Farnham),Dr
+1,1,1,30.0,0,0,17761.0,106.425,80,1,2.0,160.8099173553719,"New York, NY",LeRoy, Bertha,Miss
+1,1,0,35.0,0,0,17755.0,512.3292,21,1,3.0,160.8099173553719,"New York, NY",Lesurer, Gustave J,Mr
+1,0,0,29.8811345124283,0,0,17612.0,27.7208,80,1,13.0,160.8099173553719,"Chicago, IL",Lewy, Ervin G,Mr
+1,0,0,42.0,0,0,17475.0,26.55,80,0,13.0,160.8099173553719,"Stockholm, Sweden",Lindeberg-Lind," Erik Gustaf (""Mr Edward Lingrey"")",Mr
+1,1,1,55.0,0,0,112377.0,27.7208,80,1,6.0,160.8099173553719,"Stockholm, Sweden",Lindstrom, Carl Johan (Sigrid Posse),Mrs
+1,1,1,16.0,0,1,17592.0,39.4,127,0,9.0,160.8099173553719,"Paris, France",Lines, Mary Conover,Miss
+1,1,1,51.0,0,1,17592.0,39.4,127,0,9.0,160.8099173553719,"Paris, France",Lines, Ernest H (Elizabeth Lindsey James),Mrs
+1,0,0,29.0,0,0,113501.0,30.0,144,0,13.0,126.0,"Springfield, MA",Long, Milton Clyde,Mr
+1,1,1,21.0,0,0,13502.0,77.9583,146,0,10.0,160.8099173553719,"Hudson, NY",Longley, Gretchen Fiske,Miss
+1,0,0,30.0,0,0,113801.0,45.5,80,0,13.0,160.8099173553719,"London / New York, NY",Loring, Joseph Holland,Mr
+1,1,1,58.0,0,0,17569.0,146.5208,56,1,13.0,160.8099173553719,"New York, NY",Lurette, Elise,Miss
+1,1,1,15.0,0,1,24160.0,211.3375,43,0,2.0,160.8099173553719,"St Louis, MO",Madill, Georgette Alexandra,Miss
+1,0,0,30.0,0,0,110469.0,26.0,65,0,13.0,160.8099173553719,"Brockton, MA",Maguire, John Edward,Mr
+1,1,1,16.0,0,0,110152.0,86.5,55,0,8.0,160.8099173553719,"New York, NY",Maioni, Roberta,Miss
+1,1,0,29.8811345124283,0,0,11774.0,29.7,88,1,7.0,160.8099173553719,"Paris, France",Marechal, Pierre,Mr
+1,0,0,19.0,1,0,113773.0,53.1,128,0,13.0,160.8099173553719,"New York, NY",Marvin, Daniel Warner,Mr
+1,1,1,18.0,1,0,113773.0,53.1,128,0,10.0,160.8099173553719,"New York, NY",Marvin, Daniel Warner (Mary Graham Carmichael Farquarson),Mrs
+1,1,1,24.0,0,0,17482.0,49.5042,110,1,6.0,160.8099173553719,"Belgium  Montreal, PQ",Mayne," Berthe Antonine (""Mrs de Villiers"")",Mlle
+1,0,0,46.0,0,0,13050.0,75.2417,96,1,13.0,292.0,"Vancouver, BC",McCaffry, Thomas Francis,Mr
+1,0,0,54.0,0,0,17463.0,51.8625,163,0,13.0,175.0,"Dorchester, MA",McCarthy, Timothy J,Mr
+1,1,0,36.0,0,0,17473.0,26.2875,153,0,7.0,160.8099173553719,"Philadelphia, PA",McGough, James Robert,Mr
+1,0,0,28.0,1,0,17604.0,82.1708,80,1,13.0,160.8099173553719,"New York, NY",Meyer, Edgar Joseph,Mr
+1,1,1,29.8811345124283,1,0,17604.0,82.1708,80,1,6.0,160.8099173553719,"New York, NY",Meyer, Edgar Joseph (Leila Saks),Mrs
+1,0,0,65.0,0,0,13509.0,26.55,158,0,13.0,249.0,"East Bridgewater, MA",Millet, Francis Davis,Mr
+1,0,0,44.0,2,0,19928.0,90.0,102,2,13.0,230.0,"Fond du Lac, WI",Minahan, William Edward,Dr
+1,1,1,33.0,1,0,19928.0,90.0,102,2,14.0,160.8099173553719,"Green Bay, WI",Minahan, Daisy E,Miss
+1,1,1,37.0,1,0,19928.0,90.0,102,2,14.0,160.8099173553719,"Fond du Lac, WI",Minahan, William Edward (Lillian E Thorpe),Mrs
+1,1,0,30.0,1,0,13236.0,57.75,102,1,11.0,160.8099173553719,"New York, NY",Mock, Philipp Edmund,Mr
+1,0,0,55.0,0,0,113787.0,30.5,82,0,13.0,160.8099173553719,"Montreal, PQ",Molson, Harry Markland,Mr
+1,0,0,47.0,0,0,113796.0,42.4,80,0,13.0,160.8099173553719,"Washington, DC",Moore, Clarence Bloomfield,Mr
+1,0,0,37.0,0,1,17596.0,29.7,69,1,13.0,160.8099173553719,"Brooklyn, NY",Natsch, Charles H,Mr
+1,1,1,31.0,1,0,35273.0,113.275,132,1,6.0,160.8099173553719,"Lexington, MA",Newell, Madeleine,Miss
+1,1,1,23.0,1,0,35273.0,113.275,132,1,6.0,160.8099173553719,"Lexington, MA",Newell, Marjorie,Miss
+1,0,0,58.0,0,2,35273.0,113.275,140,1,13.0,122.0,"Lexington, MA",Newell, Arthur Webster,Mr
+1,1,1,19.0,0,2,11752.0,26.2833,139,0,5.0,160.8099173553719,"New York, NY",Newsom, Helen Monypeny,Miss
+1,0,0,64.0,0,0,693.0,26.0,80,0,13.0,263.0,"Isle of Wight, England",Nicholson, Arthur Ernest,Mr
+1,1,1,39.0,0,0,17758.0,108.9,64,1,8.0,160.8099173553719,"New York, NY",Oliva y Ocana, Fermina,Dona
+1,1,0,29.8811345124283,0,0,12998.0,25.7417,80,1,7.0,160.8099173553719,"Paris, France",Omont, Alfred Fernand,Mr
+1,1,1,22.0,0,1,113509.0,61.9792,34,1,5.0,160.8099173553719,"Providence, RI",Ostby, Helene Ragnhild,Miss
+1,0,0,65.0,0,1,113509.0,61.9792,32,1,13.0,234.0,"Providence, RI",Ostby, Engelhart Cornelius,Mr
+1,0,0,28.5,0,0,17562.0,27.7208,136,1,13.0,189.0,"?Havana, Cuba",Ovies y Rodriguez, Servando,Mr
+1,0,0,29.8811345124283,0,0,112052.0,0.0,80,0,13.0,160.8099173553719,Belfast,Parr, William Henry Marsh,Mr
+1,0,0,45.5,0,0,113043.0,28.5,71,0,13.0,166.0,"Surbiton Hill, Surrey",Partner, Austen,Mr
+1,0,0,23.0,0,0,12749.0,93.5,28,0,13.0,160.8099173553719,"Montreal, PQ",Payne, Vivian Ponsonby,Mr
+1,0,0,29.0,1,0,113776.0,66.6,78,0,13.0,160.8099173553719,"Isleworth, England",Pears, Thomas Clinton,Mr
+1,1,1,22.0,1,0,113776.0,66.6,78,0,8.0,160.8099173553719,"Isleworth, England",Pears, Thomas (Edith Wearne),Mrs
+1,0,0,18.0,1,0,17758.0,108.9,98,1,13.0,160.8099173553719,"Madrid, Spain",Penasco y Castellana, Victor de Satode,Mr
+1,1,1,17.0,1,0,17758.0,108.9,98,1,8.0,160.8099173553719,"Madrid, Spain",Penasco y Castellana, Victor de Satode (Maria Josefa Perez de Soto y Vallejo),Mrs
+1,1,1,30.0,0,0,12749.0,93.5,52,0,3.0,160.8099173553719,"New York, NY",Perreault, Anne,Miss
+1,1,0,52.0,0,0,113786.0,30.5,63,0,6.0,160.8099173553719,"Toronto, ON",Peuchen, Arthur Godfrey,Major
+1,0,0,47.0,0,0,110465.0,52.0,66,0,13.0,207.0,"Worcester, MA",Porter, Walter Chamberlain,Mr
+1,1,1,56.0,0,1,11767.0,83.1583,90,1,7.0,160.8099173553719,"Mt Airy, Philadelphia, PA",Potter, Thomas Jr (Lily Alexenia Wilson),Mrs
+1,0,0,38.0,0,0,19972.0,0.0,80,0,13.0,160.8099173553719,"Rotterdam, Netherlands",Reuchlin, John George,Jonkheer
+1,1,0,29.8811345124283,0,0,17607.0,39.6,80,0,13.0,160.8099173553719,"Paris /  New York, NY",Rheims, George Alexander Lucien,Mr
+1,0,0,22.0,0,0,17760.0,135.6333,80,1,13.0,232.0,"New York, NY",Ringhini, Sante,Mr
+1,0,0,29.8811345124283,0,0,17757.0,227.525,80,1,13.0,160.8099173553719,"New York, NY",Robbins, Victor,Mr
+1,1,1,43.0,0,1,24160.0,211.3375,31,0,2.0,160.8099173553719,"St Louis, MO",Robert, Edward Scott (Elisabeth Walton McMillan),Mrs
+1,0,0,31.0,0,0,17590.0,50.4958,9,0,13.0,160.8099173553719,"Trenton, NJ",Roebling, Washington Augustus II,Mr
+1,1,0,45.0,0,0,111428.0,26.55,80,0,9.0,160.8099173553719,"New York, NY",Romaine," Charles Hallace (""Mr C Rolmane"")",Mr
+1,0,0,29.8811345124283,0,0,113767.0,50.0,13,0,13.0,160.8099173553719,"Seattle, WA",Rood, Hugh Roscoe,Mr
+1,1,1,33.0,0,0,17613.0,27.7208,1,1,11.0,160.8099173553719,"Paris, France",Rosenbaum, Edith Louise,Miss
+1,0,0,46.0,0,0,17585.0,79.2,80,1,13.0,16.0,"New York, NY",Rosenshine," George (""Mr George Thorne"")",Mr
+1,0,0,36.0,0,0,13049.0,40.125,0,1,13.0,160.8099173553719,"Winnipeg, MB",Ross, John Hugo,Mr
+1,1,1,33.0,0,0,110152.0,86.5,53,0,8.0,160.8099173553719,"London  Vancouver, BC",Rothes,the  of (Lucy Noel Martha Dyer-Edwards),Countess
+1,0,0,55.0,1,0,17603.0,59.4,80,1,13.0,160.8099173553719,"New York, NY",Rothschild, Martin,Mr
+1,1,1,54.0,1,0,17603.0,59.4,80,1,6.0,160.8099173553719,"New York, NY",Rothschild, Martin (Elizabeth  Barrett),Mrs
+1,0,0,33.0,0,0,113790.0,26.55,80,0,13.0,109.0,London,Rowe, Alfred G,Mr
+1,1,0,13.0,2,2,17608.0,262.375,47,1,4.0,160.8099173553719,"Haverford, PA / Cooperstown, NY",Ryerson, John Borie,Master
+1,1,1,18.0,2,2,17608.0,262.375,47,1,4.0,160.8099173553719,"Haverford, PA / Cooperstown, NY",Ryerson, Emily Borie,Miss
+1,1,1,21.0,2,2,17608.0,262.375,47,1,4.0,160.8099173553719,"Haverford, PA / Cooperstown, NY",Ryerson," Susan Parker ""Suzette""",Miss
+1,0,0,61.0,1,3,17608.0,262.375,47,1,13.0,160.8099173553719,"Haverford, PA / Cooperstown, NY",Ryerson, Arthur Larned,Mr
+1,1,1,48.0,1,3,17608.0,262.375,47,1,4.0,160.8099173553719,"Haverford, PA / Cooperstown, NY",Ryerson, Arthur Larned (Emily Maria Borie),Mrs
+1,1,0,29.8811345124283,0,0,19988.0,30.5,65,0,3.0,160.8099173553719,"Manchester, England",Saalfeld, Adolphe,Mr
+1,1,1,24.0,0,0,17477.0,69.3,33,1,9.0,160.8099173553719,"New York, NY",Sagesser, Emma,Mlle
+1,1,0,29.8811345124283,0,0,111163.0,26.0,80,0,1.0,160.8099173553719,"New York, NY",Salomon, Abraham L,Mr
+1,1,1,35.0,1,0,13236.0,57.75,81,1,11.0,160.8099173553719,"New York, NY",Schabert, Paul (Emma Mock),Mrs
+1,1,1,30.0,0,0,113798.0,31.0,80,1,4.0,160.8099173553719,"New York, NY",Serepeca, Augusta,Miss
+1,1,0,34.0,0,0,113794.0,26.55,80,0,7.0,160.8099173553719,"New York, NY",Seward, Frederic Kimber,Mr
+1,1,1,40.0,0,0,17582.0,153.4625,72,0,3.0,160.8099173553719,"New York, NY / Greenwich CT",Shutes, Elizabeth W,Miss
+1,1,0,35.0,0,0,17475.0,26.2875,152,0,5.0,160.8099173553719,"St Louis, MO",Silverthorne, Spencer Victor,Mr
+1,0,0,50.0,1,0,13507.0,55.9,161,0,13.0,160.8099173553719,"Duluth, MN",Silvey, William Baird,Mr
+1,1,1,39.0,1,0,13507.0,55.9,161,0,11.0,160.8099173553719,"Duluth, MN",Silvey, William Baird (Alice Munger),Mrs
+1,1,0,56.0,0,0,13213.0,35.5,10,1,3.0,160.8099173553719,"Basel, Switzerland",Simonius-Blumer, Oberst Alfons,Col
+1,1,0,28.0,0,0,113788.0,35.5,17,0,7.0,160.8099173553719,"New Britain, CT",Sloper, William Thompson,Mr
+1,0,0,56.0,0,0,113792.0,26.55,80,0,13.0,160.8099173553719,"New York, NY",Smart, John Montgomery,Mr
+1,0,0,56.0,0,0,17764.0,30.6958,18,1,13.0,160.8099173553719,"St James, Long Island, NY",Smith, James Clinch,Mr
+1,0,0,24.0,1,0,13695.0,60.0,83,0,13.0,160.8099173553719,"Huntington, WV",Smith, Lucien Philip,Mr
+1,0,0,29.8811345124283,0,0,113056.0,26.0,5,0,13.0,160.8099173553719,"Streatham, Surrey",Smith, Richard William,Mr
+1,1,1,18.0,1,0,13695.0,60.0,83,0,6.0,160.8099173553719,"Huntington, WV",Smith, Lucien Philip (Mary Eloise Hughes),Mrs
+1,1,0,24.0,1,0,21228.0,82.2667,41,0,7.0,160.8099173553719,"Minneapolis, MN",Snyder, John Pillsbury,Mr
+1,1,1,23.0,1,0,21228.0,82.2667,41,0,7.0,160.8099173553719,"Minneapolis, MN",Snyder, John Pillsbury (Nelle Stevenson),Mrs
+1,1,0,6.0,0,2,16966.0,134.5,156,1,3.0,160.8099173553719,"Tuxedo Park, NY",Spedden, Robert Douglas,Master
+1,1,0,45.0,1,1,16966.0,134.5,156,1,3.0,160.8099173553719,"Tuxedo Park, NY",Spedden, Frederic Oakley,Mr
+1,1,1,40.0,1,1,16966.0,134.5,156,1,3.0,160.8099173553719,"Tuxedo Park, NY",Spedden, Frederic Oakley (Margaretta Corning Stone),Mrs
+1,0,0,57.0,1,0,17569.0,146.5208,54,1,13.0,160.8099173553719,"Paris, France",Spencer, William Augustus,Mr
+1,1,1,29.8811345124283,1,0,17569.0,146.5208,54,1,6.0,160.8099173553719,"Paris, France",Spencer, William Augustus (Marie Eugenie),Mrs
+1,1,0,32.0,0,0,13214.0,30.5,44,1,3.0,160.8099173553719,"Basel, Switzerland",Stahelin-Maeglin, Max,Dr
+1,0,0,62.0,0,0,113514.0,26.55,108,0,13.0,160.8099173553719,"Wimbledon Park, London / Hayling Island, Hants",Stead, William Thomas,Mr
+1,1,0,54.0,1,0,11778.0,55.4417,68,1,1.0,160.8099173553719,"Newark, NJ",Stengel, Charles Emil Henry,Mr
+1,1,1,43.0,1,0,11778.0,55.4417,68,1,5.0,160.8099173553719,"Newark, NJ",Stengel, Charles Emil Henry (Annie May Morris),Mrs
+1,1,1,52.0,1,0,36947.0,78.2667,123,1,4.0,160.8099173553719,"Haverford, PA",Stephenson, Walter Bertram (Martha Eustis),Mrs
+1,0,0,29.8811345124283,0,0,17605.0,27.7208,80,1,13.0,160.8099173553719,"Gallipolis, Ohio / ? Paris / New York",Stewart, Albert A,Mr
+1,1,1,62.0,0,0,113572.0,80.0,30,0,6.0,160.8099173553719,"Cincinatti, OH",Stone, George Nelson (Martha Evelyn),Mrs
+1,0,0,67.0,1,0,17483.0,221.7792,95,0,13.0,96.0,"New York, NY",Straus, Isidor,Mr
+1,0,1,63.0,1,0,17483.0,221.7792,95,0,13.0,160.8099173553719,"New York, NY",Straus, Isidor (Rosalie Ida Blun),Mrs
+1,0,0,61.0,0,0,36963.0,32.3208,142,0,13.0,46.0,"Haddenfield, NJ",Sutton, Frederick,Mr
+1,1,1,48.0,0,0,17466.0,25.9292,121,0,8.0,160.8099173553719,"Brooklyn, NY",Swift, Frederick Joel (Margaret Welles Barron),Mrs
+1,1,1,18.0,0,2,110413.0,79.65,171,0,8.0,160.8099173553719,"New York, NY",Taussig, Ruth,Miss
+1,0,0,52.0,1,1,110413.0,79.65,170,0,13.0,160.8099173553719,"New York, NY",Taussig, Emil,Mr
+1,1,1,39.0,1,1,110413.0,79.65,170,0,8.0,160.8099173553719,"New York, NY",Taussig, Emil (Tillie Mandelbaum),Mrs
+1,1,0,48.0,1,0,19996.0,52.0,73,0,57.0,160.8099173553719,"London /  East Orange, NJ",Taylor, Elmer Zebley,Mr
+1,1,1,29.8811345124283,1,0,19996.0,52.0,73,0,57.0,160.8099173553719,"London /  East Orange, NJ",Taylor, Elmer Zebley (Juliet Cummins Wright),Mrs
+1,0,0,49.0,1,1,17421.0,110.8833,99,1,13.0,160.8099173553719,"Haverford, PA",Thayer, John Borland,Mr
+1,1,0,17.0,0,2,17421.0,110.8833,101,1,13.0,160.8099173553719,"Haverford, PA",Thayer, John Borland Jr,Mr
+1,1,1,39.0,1,1,17421.0,110.8833,99,1,4.0,160.8099173553719,"Haverford, PA",Thayer, John Borland (Marian Longstreth Morris),Mrs
+1,1,1,29.8811345124283,0,0,17585.0,79.2,80,1,13.0,160.8099173553719,"New York, NY",Thorne, Gertrude Maybelle,Mrs
+1,1,0,31.0,0,0,2543.0,28.5375,93,1,7.0,160.8099173553719,"Albany, NY",Tucker, Gilbert Milligan Jr,Mr
+1,0,0,40.0,0,0,17601.0,27.7208,80,1,13.0,160.8099173553719,"Mexico City, Mexico",Uruchurtu, Manuel E,Don
+1,0,0,61.0,0,0,111240.0,33.5,25,0,13.0,245.0,"Brooklyn, NY",Van der hoef, Wyckoff,Mr
+1,0,0,47.0,0,0,36967.0,34.0208,138,0,13.0,160.8099173553719,"East Orange, NJ",Walker, William Anderson,Mr
+1,1,1,35.0,0,0,17755.0,512.3292,80,1,3.0,160.8099173553719,"New York, NY",Ward, Anna,Miss
+1,0,0,64.0,1,0,110813.0,75.25,133,1,13.0,160.8099173553719,"Portland, OR",Warren, Frank Manley,Mr
+1,1,1,60.0,1,0,110813.0,75.25,133,1,5.0,160.8099173553719,"Portland, OR",Warren, Frank Manley (Anna Sophia Atkinson),Mrs
+1,0,0,60.0,0,0,113800.0,26.55,80,0,13.0,160.8099173553719,"England Salt Lake City, Utah",Weir, John,Col
+1,0,0,54.0,0,1,35281.0,77.2875,126,0,13.0,160.8099173553719,"Brunswick, ME",White, Percival Wayland,Mr
+1,0,0,21.0,0,1,35281.0,77.2875,126,0,13.0,169.0,"Brunswick, ME",White, Richard Frasar,Mr
+1,1,1,55.0,0,0,17760.0,135.6333,84,1,8.0,160.8099173553719,"New York, NY / Briarcliff Manor NY",White, John Stuart (Ella Holmes),Mrs
+1,1,1,31.0,0,2,36928.0,164.8667,100,0,8.0,160.8099173553719,"Youngstown, OH",Wick, Mary Natalie,Miss
+1,0,0,57.0,1,1,36928.0,164.8667,80,0,13.0,160.8099173553719,"Youngstown, OH",Wick, George Dennick,Mr
+1,1,1,45.0,1,1,36928.0,164.8667,80,0,8.0,160.8099173553719,"Youngstown, OH",Wick, George Dennick (Mary Hitchcock),Mrs
+1,0,0,50.0,1,1,113503.0,211.5,103,1,13.0,160.8099173553719,"Elkins Park, PA",Widener, George Dunton,Mr
+1,0,0,27.0,0,2,113503.0,211.5,104,1,13.0,160.8099173553719,"Elkins Park, PA",Widener, Harry Elkins,Mr
+1,1,1,50.0,1,1,113503.0,211.5,103,1,4.0,160.8099173553719,"Elkins Park, PA",Widener, George Dunton (Eleanor Elkins),Mrs
+1,1,1,21.0,0,0,113795.0,26.55,80,0,810.0,160.8099173553719,"Duluth, MN",Willard, Constance,Miss
+1,0,0,51.0,0,1,17597.0,61.3792,80,1,13.0,160.8099173553719,"Geneva, Switzerland / Radnor, PA",Williams, Charles Duane,Mr
+1,1,0,21.0,0,1,17597.0,61.3792,80,1,13.0,160.8099173553719,"Geneva, Switzerland / Radnor, PA",Williams, Richard Norris II,Mr
+1,0,0,29.8811345124283,0,0,113510.0,35.0,74,0,13.0,160.8099173553719,"London, England",Williams-Lambert, Fletcher Fellows,Mr
+1,1,1,31.0,0,0,16966.0,134.5,159,1,3.0,160.8099173553719,"New York, NY",Wilson, Helen Alice,Miss
+1,1,0,29.8811345124283,0,0,19947.0,35.5,92,0,13.0,160.8099173553719,"London, England",Woolner, Hugh,Mr
+1,0,0,62.0,0,0,113807.0,26.55,80,0,13.0,160.8099173553719,"Halifax, NS",Wright, George,Mr
+1,1,1,36.0,0,0,17760.0,135.6333,84,1,8.0,160.8099173553719,"New York, NY / Washington, DC",Young, Marie Grice,Miss
+2,0,0,30.0,1,0,3381.0,24.0,80,1,13.0,160.8099173553719,"Russia New York, NY",Abelson, Samuel,Mr
+2,1,1,28.0,1,0,3381.0,24.0,80,1,10.0,160.8099173553719,"Russia New York, NY",Abelson, Samuel (Hannah Wizosky),Mrs
+2,0,0,30.0,0,0,248744.0,13.0,80,0,13.0,160.8099173553719,"Bryn Mawr, PA, USA",Aldworth, Charles Augustus,Mr
+2,0,0,18.0,0,0,231945.0,11.5,80,0,13.0,160.8099173553719,"Buenos Aires, Argentina / New Jersey, NJ",Andrew, Edgardo Samuel,Mr
+2,0,0,25.0,0,0,34050.0,10.5,80,0,13.0,160.8099173553719,"Cornwall, England Houghton, MI",Andrew, Frank Thomas,Mr
+2,0,0,34.0,1,0,226875.0,26.0,80,0,13.0,160.8099173553719,"Warwick, England",Angle, William A,Mr
+2,1,1,36.0,1,0,226875.0,26.0,80,0,11.0,160.8099173553719,"Warwick, England",Angle," William A (Florence ""Mary"" Agnes Hughes)",Mrs
+2,0,0,57.0,0,0,244346.0,13.0,80,0,13.0,160.8099173553719,"West Hoboken, NJ",Ashby, John,Mr
+2,0,0,18.0,0,0,29108.0,11.5,80,0,13.0,160.8099173553719,"Penzance, Cornwall / Akron, OH",Bailey, Percy Andrew,Mr
+2,0,0,23.0,0,0,31030.0,10.5,80,0,13.0,160.8099173553719,Guernsey,Baimbrigge, Charles Robert,Mr
+2,1,1,36.0,0,0,28551.0,13.0,117,0,10.0,160.8099173553719,"Bristol, Avon / Jacksonville, FL",Ball, (Ada E Hall),Mrs
+2,0,0,28.0,0,0,34068.0,10.5,80,0,13.0,160.8099173553719,"Plymouth, Dorset / Houghton, MI",Banfield, Frederick James,Mr
+2,0,0,51.0,0,0,1166.0,12.525,80,0,13.0,174.0,"Jacksonville, FL",Bateman, Robert James,Rev
+2,1,0,32.0,1,0,2908.0,26.0,80,0,13.0,160.8099173553719,"Norwich / New York, NY",Beane, Edward,Mr
+2,1,1,19.0,1,0,2908.0,26.0,80,0,13.0,160.8099173553719,"Norwich / New York, NY",Beane, Edward (Ethel Clarke),Mrs
+2,0,0,28.0,0,0,244358.0,26.0,80,0,13.0,160.8099173553719,England,Beauchamp, Henry James,Mr
+2,1,0,1.0,2,1,230136.0,39.0,183,0,11.0,160.8099173553719,"Guntur, India / Benton Harbour, MI",Becker, Richard F,Master
+2,1,1,4.0,2,1,230136.0,39.0,183,0,11.0,160.8099173553719,"Guntur, India / Benton Harbour, MI",Becker, Marion Louise,Miss
+2,1,1,12.0,2,1,230136.0,39.0,183,0,13.0,160.8099173553719,"Guntur, India / Benton Harbour, MI",Becker, Ruth Elizabeth,Miss
+2,1,1,36.0,0,3,230136.0,39.0,183,0,11.0,160.8099173553719,"Guntur, India / Benton Harbour, MI",Becker, Allen Oliver (Nellie E Baumgardner),Mrs
+2,1,0,34.0,0,0,248698.0,13.0,143,0,13.0,160.8099173553719,London,Beesley, Lawrence,Mr
+2,1,1,19.0,0,0,28404.0,13.0,80,0,12.0,160.8099173553719,"Rochester, NY",Bentham, Lilian W,Miss
+2,0,0,23.0,0,0,28425.0,13.0,80,0,13.0,160.8099173553719,"St Ives, Cornwall / Calumet, MI",Berriman, William John,Mr
+2,0,0,26.0,0,0,237670.0,13.0,80,0,13.0,160.8099173553719,"Elmira, NY / Orange, NJ",Botsford, William Hull,Mr
+2,0,0,42.0,0,0,211535.0,13.0,80,0,13.0,160.8099173553719,London,Bowenur, Solomon,Mr
+2,0,0,27.0,0,0,220367.0,13.0,80,0,13.0,160.8099173553719,"Lake Arthur, Chavez County, NM",Bracken, James H,Mr
+2,1,1,24.0,0,0,248733.0,13.0,181,0,11.0,160.8099173553719,"London / Montreal, PQ",Brown," Amelia ""Mildred""",Miss
+2,1,1,15.0,0,2,29750.0,39.0,80,0,14.0,160.8099173553719,"Cape Town, South Africa / Seattle, WA",Brown, Edith Eileen,Miss
+2,0,0,60.0,1,1,29750.0,39.0,80,0,13.0,160.8099173553719,"Cape Town, South Africa / Seattle, WA",Brown, Thomas William Solomon,Mr
+2,1,1,40.0,1,1,29750.0,39.0,80,0,14.0,160.8099173553719,"Cape Town, South Africa / Seattle, WA",Brown, Thomas William Solomon (Elizabeth Catherine Ford),Mrs
+2,1,1,20.0,1,0,236853.0,26.0,80,0,12.0,160.8099173553719,"Skara, Sweden / Rockford, IL",Bryhl, Dagmar Jenny Ingeborg ,Miss
+2,0,0,25.0,1,0,236853.0,26.0,80,0,13.0,160.8099173553719,"Skara, Sweden / Rockford, IL",Bryhl, Kurt Arnold Gottfrid,Mr
+2,1,1,36.0,0,0,27849.0,13.0,80,0,9.0,160.8099173553719,"Sittingbourne, England / San Diego, CA",Buss, Kate,Miss
+2,0,0,25.0,0,0,234686.0,13.0,80,0,13.0,97.0,"Southsea, Hants",Butler, Reginald Fenton,Mr
+2,0,0,42.0,0,0,244310.0,13.0,80,0,13.0,160.8099173553719,London,Byles, Thomas Roussel Davids,Rev
+2,1,1,42.0,0,0,236852.0,13.0,80,0,13.0,160.8099173553719,"New York, NY",Bystrom, (Karolina),Mrs
+2,1,0,0.8333,0,2,248738.0,29.0,80,0,13.0,160.8099173553719,"Bangkok, Thailand / Roseville, IL",Caldwell, Alden Gates,Master
+2,1,0,26.0,1,1,248738.0,29.0,80,0,13.0,160.8099173553719,"Bangkok, Thailand / Roseville, IL",Caldwell, Albert Francis,Mr
+2,1,1,22.0,1,1,248738.0,29.0,80,0,13.0,160.8099173553719,"Bangkok, Thailand / Roseville, IL",Caldwell, Albert Francis (Sylvia Mae Harbaugh),Mrs
+2,1,1,35.0,0,0,13528.0,21.0,80,0,14.0,160.8099173553719,"Mamaroneck, NY",Cameron, Clear Annie,Miss
+2,0,0,29.8811345124283,0,0,239853.0,0.0,80,0,13.0,160.8099173553719,Belfast,Campbell, William,Mr
+2,0,0,19.0,0,0,28424.0,13.0,80,0,13.0,18.0,"St Ives, Cornwall / Calumet, MI",Carbines, William,Mr
+2,0,1,44.0,1,0,244252.0,26.0,80,0,13.0,160.8099173553719,London,Carter, Ernest Courtenay (Lilian Hughes),Mrs
+2,0,0,54.0,1,0,244252.0,26.0,80,0,13.0,160.8099173553719,London,Carter, Ernest Courtenay,Rev
+2,0,0,52.0,0,0,248731.0,13.5,80,0,13.0,130.0,"Bronx, NY",Chapman, Charles Henry,Mr
+2,0,0,37.0,1,0,29037.0,26.0,80,0,13.0,17.0,"Cornwall / Spokane, WA",Chapman, John Henry,Mr
+2,0,1,29.0,1,0,29037.0,26.0,80,0,13.0,160.8099173553719,"Cornwall / Spokane, WA",Chapman, John Henry (Sara Elizabeth Lawry),Mrs
+2,1,1,25.0,1,1,237789.0,30.0,80,0,12.0,160.8099173553719,London,Christy, Julie Rachel,Miss
+2,1,1,45.0,0,2,237789.0,30.0,80,0,12.0,160.8099173553719,London,Christy, (Alice Frances),Mrs
+2,0,0,29.0,1,0,2003.0,26.0,80,0,13.0,160.8099173553719,"England / San Francisco, CA",Clarke, Charles Valentine,Mr
+2,1,1,28.0,1,0,2003.0,26.0,80,0,14.0,160.8099173553719,"England / San Francisco, CA",Clarke, Charles V (Ada Maria Winfield),Mrs
+2,0,0,29.0,0,0,14263.0,10.5,80,0,13.0,160.8099173553719,"Hartford, Huntingdonshire",Coleridge, Reginald Charles,Mr
+2,0,0,28.0,0,0,248740.0,13.0,80,0,13.0,160.8099173553719,"Helsinki, Finland Ashtabula, Ohio",Collander, Erik Gustaf,Mr
+2,1,0,24.0,0,0,28034.0,10.5,80,0,9.0,160.8099173553719,"London / Fort Byron, NY",Collett, Sidney C Stuart,Mr
+2,1,1,8.0,0,2,31921.0,26.25,80,0,14.0,160.8099173553719,"Bishopstoke, Hants / Fayette Valley, ID",Collyer," Marjorie ""Lottie""",Miss
+2,0,0,31.0,1,1,31921.0,26.25,80,0,13.0,160.8099173553719,"Bishopstoke, Hants / Fayette Valley, ID",Collyer, Harvey,Mr
+2,1,1,31.0,1,1,31921.0,26.25,80,0,14.0,160.8099173553719,"Bishopstoke, Hants / Fayette Valley, ID",Collyer, Harvey (Charlotte Annie Tate),Mrs
+2,1,1,22.0,0,0,14266.0,10.5,181,0,14.0,160.8099173553719,Pennsylvania,Cook, (Selena Rogers),Mrs
+2,0,1,30.0,0,0,237249.0,13.0,80,0,13.0,160.8099173553719,"Provo, UT",Corbett, Walter H (Irene Colvin),Mrs
+2,0,1,29.8811345124283,0,0,13534.0,21.0,80,0,13.0,160.8099173553719,"Upper Burma, India Pittsburgh, PA",Corey, Percy C (Mary Phyllis Elizabeth Miller),Mrs
+2,0,0,21.0,0,0,29107.0,11.5,80,0,13.0,160.8099173553719,"Penzance, Cornwall / Akron, OH",Cotterill," Henry ""Harry""",Mr
+2,0,0,29.8811345124283,0,0,239853.0,0.0,80,0,13.0,160.8099173553719,Belfast,Cunningham, Alfred Fleming,Mr
+2,1,0,8.0,1,1,33112.0,36.75,80,0,14.0,160.8099173553719,"St Ives, Cornwall / Hancock, MI",Davies, John Morgan Jr,Master
+2,0,0,18.0,0,0,14879.0,73.5,80,0,13.0,160.8099173553719,"Lyndhurst, England",Davies, Charles Henry,Mr
+2,1,1,48.0,0,2,33112.0,36.75,80,0,14.0,160.8099173553719,"St Ives, Cornwall / Hancock, MI",Davies, John Morgan (Elizabeth Agnes Mary White) ,Mrs
+2,1,1,28.0,0,0,237668.0,13.0,80,0,13.0,160.8099173553719,"London / Staten Island, NY",Davis, Mary,Miss
+2,0,0,32.0,0,0,244360.0,13.0,80,0,13.0,160.8099173553719,"Portugal / Sau Paulo, Brazil",de Brito, Jose Joaquim,Mr
+2,0,0,17.0,0,0,14879.0,73.5,80,0,13.0,160.8099173553719,"New York, NY",Deacon, Percy William,Mr
+2,0,0,29.0,1,0,2167.0,27.7208,80,1,13.0,295.0,"Lucca, Italy / California",del Carlo, Sebastiano,Mr
+2,1,1,24.0,1,0,2167.0,27.7208,80,1,12.0,160.8099173553719,"Lucca, Italy / California",del Carlo, Sebastiano (Argenia Genovesi),Mrs
+2,0,0,25.0,0,0,31029.0,31.5,80,0,13.0,160.8099173553719,"Guernsey / Elizabeth, NJ",Denbury, Herbert,Mr
+2,0,0,18.0,0,0,14879.0,73.5,80,0,13.0,160.8099173553719,"New Forest, England",Dibden, William,Mr
+2,1,1,18.0,0,1,231919.0,23.0,80,0,13.0,160.8099173553719,Southampton,Doling, Elsie,Miss
+2,1,1,34.0,0,1,231919.0,23.0,80,0,13.0,160.8099173553719,Southampton,Doling, John T (Ada Julia Bone),Mrs
+2,0,0,54.0,0,0,28403.0,26.0,80,0,13.0,160.8099173553719,"Holley, NY",Downton, William James,Mr
+2,1,0,8.0,0,2,28220.0,32.5,80,0,10.0,160.8099173553719,"Greenport, NY",Drew, Marshall Brines,Master
+2,0,0,42.0,1,1,28220.0,32.5,80,0,13.0,160.8099173553719,"Greenport, NY",Drew, James Vivian,Mr
+2,1,1,34.0,1,1,28220.0,32.5,80,0,10.0,160.8099173553719,"Greenport, NY",Drew, James Vivian (Lulu Thorne Christian),Mrs
+2,1,1,27.0,1,0,2149.0,13.8583,80,1,12.0,160.8099173553719,"Barcelona, Spain / Havana, Cuba",Duran y More, Asuncion,Miss
+2,1,1,30.0,1,0,2148.0,13.8583,80,1,12.0,160.8099173553719,"Barcelona, Spain / Havana, Cuba",Duran y More, Florentina,Miss
+2,0,0,23.0,0,0,29751.0,13.0,80,0,13.0,160.8099173553719,"England / Detroit, MI",Eitemiller, George Floyd,Mr
+2,0,0,21.0,0,0,236854.0,13.0,80,0,13.0,160.8099173553719,"Goteborg, Sweden / Rockford, IL",Enander, Ingvar,Mr
+2,0,0,18.0,0,0,236171.0,13.0,80,0,13.0,160.8099173553719,"Oslo, Norway Bayonne, NJ",Fahlstrom, Arne Jonas,Mr
+2,0,0,40.0,1,0,2926.0,26.0,80,0,13.0,286.0,"England / Philadelphia, PA",Faunthorpe, Harry,Mr
+2,1,1,29.0,1,0,2926.0,26.0,80,0,16.0,160.8099173553719,"New York, NY",Faunthorpe, Lizzie (Elizabeth Anne Wilkinson),Mrs
+2,0,0,18.0,0,0,15185.0,10.5,80,0,13.0,160.8099173553719,"Cornwall / Houghton, MI",Fillbrook, Joseph Charles,Mr
+2,0,0,36.0,0,0,229236.0,13.0,80,0,13.0,236.0,"Rochester, NY",Fox, Stanley Hubert,Mr
+2,0,0,29.8811345124283,0,0,239854.0,0.0,80,0,13.0,160.8099173553719,Belfast,Frost," Anthony Wood ""Archie""",Mr
+2,0,1,38.0,0,0,237671.0,13.0,80,0,13.0,160.8099173553719,"Janjgir, India / Pennsylvania",Funk, Annie Clemmer,Miss
+2,0,0,35.0,0,0,239865.0,26.0,80,0,13.0,322.0,"Liverpool / Montreal, PQ",Fynney, Joseph J,Mr
+2,0,0,38.0,1,0,28664.0,21.0,80,0,13.0,160.8099173553719,"Cornwall / Clear Creek, CO",Gale, Harry,Mr
+2,0,0,34.0,1,0,28664.0,21.0,80,0,13.0,160.8099173553719,"Cornwall / Clear Creek, CO",Gale, Shadrach,Mr
+2,1,1,34.0,0,0,243880.0,13.0,80,0,12.0,160.8099173553719,"Brooklyn, NY",Garside, Ethel,Miss
+2,0,0,16.0,0,0,239865.0,26.0,80,0,13.0,160.8099173553719,"Liverpool / Montreal, PQ",Gaskell, Alfred,Mr
+2,0,0,26.0,0,0,31028.0,10.5,80,0,13.0,160.8099173553719,"Guernsey / Elizabeth, NJ",Gavey, Lawrence,Mr
+2,0,0,47.0,0,0,30769.0,10.5,80,0,13.0,160.8099173553719,Cornwall,Gilbert, William,Mr
+2,0,0,21.0,1,0,28133.0,11.5,80,0,13.0,160.8099173553719,"Cornwall / Camden, NJ",Giles, Edgar,Mr
+2,0,0,21.0,1,0,28134.0,11.5,80,0,13.0,160.8099173553719,"Cornwall / Camden, NJ",Giles, Frederick Edward,Mr
+2,0,0,24.0,0,0,248726.0,13.5,80,0,13.0,297.0,"West Kensington, London",Giles, Ralph,Mr
+2,0,0,24.0,0,0,233866.0,13.0,80,0,13.0,155.0,"Clevedon, England",Gill, John William,Mr
+2,0,0,34.0,0,0,12233.0,13.0,80,0,13.0,160.8099173553719,"Vancouver, BC",Gillespie, William Henry,Mr
+2,0,0,30.0,0,0,250646.0,13.0,80,0,13.0,305.0,"New York, NY",Givard, Hans Kristensen,Mr
+2,0,0,52.0,0,0,250647.0,13.0,80,0,13.0,19.0,"Bronx, NY",Greenberg, Samuel,Mr
+2,0,0,30.0,0,0,250653.0,13.0,80,0,13.0,75.0,"Auburn, NY",Hale, Reginald,Mr
+2,1,0,0.6667,1,1,250649.0,14.5,80,0,4.0,160.8099173553719,"Detroit, MI",Hamalainen, Viljo,Master
+2,1,1,24.0,0,2,250649.0,14.5,80,0,4.0,160.8099173553719,"Detroit, MI",Hamalainen, William (Anna),Mrs
+2,0,0,44.0,0,0,248746.0,13.0,80,0,13.0,35.0,"Seattle, WA / Toledo, OH",Harbeck, William H,Mr
+2,1,1,6.0,0,1,248727.0,33.0,80,0,11.0,160.8099173553719,"Denmark Hill, Surrey / Chicago",Harper," Annie Jessie ""Nina""",Miss
+2,0,0,28.0,0,1,248727.0,33.0,80,0,13.0,160.8099173553719,"Denmark Hill, Surrey / Chicago",Harper, John,Rev
+2,1,0,62.0,0,0,752.0,10.5,80,0,15.0,160.8099173553719,London,Harris, George,Mr
+2,0,0,30.0,0,0,14208.0,10.5,80,0,13.0,160.8099173553719,"Walthamstow, England",Harris, Walter,Mr
+2,1,1,7.0,0,2,13529.0,26.25,80,0,14.0,160.8099173553719,"Ilford, Essex / Winnipeg, MB",Hart, Eva Miriam,Miss
+2,0,0,43.0,1,1,13529.0,26.25,80,0,13.0,160.8099173553719,"Ilford, Essex / Winnipeg, MB",Hart, Benjamin,Mr
+2,1,1,45.0,1,1,13529.0,26.25,80,0,14.0,160.8099173553719,"Ilford, Essex / Winnipeg, MB",Hart, Benjamin (Esther Ada Bloomfield),Mrs
+2,1,1,24.0,1,2,220845.0,65.0,80,0,9.0,160.8099173553719,"Somerset / Bernardsville, NJ",Herman, Alice,Miss
+2,1,1,24.0,1,2,220845.0,65.0,80,0,9.0,160.8099173553719,"Somerset / Bernardsville, NJ",Herman, Kate,Miss
+2,0,0,49.0,1,2,220845.0,65.0,80,0,13.0,160.8099173553719,"Somerset / Bernardsville, NJ",Herman, Samuel,Mr
+2,1,1,48.0,1,2,220845.0,65.0,80,0,9.0,160.8099173553719,"Somerset / Bernardsville, NJ",Herman, Samuel (Jane Laver),Mrs
+2,1,1,55.0,0,0,248706.0,16.0,80,0,13.0,160.8099173553719,"India / Rapid City, SD",Hewlett, (Mary D Kingcome) ,Mrs
+2,0,0,24.0,2,0,14879.0,73.5,80,0,13.0,160.8099173553719,"West Hampstead, London / Neepawa, MB",Hickman, Leonard Mark,Mr
+2,0,0,32.0,2,0,14879.0,73.5,80,0,13.0,256.0,"West Hampstead, London / Neepawa, MB",Hickman, Lewis,Mr
+2,0,0,21.0,2,0,14879.0,73.5,80,0,13.0,160.8099173553719,"West Hampstead, London / Neepawa, MB",Hickman, Stanley George,Mr
+2,0,1,18.0,1,1,250650.0,13.0,80,0,13.0,160.8099173553719,"Kontiolahti, Finland / Detroit, MI",Hiltunen, Marta,Miss
+2,1,1,20.0,2,1,29105.0,23.0,80,0,4.0,160.8099173553719,"Cornwall / Akron, OH",Hocking," Ellen ""Nellie""",Miss
+2,0,0,23.0,2,1,29104.0,11.5,80,0,13.0,160.8099173553719,"Cornwall / Akron, OH",Hocking, Richard George,Mr
+2,0,0,36.0,0,0,242963.0,13.0,80,0,13.0,160.8099173553719,"Devonport, England",Hocking, Samuel James Metcalfe,Mr
+2,1,1,54.0,1,3,29105.0,23.0,80,0,4.0,160.8099173553719,"Cornwall / Akron, OH",Hocking, Elizabeth (Eliza Needs),Mrs
+2,0,0,50.0,0,0,250643.0,13.0,80,0,13.0,149.0,Southampton,Hodges, Henry Price,Mr
+2,0,0,44.0,1,0,26707.0,26.0,80,0,13.0,160.8099173553719,"England / Sacramento, CA",Hold, Stephen,Mr
+2,1,1,29.0,1,0,26707.0,26.0,80,0,10.0,160.8099173553719,"England / Sacramento, CA",Hold, Stephen (Annie Margaret Hill),Mrs
+2,0,0,21.0,0,0,14879.0,73.5,80,0,13.0,160.8099173553719,"New Forest, England",Hood, Ambrose Jr,Mr
+2,1,0,42.0,0,0,237798.0,13.0,80,0,10.0,160.8099173553719,"Tokyo, Japan",Hosono, Masabumi,Mr
+2,0,0,63.0,1,0,24065.0,26.0,80,0,13.0,160.8099173553719,"Swindon, England",Howard, Benjamin,Mr
+2,0,1,60.0,1,0,24065.0,26.0,80,0,13.0,160.8099173553719,"Swindon, England",Howard, Benjamin (Ellen Truelove Arman),Mrs
+2,0,0,33.0,0,0,1585.0,12.275,80,0,13.0,160.8099173553719,"Philadelphia, PA",Hunt, George Henry,Mr
+2,1,1,17.0,0,0,14885.0,10.5,80,0,13.0,160.8099173553719,Guernsey,Ilett, Bertha,Miss
+2,0,0,42.0,1,0,243847.0,27.0,80,0,13.0,160.8099173553719,London,Jacobsohn, Sidney Samuel,Mr
+2,1,1,24.0,2,1,243847.0,27.0,80,0,12.0,160.8099173553719,London,Jacobsohn, Sidney Samuel (Amy Frances Christy),Mrs
+2,0,0,47.0,0,0,237565.0,15.0,80,0,13.0,160.8099173553719,"North Evington, England",Jarvis, John Denzil,Mr
+2,0,0,24.0,2,0,31029.0,31.5,80,0,13.0,160.8099173553719,"Guernsey / Elizabeth, NJ",Jefferys, Clifford Thomas,Mr
+2,0,0,22.0,2,0,31029.0,31.5,80,0,13.0,160.8099173553719,"Guernsey / Elizabeth, NJ",Jefferys, Ernest Wilfred,Mr
+2,0,0,32.0,0,0,33111.0,10.5,80,0,13.0,160.8099173553719,"St Ives, Cornwall / Houghton, MI",Jenkin, Stephen Curnow,Mr
+2,1,1,23.0,0,0,541.0,13.7917,117,1,11.0,160.8099173553719,"New York, NY",Jerwan, Amin S (Marie Marthe Thuillard),Mrs
+2,0,0,34.0,1,0,244367.0,26.0,80,0,13.0,283.0,"Moscow / Bronx, NY",Kantor, Sinai,Mr
+2,1,1,24.0,1,0,244367.0,26.0,80,0,12.0,160.8099173553719,"Moscow / Bronx, NY",Kantor, Sinai (Miriam Sternin),Mrs
+2,0,1,22.0,0,0,13534.0,21.0,80,0,13.0,160.8099173553719,"India / Pittsburgh, PA",Karnes, J Frank (Claire Bennett),Mrs
+2,1,1,29.8811345124283,0,0,226593.0,12.35,148,2,10.0,160.8099173553719,"Harrisburg, PA",Keane, Nora A,Miss
+2,0,0,35.0,0,0,233734.0,12.35,80,2,13.0,160.8099173553719,"New York, NY",Keane, Daniel,Mr
+2,1,1,45.0,0,0,223596.0,13.5,80,0,9.0,160.8099173553719,"London / New York, NY",Kelly," Florence ""Fannie""",Mrs
+2,0,0,57.0,0,0,219533.0,12.35,80,2,13.0,160.8099173553719,"Glasgow / Bangor, ME",Kirkland, Charles Leonard,Rev
+2,0,0,29.8811345124283,0,0,239855.0,0.0,80,0,13.0,160.8099173553719,Belfast,Knight, Robert J,Mr
+2,0,0,31.0,0,0,18723.0,10.5,80,0,13.0,165.0,"Sweden / Arlington, NJ",Kvillner, Johan Henrik Johannesson,Mr
+2,0,1,26.0,1,1,250651.0,26.0,80,0,13.0,160.8099173553719,"Minneapolis, MN",Lahtinen, William (Anna Sylfven),Mrs
+2,0,0,30.0,1,1,250651.0,26.0,80,0,13.0,160.8099173553719,"Minneapolis, MN",Lahtinen, William,Rev
+2,0,0,29.8811345124283,0,0,240261.0,10.7083,80,2,13.0,160.8099173553719,"New York, NY",Lamb, John Joseph,Mr
+2,1,1,1.0,1,2,2123.0,41.5792,80,1,14.0,160.8099173553719,Paris / Haiti,Laroche, Louise,Miss
+2,1,1,3.0,1,2,2123.0,41.5792,80,1,14.0,160.8099173553719,Paris / Haiti,Laroche, Simonne Marie Anne Andree,Miss
+2,0,0,25.0,1,2,2123.0,41.5792,80,1,13.0,160.8099173553719,Paris / Haiti,Laroche, Joseph Philippe Lemercier,Mr
+2,1,1,22.0,1,2,2123.0,41.5792,80,1,14.0,160.8099173553719,Paris / Haiti,Laroche, Joseph (Juliette Marie Louise Lafargue),Mrs
+2,1,1,17.0,0,0,1748.0,12.0,80,1,12.0,160.8099173553719,"Berne, Switzerland / Central City, IA",Lehmann, Bertha,Miss
+2,1,1,29.8811345124283,0,0,248727.0,33.0,80,0,11.0,160.8099173553719,"London / Chicago, IL",Leitch, Jessie Wills,Miss
+2,1,1,34.0,0,0,34260.0,10.5,181,0,14.0,160.8099173553719,"Chicago, IL",Lemore, (Amelia Milley),Mrs
+2,0,0,36.0,0,0,2163.0,12.875,117,1,13.0,160.8099173553719,"Montreal, PQ",Levy, Rene Jacques,Mr
+2,0,0,24.0,0,0,29566.0,10.5,80,0,13.0,108.0,"New York, NY",Leyson, Robert William Norman,Mr
+2,0,0,61.0,0,0,235509.0,12.35,80,2,13.0,160.8099173553719,"New York, NY",Lingane, John,Mr
+2,0,0,50.0,1,0,3085.0,26.0,80,0,13.0,121.0,"Weston-Super-Mare, Somerset",Louch, Charles Alexander,Mr
+2,1,1,42.0,1,0,3085.0,26.0,80,0,13.0,160.8099173553719,"Weston-Super-Mare, Somerset",Louch, Charles Alexander (Alice Adelaide Slow),Mrs
+2,0,1,57.0,0,0,3.0,10.5,172,0,13.0,52.0,"Southampton / New York, NY",Mack, (Mary),Mrs
+2,0,0,29.8811345124283,0,0,237735.0,15.0458,117,1,13.0,160.8099173553719,Paris,Malachard, Noel,Mr
+2,1,0,1.0,0,2,2079.0,37.0042,80,1,10.0,160.8099173553719,"Paris / Montreal, PQ",Mallet, Andre,Master
+2,0,0,31.0,1,1,2079.0,37.0042,80,1,13.0,160.8099173553719,"Paris / Montreal, PQ",Mallet, Albert,Mr
+2,1,1,24.0,1,1,2079.0,37.0042,80,1,10.0,160.8099173553719,"Paris / Montreal, PQ",Mallet, Albert (Antoinette Magnin),Mrs
+2,0,0,29.8811345124283,0,0,32861.0,15.5792,80,1,13.0,160.8099173553719,"New York, NY",Mangiavacchi, Serafino Emilio,Mr
+2,0,0,30.0,0,0,28228.0,13.0,80,0,13.0,160.8099173553719,"St Austall, Cornwall",Matthews, William John,Mr
+2,0,0,40.0,0,0,239059.0,16.0,80,0,13.0,160.8099173553719,"Weston-Super-Mare / Moose Jaw, SK",Maybery, Frank Hubert,Mr
+2,0,0,32.0,0,0,237216.0,13.5,80,0,13.0,209.0,"Sydney, Australia",McCrae, Arthur Gordon,Mr
+2,0,0,30.0,0,0,233478.0,13.0,80,0,13.0,160.8099173553719,"Sarnia, ON",McCrie, James Matthew,Mr
+2,0,0,46.0,0,0,28403.0,26.0,80,0,13.0,160.8099173553719,"Rochester, NY",McKane, Peter David,Mr
+2,1,1,13.0,0,1,250644.0,19.5,80,0,14.0,160.8099173553719,"England / Bennington, VT",Mellinger, Madeleine Violet,Miss
+2,1,1,41.0,0,1,250644.0,19.5,80,0,14.0,160.8099173553719,"England / Bennington, VT",Mellinger, (Elizabeth Anne Maidment),Mrs
+2,1,0,19.0,0,0,751.0,10.5,80,0,13.0,160.8099173553719,"Chelsea, London",Mellors, William John,Mr
+2,0,0,39.0,0,0,248723.0,13.0,80,0,13.0,160.8099173553719,"Harrow-on-the-Hill, Middlesex",Meyer, August,Mr
+2,0,0,48.0,0,0,234360.0,13.0,80,0,13.0,271.0,"Copenhagen, Denmark",Milling, Jacob Christian,Mr
+2,0,0,70.0,0,0,24580.0,10.5,80,0,13.0,160.8099173553719,"Guernsey / Montclair, NJ and/or Toledo, Ohio",Mitchell, Henry Michael,Mr
+2,0,0,27.0,0,0,211536.0,13.0,80,0,13.0,160.8099173553719,"Worcester, MA",Montvila, Juozas,Rev
+2,0,0,54.0,0,0,29011.0,14.0,80,0,13.0,160.8099173553719,"Frankfort, KY",Moraweck, Ernest,Dr
+2,0,0,39.0,0,0,250655.0,26.0,80,0,13.0,160.8099173553719,"New York, NY",Morley," Henry Samuel (""Mr Henry Marshall"")",Mr
+2,0,0,16.0,0,0,3.0,10.5,80,0,13.0,160.8099173553719,"Halesworth, England",Mudd, Thomas Charles,Mr
+2,0,0,62.0,0,0,240276.0,9.6875,80,2,13.0,160.8099173553719,"Cambridge, MA",Myles, Thomas Francis,Mr
+2,0,0,32.5,1,0,237736.0,30.0708,80,1,13.0,43.0,"New York, NY",Nasser, Nicholas,Mr
+2,1,1,14.0,1,0,237736.0,30.0708,80,1,13.0,160.8099173553719,"New York, NY",Nasser, Nicholas (Adele Achem),Mrs
+2,1,0,2.0,1,1,230080.0,26.0,180,0,13.0,160.8099173553719,"Nice, France",Navratil, Edmond Roger,Master
+2,1,0,3.0,1,1,230080.0,26.0,180,0,13.0,160.8099173553719,"Nice, France",Navratil, Michel M,Master
+2,0,0,36.5,0,2,230080.0,26.0,180,0,13.0,15.0,"Nice, France",Navratil," Michel (""Louis M Hoffman"")",Mr
+2,0,0,26.0,0,0,244368.0,13.0,180,0,13.0,160.8099173553719,"Boston, MA",Nesson, Israel,Mr
+2,0,0,19.0,1,1,33112.0,36.75,80,0,13.0,101.0,"Cornwall / Hancock, MI",Nicholls, Joseph Charles,Mr
+2,0,0,28.0,0,0,218629.0,13.5,80,0,13.0,287.0,Glasgow,Norman, Robert Douglas,Mr
+2,1,0,20.0,0,0,2166.0,13.8625,134,1,7.0,160.8099173553719,"Cologne, Germany",Nourney," Alfred (""Baron von Drachstedt"")",Mr
+2,1,1,29.0,0,0,29395.0,10.5,181,0,11.0,160.8099173553719,"Folkstone, Kent / New York, NY",Nye, (Elizabeth Ramell),Mrs
+2,0,0,39.0,0,0,28213.0,13.0,80,0,13.0,160.8099173553719,"Middleburg Heights, OH",Otter, Richard,Mr
+2,1,0,22.0,0,0,14260.0,10.5,80,0,13.0,160.8099173553719,"Pondersend, England / New Durham, NJ",Oxenham, Percy Thomas,Mr
+2,1,0,29.8811345124283,0,0,2146.0,13.8625,80,1,9.0,160.8099173553719,"Spain / Havana, Cuba",Padro y Manent, Julian,Mr
+2,0,0,23.0,0,0,244278.0,10.5,80,0,13.0,160.8099173553719,"Hamilton, ON",Pain, Alfred,Dr
+2,1,0,29.0,0,0,2147.0,13.8583,80,1,9.0,160.8099173553719,"Spain / Havana, Cuba",Pallas y Castello, Emilio,Mr
+2,0,0,28.0,0,0,14888.0,10.5,80,0,13.0,160.8099173553719,"St Andrews, Guernsey",Parker, Clifford Richard,Mr
+2,0,0,29.8811345124283,0,0,239853.0,0.0,80,0,13.0,160.8099173553719,Belfast,Parkes," Francis ""Frank""",Mr
+2,1,1,50.0,0,1,230433.0,26.0,80,0,12.0,160.8099173553719,"Woodford County, KY",Parrish, (Lutie Davis),Mrs
+2,0,0,19.0,0,0,28665.0,10.5,80,0,13.0,160.8099173553719,"Gunnislake, England / Butte, MT",Pengelly, Frederick William,Mr
+2,0,0,29.8811345124283,0,0,2131.0,15.05,80,1,13.0,160.8099173553719,"New York, NY",Pernot, Rene,Mr
+2,0,0,41.0,0,0,237393.0,13.0,80,0,13.0,160.8099173553719,"New York, NY",Peruschitz, Joseph Maria,Rev
+2,1,1,21.0,0,1,2.0,21.0,80,0,12.0,160.8099173553719,"Ilfracombe, Devon",Phillips, Alice Frances Louisa,Miss
+2,1,1,19.0,0,0,250655.0,26.0,80,0,11.0,160.8099173553719,"Worcester, England",Phillips," Kate Florence (""Mrs Kate Louise Phillips Marshall"")",Miss
+2,0,0,43.0,0,1,2.0,21.0,80,0,13.0,160.8099173553719,"Ilfracombe, Devon",Phillips, Escott Robert,Mr
+2,1,1,32.0,0,0,234604.0,13.0,80,0,9.0,160.8099173553719,Russia,Pinsky, (Rosa),Mrs
+2,0,0,34.0,0,0,250647.0,13.0,80,0,13.0,160.8099173553719,"Denmark / New York, NY",Ponesell, Martin,Mr
+2,1,0,30.0,0,0,34644.0,12.7375,80,1,14.0,160.8099173553719,"Milford, NH",Portaluppi, Emilio Ilario Giuseppe,Mr
+2,0,0,27.0,0,0,2168.0,15.0333,80,1,13.0,160.8099173553719,Paris,Pulbaum, Franz,Mr
+2,1,1,2.0,1,1,26360.0,26.0,80,0,11.0,160.8099173553719,"Plymouth, Devon / Detroit, MI",Quick, Phyllis May,Miss
+2,1,1,8.0,1,1,26360.0,26.0,80,0,11.0,160.8099173553719,"Plymouth, Devon / Detroit, MI",Quick, Winifred Vera,Miss
+2,1,1,33.0,0,2,26360.0,26.0,80,0,11.0,160.8099173553719,"Plymouth, Devon / Detroit, MI",Quick, Frederick Charles (Jane Richards),Mrs
+2,0,0,36.0,0,0,17248.0,10.5,80,0,13.0,160.8099173553719,"Brighton, Sussex",Reeves, David,Mr
+2,0,0,34.0,1,0,31027.0,21.0,80,0,12.0,160.8099173553719,"Elizabeth, NJ",Renouf, Peter Henry,Mr
+2,1,1,30.0,3,0,31027.0,21.0,80,0,13.0,160.8099173553719,"Elizabeth, NJ",Renouf, Peter Henry (Lillian Jefferys),Mrs
+2,1,1,28.0,0,0,230434.0,13.0,80,0,9.0,160.8099173553719,Spain,Reynaldo, Encarnacion,Ms
+2,0,0,23.0,0,0,2133.0,15.0458,80,1,13.0,160.8099173553719,"Paris / Montreal, PQ",Richard, Emile,Mr
+2,1,0,0.8333,1,1,29106.0,18.75,80,0,4.0,160.8099173553719,"Cornwall / Akron, OH",Richards, George Sibley,Master
+2,1,0,3.0,1,1,29106.0,18.75,80,0,4.0,160.8099173553719,"Cornwall / Akron, OH",Richards, William Rowe,Master
+2,1,1,24.0,2,3,29106.0,18.75,80,0,4.0,160.8099173553719,"Cornwall / Akron, OH",Richards, Sidney (Emily Hocking),Mrs
+2,1,1,50.0,0,0,14258.0,10.5,80,0,13.0,160.8099173553719,"London, England / Marietta, Ohio and Milwaukee, WI",Ridsdale, Lucy,Miss
+2,0,0,19.0,0,0,28004.0,10.5,80,0,13.0,160.8099173553719,"New York, NY",Rogers, Reginald Harry,Mr
+2,1,1,21.0,0,0,31026.0,10.5,80,0,12.0,160.8099173553719,"Guernsey / Wilmington, DE",Rugg, Emily,Miss
+2,0,0,26.0,0,0,248659.0,13.0,80,0,13.0,160.8099173553719,"Newark, NJ",Schmidt, August,Mr
+2,0,0,25.0,0,0,244361.0,13.0,80,0,13.0,160.8099173553719,Liverpool,Sedgwick, Charles Frederick Waddington,Mr
+2,0,0,27.0,0,0,244358.0,26.0,80,0,13.0,160.8099173553719,"Hornsey, England",Sharp, Percival James R,Mr
+2,1,1,25.0,0,1,230433.0,26.0,80,0,12.0,160.8099173553719,"Deer Lodge, MT",Shelley, William (Imanita Parrish Hall),Mrs
+2,1,1,18.0,0,2,250652.0,13.0,80,0,16.0,160.8099173553719,"Finland / Minneapolis, MN",Silven, Lyyli Karoliina,Miss
+2,1,1,20.0,0,0,33112.0,36.75,80,0,11.0,160.8099173553719,"Cornwall / Hancock, MI",Sincock, Maude,Miss
+2,1,1,30.0,0,0,250648.0,13.0,80,0,10.0,160.8099173553719,"Finland / Washington, DC",Sinkkonen, Anna,Miss
+2,0,0,59.0,0,0,237442.0,13.5,80,0,13.0,160.8099173553719,"Sault St Marie, ON",Sjostedt, Ernst Adolf,Mr
+2,1,1,30.0,0,0,234818.0,12.35,80,2,13.0,160.8099173553719,"Halifax, NS",Slayter, Hilda Mary,Miss
+2,0,0,35.0,0,0,28206.0,10.5,80,0,13.0,160.8099173553719,Cornwall,Slemen, Richard James,Mr
+2,1,1,40.0,0,0,31418.0,13.0,80,0,9.0,160.8099173553719,"New York, NY",Smith, Marion Elsie,Miss
+2,0,0,25.0,0,0,29178.0,13.0,80,0,13.0,160.8099173553719,"Cornwall / Houghton, MI",Sobey, Samuel James Hayden,Mr
+2,0,0,41.0,0,0,237734.0,15.0458,80,1,13.0,160.8099173553719,"New York, NY",Stanton, Samuel Ward,Mr
+2,0,0,25.0,0,0,13540.0,10.5,80,0,13.0,81.0,"Catford, Kent / Detroit, MI",Stokes, Philip Joseph,Mr
+2,0,0,18.5,0,0,248734.0,13.0,174,0,13.0,294.0,"New York, NY",Swane, George,Mr
+2,0,0,14.0,0,0,220845.0,65.0,80,0,13.0,160.8099173553719,"Somerset / Bernardsville, NJ",Sweet, George Frederick,Mr
+2,1,1,50.0,0,0,13531.0,10.5,80,0,9.0,160.8099173553719,"Indianapolis, IN",Toomey, Ellen,Miss
+2,0,0,23.0,0,0,233639.0,13.0,80,0,13.0,160.8099173553719,"New York, NY",Troupiansky, Moses Aaron,Mr
+2,1,1,28.0,0,0,240929.0,12.65,80,0,13.0,160.8099173553719,"Columbus, OH",Trout, William H (Jessie L),Mrs
+2,1,1,27.0,0,0,34218.0,10.5,148,0,16.0,160.8099173553719,"Bath, England / Massachusetts",Troutt," Edwina Celia ""Winnie""",Miss
+2,0,0,29.0,1,0,11668.0,21.0,80,0,13.0,160.8099173553719,"Plymouth, England",Turpin, William John Robert,Mr
+2,0,1,27.0,1,0,11668.0,21.0,80,0,13.0,160.8099173553719,"Plymouth, England",Turpin, William John Robert (Dorothy Ann Wonnacott),Mrs
+2,0,0,40.0,0,0,28221.0,13.0,80,0,13.0,160.8099173553719,"Barre, Co Washington, VT",Veal, James,Mr
+2,1,1,31.0,0,0,13528.0,21.0,80,0,14.0,160.8099173553719,"Mamaroneck, NY",Walcroft, Nellie,Miss
+2,0,0,30.0,1,0,31352.0,21.0,80,0,13.0,160.8099173553719,"Bristol, England / New Britain, CT",Ware, John James,Mr
+2,0,0,23.0,1,0,28666.0,10.5,80,0,13.0,160.8099173553719,"New York, NY",Ware, William Jeffery,Mr
+2,1,1,31.0,0,0,31352.0,21.0,80,0,10.0,160.8099173553719,"Bristol, England / New Britain, CT",Ware, John James (Florence Louise Long),Mrs
+2,0,0,29.8811345124283,0,0,239856.0,0.0,80,0,13.0,160.8099173553719,Belfast,Watson, Ennis Hastings,Mr
+2,1,1,12.0,0,0,33595.0,15.75,80,0,9.0,160.8099173553719,"Aberdeen / Portland, OR",Watt, Bertha J,Miss
+2,1,1,40.0,0,0,33595.0,15.75,80,0,9.0,160.8099173553719,"Aberdeen / Portland, OR",Watt," James (Elizabeth ""Bessie"" Inglis Milne)",Mrs
+2,1,1,32.5,0,0,27267.0,13.0,148,0,12.0,160.8099173553719,"England / Hartford, CT",Webber, Susan,Miss
+2,0,0,27.0,1,0,228414.0,26.0,80,0,13.0,293.0,"Bromsgrove, England / Montreal, PQ",Weisz, Leopold,Mr
+2,1,1,29.0,1,0,228414.0,26.0,80,0,10.0,160.8099173553719,"Bromsgrove, England / Montreal, PQ",Weisz, Leopold (Mathilde Francoise Pede),Mrs
+2,1,0,2.0,1,1,29103.0,23.0,80,0,14.0,160.8099173553719,"Cornwall / Akron, OH",Wells, Ralph Lester,Master
+2,1,1,4.0,1,1,29103.0,23.0,80,0,14.0,160.8099173553719,"Cornwall / Akron, OH",Wells, Joan,Miss
+2,1,1,29.0,0,2,29103.0,23.0,80,0,14.0,160.8099173553719,"Cornwall / Akron, OH",Wells," Arthur Henry (""Addie"" Dart Trevaskis)",Mrs
+2,1,1,0.9167,1,2,34651.0,27.75,80,0,10.0,160.8099173553719,"Bournmouth, England",West, Barbara J,Miss
+2,1,1,5.0,1,2,34651.0,27.75,80,0,10.0,160.8099173553719,"Bournmouth, England",West, Constance Mirium,Miss
+2,0,0,36.0,1,2,34651.0,27.75,80,0,13.0,160.8099173553719,"Bournmouth, England",West, Edwy Arthur,Mr
+2,1,1,33.0,1,2,34651.0,27.75,80,0,10.0,160.8099173553719,"Bournmouth, England",West, Edwy Arthur (Ada Mary Worth),Mrs
+2,0,0,66.0,0,0,24579.0,10.5,80,0,13.0,160.8099173553719,"Guernsey, England / Edgewood, RI",Wheadon, Edward H,Mr
+2,0,0,29.8811345124283,0,0,2159.0,12.875,80,0,13.0,160.8099173553719,"New York, NY",Wheeler," Edwin ""Frederick""",Mr
+2,1,0,31.0,0,0,244270.0,13.0,80,0,9.0,160.8099173553719,"London, England",Wilhelms, Charles,Mr
+2,1,0,29.8811345124283,0,0,244373.0,13.0,80,0,14.0,160.8099173553719,"Harrow, England",Williams, Charles Eugene,Mr
+2,1,1,26.0,0,0,220844.0,13.5,80,0,9.0,160.8099173553719,"Yoevil, England / Cottage Grove, OR",Wright, Marion,Miss
+2,0,1,24.0,0,0,248747.0,13.0,80,0,13.0,160.8099173553719,Paris,Yrois," Henriette (""Mrs Harbeck"")",Miss
+3,0,0,42.0,0,0,5547.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",Abbing, Anthony,Mr
+3,0,0,13.0,0,2,2673.0,20.25,80,0,13.0,160.8099173553719,"East Providence, RI",Abbott, Eugene Joseph,Master
+3,0,0,16.0,1,1,2673.0,20.25,80,0,13.0,190.0,"East Providence, RI",Abbott, Rossmore Edward,Mr
+3,1,1,35.0,1,1,2673.0,20.25,80,0,13.0,160.8099173553719,"East Providence, RI",Abbott, Stanton (Rosa Hunt),Mrs
+3,1,1,16.0,0,0,348125.0,7.65,80,0,16.0,160.8099173553719,"Norway Los Angeles, CA",Abelseth, Karen Marie,Miss
+3,1,0,25.0,0,0,348122.0,7.65,178,0,13.0,160.8099173553719,"Perkins County, SD",Abelseth, Olaus Jorgensen,Mr
+3,1,0,20.0,0,0,23101284.0,7.925,80,0,15.0,160.8099173553719,"Taalintehdas, Finland Hoboken, NJ",Abrahamsson, Abraham August Johannes,Mr
+3,1,1,18.0,0,0,2657.0,7.2292,80,1,13.0,160.8099173553719,"Greensburg, PA",Abrahim, Joseph (Sophie Halaut Easu),Mrs
+3,0,0,30.0,0,0,7076.0,7.25,80,0,13.0,72.0,"Asarum, Sweden Brooklyn, NY",Adahl, Mauritz Nils Martin,Mr
+3,0,0,26.0,0,0,341826.0,8.05,80,0,13.0,103.0,"Bournemouth, England",Adams, John,Mr
+3,0,1,40.0,1,0,7546.0,9.475,80,0,13.0,160.8099173553719,"Sweden Akeley, MN",Ahlin, Johan (Johanna Persdotter Larsson),Mrs
+3,1,0,0.8333,0,1,392091.0,9.35,80,0,11.0,160.8099173553719,"London, England Norfolk, VA",Aks, Philip Frank,Master
+3,1,1,18.0,0,1,392091.0,9.35,80,0,13.0,160.8099173553719,"London, England Norfolk, VA",Aks, Sam (Leah Rosen),Mrs
+3,1,0,26.0,0,0,2699.0,18.7875,80,1,15.0,160.8099173553719,"Syria Fredericksburg, VA",Albimona, Nassef Cassem,Mr
+3,0,0,26.0,0,0,3474.0,7.8875,80,0,13.0,160.8099173553719,"England Albion, NY",Alexander, William,Mr
+3,0,0,20.0,0,0,23101287.0,7.925,80,0,13.0,160.8099173553719,"Salo, Finland Astoria, OR",Alhomaki, Ilmari Rudolf,Mr
+3,0,0,24.0,0,0,3101311.0,7.05,80,0,13.0,160.8099173553719,"New York, NY",Ali, Ahmed,Mr
+3,0,0,25.0,0,0,3101312.0,7.05,80,0,13.0,79.0,Argentina,Ali, William,Mr
+3,0,0,35.0,0,0,373450.0,8.05,80,0,13.0,160.8099173553719,"Lower Clapton, Middlesex or Erdington, Birmingham",Allen, William Henry,Mr
+3,0,0,18.0,0,0,2223.0,8.3,80,0,13.0,259.0,"Windsor, England New York, NY",Allum, Owen George,Mr
+3,0,0,32.0,0,0,4001.0,22.525,80,0,13.0,260.0,"Bergen, Norway",Andersen, Albert Karvin,Mr
+3,1,1,19.0,1,0,350046.0,7.8542,80,0,16.0,160.8099173553719,"New York, NY",Andersen-Jensen, Carla Christine Nielsine,Miss
+3,0,0,4.0,4,2,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Sigvard Harald Elias,Master
+3,0,1,6.0,4,2,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Ebba Iris Alfrida,Miss
+3,0,1,2.0,4,2,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Ellis Anna Maria,Miss
+3,1,1,17.0,4,2,3101281.0,7.925,80,0,13.0,160.8099173553719,"Ruotsinphyhtaa, Finland New York, NY",Andersson, Erna Alexandra,Miss
+3,0,1,38.0,4,2,347091.0,7.775,80,0,13.0,160.8099173553719,"Vadsbro, Sweden Ministee, MI",Andersson, Ida Augusta Margareta,Miss
+3,0,1,9.0,4,2,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Ingeborg Constanzia,Miss
+3,0,1,11.0,4,2,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Sigrid Elisabeth,Miss
+3,0,0,39.0,1,5,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Anders Johan,Mr
+3,1,0,27.0,0,0,350043.0,7.7958,80,0,13.0,160.8099173553719,"New York, NY",Andersson," August Edvard (""Wennerstrom"")",Mr
+3,0,0,26.0,0,0,347075.0,7.775,80,0,13.0,160.8099173553719,"Hartford, CT",Andersson, Johan Samuel,Mr
+3,0,1,39.0,1,5,347082.0,31.275,80,0,13.0,160.8099173553719,"Sweden Winnipeg, MN",Andersson, Anders Johan (Alfrida Konstantia Brogren),Mrs
+3,0,0,20.0,0,0,347466.0,7.8542,80,0,13.0,160.8099173553719,"Sweden Chicago, IL",Andreasson, Paul Edvin,Mr
+3,0,0,26.0,0,0,349202.0,7.8958,80,0,13.0,160.8099173553719,"Bulgaria Chicago, IL",Angheloff, Minko,Mr
+3,0,0,25.0,1,0,349237.0,17.8,80,0,13.0,160.8099173553719,"Altdorf, Switzerland",Arnold-Franchi, Josef,Mr
+3,0,1,18.0,1,0,349237.0,17.8,80,0,13.0,160.8099173553719,"Altdorf, Switzerland",Arnold-Franchi, Josef (Josefine Franchi),Mrs
+3,0,0,24.0,0,0,349911.0,7.775,80,0,13.0,160.8099173553719,"Sweden Joliet, IL",Aronsson, Ernst Axel Algot,Mr
+3,0,0,35.0,0,0,3101310.0,7.05,80,0,13.0,160.8099173553719,"New York, NY",Asim, Adola,Mr
+3,0,0,5.0,4,2,347077.0,31.3875,80,0,13.0,160.8099173553719,"Sweden  Worcester, MA",Asplund, Carl Edgar,Master
+3,0,0,9.0,4,2,347077.0,31.3875,80,0,13.0,160.8099173553719,"Sweden Worcester, MA",Asplund, Clarence Gustaf Hugo,Master
+3,1,0,3.0,4,2,347077.0,31.3875,80,0,15.0,160.8099173553719,"Sweden Worcester, MA",Asplund, Edvin Rojj Felix,Master
+3,0,0,13.0,4,2,347077.0,31.3875,80,0,13.0,160.8099173553719,"Sweden Worcester, MA",Asplund, Filip Oscar,Master
+3,1,1,5.0,4,2,347077.0,31.3875,80,0,15.0,160.8099173553719,"Sweden Worcester, MA",Asplund, Lillian Gertrud,Miss
+3,0,0,40.0,1,5,347077.0,31.3875,80,0,13.0,142.0,"Sweden  Worcester, MA",Asplund, Carl Oscar Vilhelm Gustafsson,Mr
+3,1,0,23.0,0,0,350054.0,7.7958,80,0,13.0,160.8099173553719,"Oskarshamn, Sweden Minneapolis, MN",Asplund, Johan Charles,Mr
+3,1,1,38.0,1,5,347077.0,31.3875,80,0,15.0,160.8099173553719,"Sweden  Worcester, MA",Asplund, Carl Oscar (Selma Augusta Emilia Johansson),Mrs
+3,1,1,45.0,0,0,2696.0,7.225,80,1,13.0,160.8099173553719,"Ottawa, ON",Assaf Khalil," Mariana (""Miriam"")",Mrs
+3,0,0,21.0,0,0,2692.0,7.225,80,1,13.0,160.8099173553719,"Ottawa, ON",Assaf, Gerios,Mr
+3,0,0,23.0,0,0,3101309.0,7.05,80,0,13.0,160.8099173553719,"New York, NY",Assam, Ali,Mr
+3,0,1,17.0,0,0,2627.0,14.4583,80,1,13.0,160.8099173553719,"New York, NY",Attalah, Malake,Miss
+3,0,0,30.0,0,0,2694.0,7.225,80,1,13.0,160.8099173553719,"Ottawa, ON",Attalah, Sleiman,Mr
+3,0,0,23.0,0,0,347468.0,7.8542,80,0,13.0,160.8099173553719,"Krakoryd, Sweden Bloomington, IL",Augustsson, Albert,Mr
+3,1,1,13.0,0,0,2687.0,7.2292,80,1,13.0,160.8099173553719,"Syria Youngstown, OH",Ayoub, Banoura,Miss
+3,0,0,20.0,0,0,2679.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Baccos, Raffull,Mr
+3,0,0,32.0,1,0,3101278.0,15.85,80,0,13.0,160.8099173553719,"Ruotsinphytaa, Finland New York, NY",Backstrom, Karl Alfred,Mr
+3,1,1,33.0,3,0,3101278.0,15.85,80,0,13.0,160.8099173553719,"Ruotsinphytaa, Finland New York, NY",Backstrom, Karl Alfred (Maria Mathilda Gustafsson),Mrs
+3,1,1,0.75,2,1,2666.0,19.2583,80,1,13.0,160.8099173553719,"Syria New York, NY",Baclini, Eugenie,Miss
+3,1,1,0.75,2,1,2666.0,19.2583,80,1,13.0,160.8099173553719,"Syria New York, NY",Baclini, Helene Barbara,Miss
+3,1,1,5.0,2,1,2666.0,19.2583,80,1,13.0,160.8099173553719,"Syria New York, NY",Baclini, Marie Catherine,Miss
+3,1,1,24.0,0,3,2666.0,19.2583,80,1,13.0,160.8099173553719,"Syria New York, NY",Baclini, Solomon (Latifa Qurban),Mrs
+3,1,1,18.0,0,0,431416.0,8.05,80,0,13.0,160.8099173553719,"London Skanteales, NY",Badman, Emily Louisa,Miss
+3,0,0,40.0,0,0,2623.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Badt, Mohamed,Mr
+3,0,0,26.0,0,0,349248.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Balkic, Cerin,Mr
+3,1,0,20.0,0,0,2663.0,7.2292,80,1,15.0,160.8099173553719,"New York, NY",Barah, Hanna Assi,Mr
+3,0,1,18.0,0,1,2691.0,14.4542,80,1,13.0,160.8099173553719,"Syria Ottawa, ON",Barbara, Saiide,Miss
+3,0,1,45.0,0,1,2691.0,14.4542,80,1,13.0,160.8099173553719,"Syria Ottawa, ON",Barbara, (Catherine David),Mrs
+3,0,1,27.0,0,0,330844.0,7.8792,80,2,13.0,160.8099173553719,"New York, NY",Barry, Julia,Miss
+3,0,0,22.0,0,0,324669.0,8.05,80,0,13.0,160.8099173553719,"England New York, NY",Barton, David John,Mr
+3,0,0,19.0,0,0,323951.0,8.05,80,0,13.0,160.8099173553719,England,Beavan, William Thomas,Mr
+3,0,0,26.0,0,0,347068.0,7.775,80,0,13.0,160.8099173553719,"Krakudden, Sweden Moune, IL",Bengtsson, John Viktor,Mr
+3,0,0,22.0,0,0,4348.0,9.35,80,0,13.0,160.8099173553719,"Tranvik, Finland New York",Berglund, Karl Ivar Sven,Mr
+3,0,0,29.8811345124283,0,0,2622.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Betros, Seman,Master
+3,0,0,20.0,0,0,2648.0,4.0125,80,1,13.0,160.8099173553719,Syria,Betros, Tannous,Mr
+3,1,0,32.0,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"Hong Kong New York, NY",Bing, Lee,Mr
+3,0,0,21.0,0,0,312992.0,7.775,80,0,13.0,160.8099173553719,"Brennes, Norway New York",Birkeland, Hans Martin Monsen,Mr
+3,0,0,18.0,0,0,347090.0,7.75,80,0,13.0,160.8099173553719,"Stockholm, Sweden New York",Bjorklund, Ernst Herbert,Mr
+3,0,0,26.0,0,0,349224.0,7.8958,80,0,13.0,160.8099173553719,"Bulgaria Chicago, IL",Bostandyeff, Guentcho,Mr
+3,0,0,6.0,1,1,2678.0,15.2458,80,1,13.0,160.8099173553719,"Syria Kent, ON",Boulos, Akar,Master
+3,0,1,9.0,1,1,2678.0,15.2458,80,1,13.0,160.8099173553719,"Syria Kent, ON",Boulos, Nourelain,Miss
+3,0,0,29.8811345124283,0,0,2664.0,7.225,80,1,13.0,160.8099173553719,Syria,Boulos, Hanna,Mr
+3,0,1,29.8811345124283,0,2,2678.0,15.2458,80,1,13.0,160.8099173553719,"Syria Kent, ON",Boulos, Joseph (Sultana),Mrs
+3,0,1,29.8811345124283,0,2,364848.0,7.75,80,2,13.0,160.8099173553719,"Ireland Chicago, IL",Bourke, Mary,Miss
+3,0,0,40.0,1,1,364849.0,15.5,80,2,13.0,160.8099173553719,"Ireland Chicago, IL",Bourke, John,Mr
+3,0,1,32.0,1,1,364849.0,15.5,80,2,13.0,160.8099173553719,"Ireland Chicago, IL",Bourke, John (Catherine),Mrs
+3,0,0,21.0,0,0,54636.0,16.1,80,0,13.0,160.8099173553719,"Treherbert, Cardiff, Wales",Bowen," David John ""Dai""",Mr
+3,1,1,22.0,0,0,334914.0,7.725,80,2,13.0,160.8099173553719,"Kingwilliamstown, Co Cork, Ireland Glens Falls, NY",Bradley, Bridget Delia,Miss
+3,0,1,20.0,0,0,347471.0,7.8542,80,0,13.0,160.8099173553719,"Medeltorp, Sweden Chicago, IL",Braf, Elin Ester Maria,Miss
+3,0,0,29.0,1,0,3460.0,7.0458,80,0,13.0,160.8099173553719,"Bridgerule, Devon",Braund, Lewis Richard,Mr
+3,0,0,22.0,1,0,521171.0,7.25,80,0,13.0,160.8099173553719,"Bridgerule, Devon",Braund, Owen Harris,Mr
+3,0,0,22.0,0,0,350045.0,7.7958,80,0,13.0,160.8099173553719,"Sweden Worcester, MA",Brobeck, Karl Rudolf,Mr
+3,0,0,35.0,0,0,364512.0,8.05,80,0,13.0,160.8099173553719,"Broomfield, Chelmsford, England",Brocklebank, William Alfred,Mr
+3,0,1,18.5,0,0,329944.0,7.2833,80,2,13.0,299.0,"Co Cork, Ireland Roxbury, MA",Buckley, Katherine,Miss
+3,1,0,21.0,0,0,330920.0,7.8208,80,2,13.0,160.8099173553719,"Kingwilliamstown, Co Cork, Ireland New York, NY",Buckley, Daniel,Mr
+3,0,0,19.0,0,0,365222.0,6.75,80,2,13.0,160.8099173553719,"Co Cork, Ireland Charlestown, MA",Burke, Jeremiah,Mr
+3,0,1,18.0,0,0,330963.0,7.8792,80,2,13.0,160.8099173553719,"Co Sligo, Ireland New York, NY",Burns, Mary Delia,Miss
+3,0,1,21.0,0,0,315087.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Cacic, Manda,Miss
+3,0,1,30.0,0,0,315084.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Cacic, Marija,Miss
+3,0,0,18.0,0,0,315091.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Cacic, Jego Grga,Mr
+3,0,0,38.0,0,0,315089.0,8.6625,80,0,13.0,160.8099173553719,Croatia,Cacic, Luka,Mr
+3,0,0,17.0,0,0,315093.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Calic, Jovo,Mr
+3,0,0,17.0,0,0,315086.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Calic, Petar,Mr
+3,0,1,21.0,0,0,364846.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Canavan, Mary,Miss
+3,0,0,21.0,0,0,364858.0,7.75,80,2,13.0,160.8099173553719,"Ireland Philadelphia, PA",Canavan, Patrick,Mr
+3,0,0,21.0,0,0,52152.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Cann, Ernest Charles,Mr
+3,0,0,29.8811345124283,1,0,2689.0,14.4583,80,1,13.0,160.8099173553719,"Ottawa, ON",Caram, Joseph,Mr
+3,0,1,29.8811345124283,1,0,2689.0,14.4583,80,1,13.0,160.8099173553719,"Ottawa, ON",Caram, Joseph (Maria Elias),Mrs
+3,0,0,28.0,0,0,350042.0,7.7958,80,0,13.0,160.8099173553719,"Dagsas, Sweden Fower, MN",Carlsson, August Sigfrid,Mr
+3,0,0,24.0,0,0,350409.0,7.8542,80,0,13.0,160.8099173553719,"Goteborg, Sweden Huntley, IL",Carlsson, Carl Robert,Mr
+3,1,1,16.0,0,0,367231.0,7.75,80,2,16.0,160.8099173553719,"Co Longford, Ireland New York, NY",Carr," Helen ""Ellen""",Miss
+3,0,1,37.0,0,0,368364.0,7.75,80,2,13.0,160.8099173553719,"Co Sligo, Ireland Hartford, CT",Carr, Jeannie,Miss
+3,0,0,28.0,0,0,392095.0,7.25,80,0,13.0,160.8099173553719,"St Denys, Southampton, Hants",Carver, Alfred John,Mr
+3,0,0,24.0,0,0,343275.0,8.05,80,0,13.0,160.8099173553719,London,Celotti, Francesco,Mr
+3,0,0,21.0,0,0,513032.0,7.7333,80,2,13.0,160.8099173553719,"Ireland New York, NY",Charters, David,Mr
+3,1,0,32.0,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"Hong Kong New York, NY",Chip, Chang,Mr
+3,0,0,29.0,0,0,343276.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Christmann, Emil,Mr
+3,0,0,26.0,1,0,2680.0,14.4542,80,1,13.0,160.8099173553719,Greece,Chronopoulos, Apostolos,Mr
+3,0,0,18.0,1,0,2680.0,14.4542,80,1,13.0,160.8099173553719,Greece,Chronopoulos, Demetrios,Mr
+3,0,0,20.0,0,0,3101307.0,7.05,80,0,13.0,160.8099173553719,Portugal,Coelho, Domingos Fernandeo,Mr
+3,1,0,18.0,0,0,53540.0,8.05,80,0,12.0,160.8099173553719,"London Brooklyn, NY",Cohen," Gurshon ""Gus""",Mr
+3,0,0,24.0,0,0,371109.0,7.25,80,2,13.0,160.8099173553719,"Co Limerick, Ireland Sherbrooke, PQ",Colbert, Patrick,Mr
+3,0,0,36.0,0,0,349210.0,7.4958,80,0,13.0,160.8099173553719,"Bulgaria Chicago, IL",Coleff, Peju,Mr
+3,0,0,24.0,0,0,349209.0,7.4958,80,0,13.0,160.8099173553719,"New York, NY",Coleff, Satio,Mr
+3,0,0,31.0,0,0,21332.0,7.7333,80,2,13.0,160.8099173553719,"Philadelphia, PA",Conlon, Thomas Henry,Mr
+3,0,0,31.0,0,0,335097.0,7.75,80,2,13.0,160.8099173553719,"Ireland Brooklyn, NY",Connaghton, Michael,Mr
+3,1,1,22.0,0,0,370373.0,7.75,80,2,13.0,160.8099173553719,Ireland,Connolly, Kate,Miss
+3,0,1,30.0,0,0,330972.0,7.6292,80,2,13.0,160.8099173553719,Ireland,Connolly, Kate,Miss
+3,0,0,70.5,0,0,370369.0,7.75,80,2,13.0,171.0,"New York, NY",Connors, Patrick,Mr
+3,0,0,43.0,0,0,53536.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Cook, Jacob,Mr
+3,0,0,35.0,0,0,349230.0,7.8958,80,0,13.0,160.8099173553719,Austria,Cor, Bartol,Mr
+3,0,0,27.0,0,0,349229.0,7.8958,80,0,13.0,160.8099173553719,Austria,Cor, Ivan,Mr
+3,0,0,19.0,0,0,349231.0,7.8958,80,0,13.0,160.8099173553719,Austria,Cor, Liudevit,Mr
+3,0,0,30.0,0,0,392090.0,8.05,80,0,13.0,160.8099173553719,London,Corn, Harry,Mr
+3,1,0,9.0,1,1,37671.0,15.9,80,0,2.0,160.8099173553719,"England Brooklyn, NY",Coutts," Eden Leslie ""Neville""",Master
+3,1,0,3.0,1,1,37671.0,15.9,80,0,2.0,160.8099173553719,"England Brooklyn, NY",Coutts," William Loch ""William""",Master
+3,1,1,36.0,0,2,37671.0,15.9,80,0,2.0,160.8099173553719,"England Brooklyn, NY",Coutts," William (Winnie ""Minnie"" Treanor)",Mrs
+3,0,0,59.0,0,0,364500.0,7.25,80,0,13.0,160.8099173553719,"Merrill, WI",Coxon, Daniel,Mr
+3,0,0,19.0,0,0,3464.0,8.1583,80,0,13.0,160.8099173553719,"Bristol, England Cleveland, OH",Crease, Ernest James,Mr
+3,1,1,17.0,0,1,371362.0,16.1,80,0,12.0,160.8099173553719,"Bournemouth, England Newark, NJ",Cribb, Laura Alice,Miss
+3,0,0,44.0,0,1,371362.0,16.1,80,0,13.0,160.8099173553719,"Bournemouth, England Newark, NJ",Cribb, John Hatfield,Mr
+3,0,0,17.0,0,0,315090.0,8.6625,80,0,13.0,160.8099173553719,Austria-Hungary,Culumovic, Jeso,Mr
+3,0,0,22.5,0,0,2698.0,7.225,80,1,13.0,9.0,"New York, NY",Daher, Shedid,Mr
+3,1,0,45.0,0,0,7598.0,8.05,80,0,15.0,160.8099173553719,"Australia Fingal, ND",Dahl, Karl Edwart,Mr
+3,0,1,22.0,0,0,7552.0,10.5167,80,0,13.0,160.8099173553719,"Norrlot, Sweden Chicago, IL",Dahlberg, Gerda Ulrika,Miss
+3,0,0,19.0,0,0,349228.0,10.1708,80,0,13.0,160.8099173553719,Austria,Dakic, Branko,Mr
+3,1,1,30.0,0,0,382650.0,6.95,80,2,15.0,160.8099173553719,"Co Athlone, Ireland New York, NY",Daly," Margaret Marcella ""Maggie""",Miss
+3,1,0,29.0,0,0,382651.0,7.75,80,2,1315.0,160.8099173553719,"Co Athlone, Ireland New York, NY",Daly, Eugene Patrick,Mr
+3,0,0,0.3333,0,2,347080.0,14.4,80,0,13.0,160.8099173553719,"Stanton, IA",Danbom, Gilbert Sigvard Emanuel,Master
+3,0,0,34.0,1,1,347080.0,14.4,80,0,13.0,197.0,"Stanton, IA",Danbom, Ernst Gilbert,Mr
+3,0,1,28.0,1,1,347080.0,14.4,80,0,13.0,160.8099173553719,"Stanton, IA",Danbom, Ernst Gilbert (Anna Sigrid Maria Brogren),Mrs
+3,0,0,27.0,0,0,349219.0,7.8958,80,0,13.0,160.8099173553719,"Bulgaria Chicago, IL",Danoff, Yoto,Mr
+3,0,0,25.0,0,0,349203.0,7.8958,80,0,13.0,160.8099173553719,"Bulgaria Chicago, IL",Dantcheff, Ristiu,Mr
+3,0,0,24.0,2,0,448871.0,24.15,80,0,13.0,160.8099173553719,"West Bromwich, England Pontiac, MI",Davies, Alfred J,Mr
+3,0,0,22.0,0,0,423568.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Davies, Evan,Mr
+3,0,0,21.0,2,0,448871.0,24.15,80,0,13.0,160.8099173553719,"West Bromwich, England Pontiac, MI",Davies, John Samuel,Mr
+3,0,0,17.0,2,0,448873.0,8.05,80,0,13.0,160.8099173553719,"West Bromwich, England Pontiac, MI",Davies, Joseph,Mr
+3,0,0,29.8811345124283,1,0,386525.0,16.1,80,0,13.0,160.8099173553719,"Liverpool, England Bedford, OH",Davison, Thomas Henry,Mr
+3,1,1,29.8811345124283,1,0,386525.0,16.1,80,0,16.0,160.8099173553719,"Liverpool, England Bedford, OH",Davison, Thomas Henry (Mary E Finck),Mrs
+3,1,0,36.5,1,0,345572.0,17.4,80,0,15.0,160.8099173553719,"Tampico, MT",de Messemaeker, Guillaume Joseph,Mr
+3,1,1,36.0,1,0,345572.0,17.4,80,0,13.0,160.8099173553719,"Tampico, MT",de Messemaeker, Guillaume Joseph (Emma),Mrs
+3,1,0,30.0,0,0,345774.0,9.5,80,0,11.0,160.8099173553719,"Belgium Detroit, MI",de Mulder, Theodore,Mr
+3,0,0,16.0,0,0,345778.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",de Pelsmaeker, Alfons,Mr
+3,1,0,1.0,1,2,2315.0,20.575,80,0,10.0,160.8099173553719,"Devon, England Wichita, KS",Dean, Bertram Vere,Master
+3,1,1,0.1667,1,2,2315.0,20.575,80,0,10.0,160.8099173553719,"Devon, England Wichita, KS",Dean," Elizabeth Gladys ""Millvina""",Miss
+3,0,0,26.0,1,2,2315.0,20.575,80,0,13.0,160.8099173553719,"Devon, England Wichita, KS",Dean, Bertram Frank,Mr
+3,1,1,33.0,1,2,2315.0,20.575,80,0,10.0,160.8099173553719,"Devon, England Wichita, KS",Dean, Bertram (Eva Georgetta Light),Mrs
+3,0,0,25.0,0,0,349250.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Delalic, Redjo,Mr
+3,0,0,29.8811345124283,0,0,349238.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Demetri, Marinko,Mr
+3,0,0,29.8811345124283,0,0,349225.0,7.8958,80,0,13.0,160.8099173553719,"Bulgaria Coon Rapids, IA",Denkoff, Mitto,Mr
+3,0,0,22.0,0,0,521172.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Dennis, Samuel,Mr
+3,0,0,36.0,0,0,521175.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Dennis, William,Mr
+3,1,1,19.0,0,0,330958.0,7.8792,80,2,13.0,160.8099173553719,"Kilmacowen, Co Sligo, Ireland New York, NY",Devaney, Margaret Delia,Miss
+3,0,0,17.0,0,0,349232.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Dika, Mirko,Mr
+3,0,0,42.0,0,0,315088.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Dimic, Jovan,Mr
+3,0,0,43.0,0,0,349226.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Dintcheff, Valtcho,Mr
+3,0,0,29.8811345124283,0,0,2686.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Doharr, Tannous,Mr
+3,0,0,32.0,0,0,370376.0,7.75,80,2,13.0,160.8099173553719,"Ireland New York, NY",Dooley, Patrick,Mr
+3,1,0,19.0,0,0,510482.0,8.05,80,0,13.0,160.8099173553719,"England Oglesby, IL",Dorking, Edward Arthur,Mr
+3,1,1,30.0,0,0,364516.0,12.475,80,0,13.0,160.8099173553719,"Union Hill, NJ",Dowdell, Elizabeth,Miss
+3,0,1,24.0,0,0,368702.0,7.75,80,2,13.0,160.8099173553719,"Ireland New York, NY",Doyle, Elizabeth,Miss
+3,1,1,23.0,0,0,392083.0,8.05,80,0,13.0,160.8099173553719,"London New York, NY",Drapkin, Jennie,Miss
+3,0,0,33.0,0,0,349241.0,7.8958,80,1,13.0,51.0,"Austria Niagara Falls, NY",Drazenoic, Jozef,Mr
+3,0,0,65.0,0,0,336439.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Duane, Frank,Mr
+3,1,0,24.0,0,0,752.0,7.55,80,0,13.0,160.8099173553719,"England Albion, NY",Duquemin, Joseph,Mr
+3,0,0,23.0,1,0,347072.0,13.9,80,0,13.0,160.8099173553719,"West Haven, CT",Dyker, Adolf Fredrik,Mr
+3,1,1,22.0,1,0,347072.0,13.9,80,0,16.0,160.8099173553719,"West Haven, CT",Dyker, Adolf Fredrik (Anna Elisabeth Judith Andersson),Mrs
+3,0,0,18.0,0,0,349912.0,7.775,80,0,13.0,160.8099173553719,"Tofta, Sweden Joliet, IL",Edvardsson, Gustaf Hjalmar,Mr
+3,0,0,16.0,0,0,347074.0,7.775,80,0,13.0,160.8099173553719,"Karberg, Sweden Jerome Junction, AZ",Eklund, Hans Linus,Mr
+3,0,0,45.0,0,0,347061.0,6.975,80,0,13.0,160.8099173553719,"Effington Rut, SD",Ekstrom, Johan,Mr
+3,0,0,29.8811345124283,0,0,2674.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Elias, Dibo,Mr
+3,0,0,39.0,0,2,2675.0,7.2292,80,1,13.0,160.8099173553719,"Syria Ottawa, ON",Elias, Joseph,Mr
+3,0,0,17.0,1,1,2690.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Elias, Joseph Jr,Mr
+3,0,0,15.0,1,1,2695.0,7.2292,80,1,13.0,160.8099173553719,Syria,Elias, Tannous,Mr
+3,0,0,47.0,0,0,53902.0,7.25,80,0,13.0,160.8099173553719,"Illinois, USA",Elsbury, William James,Mr
+3,1,1,5.0,0,0,364516.0,12.475,80,0,13.0,160.8099173553719,"New York, NY",Emanuel, Virginia Ethel,Miss
+3,0,0,29.8811345124283,0,0,2631.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Emir, Farred Chehab,Mr
+3,0,0,40.5,0,0,6212.0,15.1,80,0,13.0,187.0,"New York, NY",Everett, Thomas James,Mr
+3,0,0,40.5,0,0,367232.0,7.75,80,2,13.0,68.0,"Aughnacliff, Co Longford, Ireland New York, NY",Farrell, James,Mr
+3,1,0,29.8811345124283,0,0,3101308.0,7.05,80,0,15.0,160.8099173553719,"Italy Philadelphia, PA",Finoli, Luigi,Mr
+3,0,0,18.0,0,0,350036.0,7.7958,80,0,13.0,160.8099173553719,"New York, NY",Fischer, Eberhard Thelander,Mr
+3,0,1,29.8811345124283,0,0,364859.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Fleming, Honora,Miss
+3,0,0,29.8811345124283,0,0,364851.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Flynn, James,Mr
+3,0,0,29.8811345124283,0,0,368323.0,6.95,80,2,13.0,160.8099173553719,"New York, NY",Flynn, John,Mr
+3,0,0,26.0,0,0,330910.0,7.8792,80,2,13.0,160.8099173553719,"Ireland Chicago, IL",Foley, Joseph,Mr
+3,0,0,29.8811345124283,0,0,365235.0,7.75,80,2,13.0,160.8099173553719,Ireland,Foley, William,Mr
+3,1,0,29.8811345124283,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"Hong Kong New York, NY",Foo, Choong,Mr
+3,0,1,21.0,2,2,6608.0,34.375,80,0,13.0,160.8099173553719,"Rotherfield, Sussex, England Essex Co, MA",Ford," Doolina Margaret ""Daisy""",Miss
+3,0,1,9.0,2,2,6608.0,34.375,80,0,13.0,160.8099173553719,"Rotherfield, Sussex, England Essex Co, MA",Ford," Robina Maggie ""Ruby""",Miss
+3,0,0,29.8811345124283,0,0,51478.0,8.05,80,0,13.0,160.8099173553719,"Bridgwater, Somerset, England",Ford, Arthur,Mr
+3,0,0,18.0,2,2,6608.0,34.375,80,0,13.0,160.8099173553719,"Rotherfield, Sussex, England Essex Co, MA",Ford, Edward Watson,Mr
+3,0,0,16.0,1,3,6608.0,34.375,80,0,13.0,160.8099173553719,"Rotherfield, Sussex, England Essex Co, MA",Ford, William Neal,Mr
+3,0,1,48.0,1,3,6608.0,34.375,80,0,13.0,160.8099173553719,"Rotherfield, Sussex, England Essex Co, MA",Ford, Edward (Margaret Ann Watson),Mrs
+3,0,0,29.8811345124283,0,0,368573.0,7.75,80,2,13.0,160.8099173553719,"Ireland New York, NY",Fox, Patrick,Mr
+3,0,0,29.8811345124283,0,0,3101314.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Franklin, Charles (Charles Fardon),Mr
+3,0,0,25.0,0,0,36864.0,7.7417,80,2,13.0,160.8099173553719,"New York, NY",Gallagher, Martin,Mr
+3,0,0,29.8811345124283,0,0,358585.0,14.5,80,0,13.0,160.8099173553719,"New York, NY",Garfirth, John,Mr
+3,0,0,29.8811345124283,0,0,349254.0,7.8958,80,1,13.0,160.8099173553719,"New York, NY",Gheorgheff, Stanio,Mr
+3,0,0,22.0,0,0,14973.0,8.05,80,0,13.0,47.0,"New York, NY",Gilinski, Eliezer,Mr
+3,1,1,16.0,0,0,35851.0,7.7333,80,2,16.0,160.8099173553719,"Co Longford, Ireland New York, NY",Gilnagh," Katherine ""Katie""",Miss
+3,1,1,29.8811345124283,0,0,335677.0,7.75,80,2,13.0,160.8099173553719,"Co Clare, Ireland Washington, DC",Glynn, Mary Agatha,Miss
+3,1,0,9.0,0,2,363291.0,20.525,80,0,13.0,160.8099173553719,"Strood, Kent, England Detroit, MI",Goldsmith," Frank John William ""Frankie""",Master
+3,0,0,33.0,1,1,363291.0,20.525,80,0,13.0,160.8099173553719,"Strood, Kent, England Detroit, MI",Goldsmith, Frank John,Mr
+3,0,0,41.0,0,0,3101263.0,7.85,80,0,13.0,160.8099173553719,"Philadelphia, PA",Goldsmith, Nathan,Mr
+3,1,1,31.0,1,1,363291.0,20.525,80,0,13.0,160.8099173553719,"Strood, Kent, England Detroit, MI",Goldsmith, Frank John (Emily Alice Brown),Mrs
+3,0,0,38.0,0,0,3101306.0,7.05,80,0,13.0,160.8099173553719,Portugal,Goncalves, Manuel Estanslas,Mr
+3,0,0,9.0,5,2,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Harold Victor,Master
+3,0,0,1.0,5,2,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Sidney Leonard,Master
+3,0,0,11.0,5,2,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, William Frederick,Master
+3,0,1,10.0,5,2,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Jessie Allis,Miss
+3,0,1,16.0,5,2,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Lillian Amy,Miss
+3,0,0,14.0,5,2,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Charles Edward,Mr
+3,0,0,40.0,1,6,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Charles Frederick,Mr
+3,0,1,43.0,1,6,2144.0,46.9,80,0,13.0,160.8099173553719,"Wiltshire, England Niagara Falls, NY",Goodwin, Frederick (Augusta Tyler),Mrs
+3,0,0,51.0,0,0,21440.0,8.05,80,0,13.0,160.8099173553719,"Dorking, Surrey, England",Green, George Henry,Mr
+3,0,0,32.0,0,0,8471.0,8.3625,80,0,13.0,160.8099173553719,"Foresvik, Norway Portland, ND",Gronnestad, Daniel Danielsen,Mr
+3,0,0,29.8811345124283,0,0,376563.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Guest, Robert,Mr
+3,0,0,20.0,0,0,7534.0,9.8458,80,0,13.0,160.8099173553719,"Waukegan, Chicago, IL",Gustafsson, Alfred Ossian,Mr
+3,0,0,37.0,2,0,3101276.0,7.925,80,0,13.0,98.0,"Ruotsinphytaa, Finland New York, NY",Gustafsson, Anders Vilhelm,Mr
+3,0,0,28.0,2,0,3101277.0,7.925,80,0,13.0,160.8099173553719,"Ruotsinphytaa, Finland New York, NY",Gustafsson, Johan Birger,Mr
+3,0,0,19.0,0,0,347069.0,7.775,80,0,13.0,160.8099173553719,"Myren, Sweden New York, NY",Gustafsson, Karl Gideon,Mr
+3,0,1,24.0,0,0,349236.0,8.85,80,0,13.0,160.8099173553719,"New York, NY",Haas, Aloisia,Miss
+3,0,1,17.0,0,0,330631.0,7.7333,80,2,13.0,160.8099173553719,"New York, NY",Hagardon, Kate,Miss
+3,0,0,29.8811345124283,1,0,65303.0,19.9667,80,0,13.0,160.8099173553719,"New York, NY",Hagland, Ingvald Olai Olsen,Mr
+3,0,0,29.8811345124283,1,0,65304.0,19.9667,80,0,13.0,160.8099173553719,"New York, NY",Hagland, Konrad Mathias Reiersen,Mr
+3,0,0,28.0,1,0,23101279.0,15.85,80,0,13.0,160.8099173553719,"New York, NY",Hakkarainen, Pekka Pietari,Mr
+3,1,1,24.0,1,0,23101279.0,15.85,80,0,15.0,160.8099173553719,"New York, NY",Hakkarainen, Pekka Pietari (Elin Matilda Dolck),Mrs
+3,0,0,20.0,0,0,345769.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",Hampe, Leon,Mr
+3,0,0,23.5,0,0,2693.0,7.2292,80,1,13.0,188.0,"New York, NY",Hanna, Mansour,Mr
+3,0,0,41.0,2,0,350026.0,14.1083,80,0,13.0,160.8099173553719,"New York, NY",Hansen, Claus Peter,Mr
+3,0,0,26.0,1,0,350025.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Hansen, Henrik Juul,Mr
+3,0,0,21.0,0,0,350029.0,7.8542,80,0,13.0,69.0,"New York, NY",Hansen, Henry Damsgaard,Mr
+3,1,1,45.0,1,0,350026.0,14.1083,80,0,11.0,160.8099173553719,"New York, NY",Hansen, Claus Peter (Jennie L Howard),Mrs
+3,0,1,29.8811345124283,0,0,6609.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",Harknett, Alice Phoebe,Miss
+3,0,0,25.0,0,0,374887.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Harmer, Abraham (David Lishin),Mr
+3,0,0,29.8811345124283,0,0,394140.0,6.8583,80,2,13.0,160.8099173553719,"New York, NY",Hart, Henry,Mr
+3,0,0,11.0,0,0,2699.0,18.7875,80,1,13.0,160.8099173553719,"New York, NY",Hassan, Houssein G N,Mr
+3,1,1,29.8811345124283,0,0,370375.0,7.75,80,2,16.0,160.8099173553719,"New York, NY",Healy," Hanora ""Nora""",Miss
+3,1,0,27.0,0,0,347089.0,6.975,80,0,15.0,160.8099173553719,"New York, NY",Hedman, Oskar Arvid,Mr
+3,1,0,29.8811345124283,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"New York, NY",Hee, Ling,Mr
+3,0,1,18.0,0,0,365226.0,6.75,80,2,13.0,160.8099173553719,"New York, NY",Hegarty," Hanora ""Nora""",Miss
+3,1,1,26.0,0,0,23101282.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Heikkinen, Laina,Miss
+3,0,1,23.0,0,0,23101290.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Heininen, Wendla Maria,Miss
+3,1,1,22.0,0,0,7548.0,8.9625,80,0,13.0,160.8099173553719,"New York, NY",Hellstrom, Hilda Maria,Miss
+3,0,0,28.0,0,0,349243.0,7.8958,80,0,13.0,306.0,"New York, NY",Hendekovic, Ignjac,Mr
+3,0,1,28.0,0,0,347086.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Henriksson, Jenny Lovisa,Miss
+3,0,1,29.8811345124283,0,0,382649.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Henry, Delia,Miss
+3,1,1,2.0,0,1,3101298.0,12.2875,80,0,15.0,160.8099173553719,"New York, NY",Hirvonen, Hildur E,Miss
+3,1,1,22.0,1,1,3101298.0,12.2875,80,0,15.0,160.8099173553719,"New York, NY",Hirvonen, Alexander (Helga E Lindqvist),Mrs
+3,0,0,43.0,0,0,7075.0,6.45,80,0,13.0,160.8099173553719,"New York, NY",Holm, John Fredrik Alexander,Mr
+3,0,0,28.0,0,0,4001.0,22.525,80,0,13.0,160.8099173553719,"New York, NY",Holthen, Johan Martin,Mr
+3,1,1,27.0,0,0,23101283.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Honkanen, Eliina,Miss
+3,0,0,29.8811345124283,0,0,370377.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Horgan, John,Mr
+3,1,1,29.8811345124283,0,0,239186.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Howard, May Elizabeth,Miss
+3,0,0,42.0,0,0,348121.0,7.65,178,0,13.0,120.0,"New York, NY",Humblen, Adolf Mathias Nicolai Olsen,Mr
+3,1,0,29.8811345124283,0,0,3470.0,7.8875,80,0,13.0,160.8099173553719,"New York, NY",Hyman, Abraham,Mr
+3,0,0,30.0,0,0,2685.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Ibrahim Shawah, Yousseff,Mr
+3,0,0,29.8811345124283,0,0,349220.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Ilieff, Ylio,Mr
+3,0,1,27.0,1,0,23101270.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Ilmakangas, Ida Livija,Miss
+3,0,1,25.0,1,0,23101271.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Ilmakangas, Pieta Sofia,Miss
+3,0,0,29.8811345124283,0,0,349201.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Ivanoff, Kanio,Mr
+3,1,0,29.0,0,0,349240.0,7.8958,80,1,15.0,160.8099173553719,"New York, NY",Jalsevac, Ivan,Mr
+3,1,0,21.0,0,0,350034.0,7.7958,80,0,13.0,160.8099173553719,"New York, NY",Jansson, Carl Olof,Mr
+3,0,0,29.8811345124283,0,0,3101305.0,7.05,80,0,13.0,160.8099173553719,"New York, NY",Jardin, Jose Neto,Mr
+3,0,0,20.0,0,0,350050.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Jensen, Hans Peder,Mr
+3,0,0,48.0,0,0,350047.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Jensen, Niels Peder,Mr
+3,0,0,17.0,1,0,350048.0,7.0542,80,0,13.0,160.8099173553719,"New York, NY",Jensen, Svend Lauritz,Mr
+3,1,1,29.8811345124283,0,0,14313.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Jermyn, Annie,Miss
+3,1,0,29.8811345124283,0,0,65306.0,8.1125,80,0,13.0,160.8099173553719,"New York, NY",Johannesen-Bratthammer, Bernt,Mr
+3,0,0,34.0,0,0,3101264.0,6.4958,80,0,13.0,143.0,"New York, NY",Johanson, Jakob Alfred,Mr
+3,1,0,26.0,0,0,347070.0,7.775,80,0,15.0,160.8099173553719,"New York, NY",Johansson Palmquist, Oskar Leander,Mr
+3,0,0,22.0,0,0,350052.0,7.7958,80,0,13.0,156.0,"New York, NY",Johansson, Erik,Mr
+3,0,0,33.0,0,0,7540.0,8.6542,80,0,13.0,285.0,"New York, NY",Johansson, Gustaf Joel,Mr
+3,0,0,31.0,0,0,347063.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Johansson, Karl Johan,Mr
+3,0,0,29.0,0,0,347467.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Johansson, Nils,Mr
+3,1,0,4.0,1,1,347742.0,11.1333,80,0,15.0,160.8099173553719,"New York, NY",Johnson, Harold Theodor,Master
+3,1,1,1.0,1,1,347742.0,11.1333,80,0,15.0,160.8099173553719,"New York, NY",Johnson, Eleanor Ileen,Miss
+3,0,0,49.0,0,0,659942.7808429119,0.0,80,0,13.0,160.8099173553719,"New York, NY",Johnson, Alfred,Mr
+3,0,0,33.0,0,0,347062.0,7.775,80,0,13.0,37.0,"New York, NY",Johnson, Malkolm Joackim,Mr
+3,0,0,19.0,0,0,659942.7808429119,0.0,80,0,13.0,160.8099173553719,"New York, NY",Johnson, William Cahoone Jr,Mr
+3,1,1,27.0,0,2,347742.0,11.1333,80,0,15.0,160.8099173553719,"New York, NY",Johnson, Oscar W (Elisabeth Vilhelmina Berg),Mrs
+3,0,0,29.8811345124283,1,2,6607.0,23.45,80,0,13.0,160.8099173553719,"New York, NY",Johnston," William Arthur ""Willie""",Master
+3,0,1,29.8811345124283,1,2,6607.0,23.45,80,0,13.0,160.8099173553719,"New York, NY",Johnston," Catherine Helen ""Carrie""",Miss
+3,0,0,29.8811345124283,1,2,6607.0,23.45,80,0,13.0,160.8099173553719,"New York, NY",Johnston, Andrew G,Mr
+3,0,1,29.8811345124283,1,2,6607.0,23.45,80,0,13.0,160.8099173553719,"New York, NY",Johnston," Andrew G (Elizabeth ""Lily"" Watson)",Mrs
+3,0,0,23.0,0,0,349204.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Jonkoff, Lalio,Mr
+3,1,0,32.0,0,0,350417.0,7.8542,80,0,15.0,160.8099173553719,"New York, NY",Jonsson, Carl,Mr
+3,0,0,27.0,0,0,350408.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Jonsson, Nils Hilding,Mr
+3,0,1,20.0,1,0,4136.0,9.825,80,0,13.0,160.8099173553719,"New York, NY",Jussila, Katriina,Miss
+3,0,1,21.0,1,0,4137.0,9.825,80,0,13.0,160.8099173553719,"New York, NY",Jussila, Mari Aina,Miss
+3,1,0,32.0,0,0,23101286.0,7.925,80,0,15.0,160.8099173553719,"New York, NY",Jussila, Eiriik,Mr
+3,0,0,17.0,0,0,23101274.0,7.125,80,0,13.0,160.8099173553719,"New York, NY",Kallio, Nikolai Erland,Mr
+3,0,0,21.0,0,0,8475.0,8.4333,80,0,13.0,160.8099173553719,"New York, NY",Kalvik, Johannes Halvorsen,Mr
+3,0,0,30.0,0,0,349246.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Karaic, Milan,Mr
+3,1,0,21.0,0,0,350053.0,7.7958,80,0,13.0,160.8099173553719,"New York, NY",Karlsson, Einar Gervasius,Mr
+3,0,0,33.0,0,0,347465.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Karlsson, Julius Konrad Eugen,Mr
+3,0,0,22.0,0,0,350060.0,7.5208,80,0,13.0,160.8099173553719,"New York, NY",Karlsson, Nils August,Mr
+3,1,1,4.0,0,1,349256.0,13.4167,80,1,15.0,160.8099173553719,"New York, NY",Karun, Manca,Miss
+3,1,0,39.0,0,1,349256.0,13.4167,80,1,15.0,160.8099173553719,"New York, NY",Karun, Franz,Mr
+3,0,0,29.8811345124283,0,0,2700.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Kassem, Fared,Mr
+3,0,0,18.5,0,0,2682.0,7.2292,80,1,13.0,58.0,"New York, NY",Katavelas," Vassilios (""Catavelas Vassilios"")",Mr
+3,0,0,29.8811345124283,0,0,12460.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Keane," Andrew ""Andy""",Mr
+3,0,0,29.8811345124283,0,0,323592.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Keefe, Arthur,Mr
+3,1,1,29.8811345124283,0,0,9234.0,7.75,80,2,16.0,160.8099173553719,"New York, NY",Kelly," Anna Katherine ""Annie Kate""",Miss
+3,1,1,29.8811345124283,0,0,14312.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Kelly, Mary,Miss
+3,0,0,34.5,0,0,330911.0,7.8292,80,2,13.0,70.0,"New York, NY",Kelly, James,Mr
+3,0,0,44.0,0,0,363592.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Kelly, James,Mr
+3,1,0,29.8811345124283,0,0,368783.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Kennedy, John,Mr
+3,0,0,29.8811345124283,1,0,2660.0,14.4542,80,1,13.0,160.8099173553719,"New York, NY",Khalil, Betros,Mr
+3,0,1,29.8811345124283,1,0,2660.0,14.4542,80,1,13.0,160.8099173553719,"New York, NY",Khalil," Betros (Zahie ""Maria"" Elias)",Mrs
+3,0,0,29.8811345124283,1,0,367227.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Kiernan, John,Mr
+3,0,0,29.8811345124283,1,0,367229.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Kiernan, Philip,Mr
+3,0,0,29.8811345124283,0,0,36865.0,7.7375,80,2,13.0,160.8099173553719,"New York, NY",Kilgannon, Thomas J,Mr
+3,0,1,22.0,2,0,315152.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Kink, Maria,Miss
+3,0,0,26.0,2,0,315151.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Kink, Vincenz,Mr
+3,1,1,4.0,0,2,315153.0,22.025,80,0,2.0,160.8099173553719,"New York, NY",Kink-Heilmann, Luise Gretchen,Miss
+3,1,0,29.0,3,1,315153.0,22.025,80,0,2.0,160.8099173553719,"New York, NY",Kink-Heilmann, Anton,Mr
+3,1,1,26.0,1,1,315153.0,22.025,80,0,2.0,160.8099173553719,"New York, NY",Kink-Heilmann, Anton (Luise Heilmann),Mrs
+3,0,1,1.0,1,1,350405.0,12.1833,80,0,13.0,160.8099173553719,"New York, NY",Klasen, Gertrud Emilia,Miss
+3,0,0,18.0,1,1,350404.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Klasen, Klas Albin,Mr
+3,0,1,36.0,0,2,350405.0,12.1833,80,0,13.0,160.8099173553719,"New York, NY",Klasen, (Hulda Kristina Eugenia Lofqvist),Mrs
+3,0,0,29.8811345124283,0,0,349253.0,7.8958,80,1,13.0,160.8099173553719,"New York, NY",Kraeff, Theodor,Mr
+3,1,0,25.0,0,0,2654.0,7.2292,176,1,10.0,160.8099173553719,"New York, NY",Krekorian, Neshan,Mr
+3,0,0,29.8811345124283,0,0,2624.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Lahoud, Sarkis,Mr
+3,0,1,37.0,0,0,4135.0,9.5875,80,0,13.0,160.8099173553719,"New York, NY",Laitinen, Kristina Sofia,Miss
+3,0,0,29.8811345124283,0,0,349217.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Laleff, Kristo,Mr
+3,1,0,29.8811345124283,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"New York, NY",Lam, Ali,Mr
+3,0,0,29.8811345124283,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"New York, NY",Lam, Len,Mr
+3,1,1,22.0,0,0,7077.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Landergren, Aurora Adelia,Miss
+3,0,0,29.8811345124283,0,0,7935.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Lane, Patrick,Mr
+3,1,0,26.0,0,0,1601.0,56.4958,80,0,14.0,160.8099173553719,"New York, NY",Lang, Fang,Mr
+3,0,0,29.0,0,0,7545.0,9.4833,80,0,13.0,160.8099173553719,"New York, NY",Larsson, August Viktor,Mr
+3,0,0,29.0,0,0,347067.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Larsson, Bengt Edvin,Mr
+3,0,0,22.0,0,0,347065.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Larsson-Rondberg, Edvard A,Mr
+3,1,0,22.0,0,0,2620.0,7.225,80,1,6.0,160.8099173553719,"New York, NY",Leeni," Fahim (""Philip Zenni"")",Mr
+3,0,0,29.8811345124283,3,1,4133.0,25.4667,80,0,13.0,160.8099173553719,"New York, NY",Lefebre, Henry Forbes,Master
+3,0,1,29.8811345124283,3,1,4133.0,25.4667,80,0,13.0,160.8099173553719,"New York, NY",Lefebre, Ida,Miss
+3,0,1,29.8811345124283,3,1,4133.0,25.4667,80,0,13.0,160.8099173553719,"New York, NY",Lefebre, Jeannie,Miss
+3,0,1,29.8811345124283,3,1,4133.0,25.4667,80,0,13.0,160.8099173553719,"New York, NY",Lefebre, Mathilde,Miss
+3,0,1,29.8811345124283,0,4,4133.0,25.4667,80,0,13.0,160.8099173553719,"New York, NY",Lefebre, Frank (Frances),Mrs
+3,0,0,32.0,0,0,23101292.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Leinonen, Antti Gustaf,Mr
+3,0,0,34.5,0,0,2683.0,6.4375,80,1,13.0,196.0,"New York, NY",Lemberopolous, Peter L,Mr
+3,0,1,29.8811345124283,1,0,370371.0,15.5,80,2,13.0,160.8099173553719,"New York, NY",Lennon, Mary,Miss
+3,0,0,29.8811345124283,1,0,370371.0,15.5,80,2,13.0,160.8099173553719,"New York, NY",Lennon, Denis,Mr
+3,0,0,36.0,0,0,659942.7808429119,0.0,80,0,13.0,160.8099173553719,"New York, NY",Leonard, Lionel,Mr
+3,0,0,39.0,0,0,448871.0,24.15,80,0,13.0,160.8099173553719,"New York, NY",Lester, James,Mr
+3,0,0,24.0,0,0,345781.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",Lievens, Rene Aime,Mr
+3,0,1,25.0,0,0,347071.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Lindahl, Agda Thorilda Viktoria,Miss
+3,0,1,45.0,0,0,347073.0,7.75,80,0,13.0,160.8099173553719,"New York, NY",Lindblom, Augusta Charlotta,Miss
+3,0,0,36.0,1,0,349910.0,15.55,80,0,13.0,160.8099173553719,"New York, NY",Lindell, Edvard Bengtsson,Mr
+3,0,1,30.0,1,0,349910.0,15.55,80,0,13.0,160.8099173553719,"New York, NY",Lindell, Edvard Bengtsson (Elin Gerda Persson),Mrs
+3,1,0,20.0,1,0,23101285.0,7.925,80,0,15.0,160.8099173553719,"New York, NY",Lindqvist, Eino William,Mr
+3,0,0,29.8811345124283,0,0,330971.0,7.8792,80,2,13.0,160.8099173553719,"New York, NY",Linehan, Michael,Mr
+3,0,0,28.0,0,0,1601.0,56.4958,80,0,13.0,160.8099173553719,"New York, NY",Ling, Lee,Mr
+3,0,0,29.8811345124283,0,0,251.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",Lithman, Simon,Mr
+3,0,0,30.0,1,0,53336.0,16.1,80,0,13.0,160.8099173553719,"New York, NY",Lobb, William Arthur,Mr
+3,0,1,26.0,1,0,53336.0,16.1,80,0,13.0,160.8099173553719,"New York, NY",Lobb, William Arthur (Cordelia K Stanlick),Mrs
+3,0,0,29.8811345124283,0,0,1222.0,7.8792,80,0,13.0,153.0,"New York, NY",Lockyer, Edward,Mr
+3,0,0,20.5,0,0,521173.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Lovell," John Hall (""Henry"")",Mr
+3,1,0,27.0,0,0,315098.0,8.6625,80,0,15.0,160.8099173553719,"New York, NY",Lulic, Nikola,Mr
+3,0,0,51.0,0,0,347743.0,7.0542,80,0,13.0,160.8099173553719,"New York, NY",Lundahl, Johan Svensson,Mr
+3,1,1,23.0,0,0,347469.0,7.8542,80,0,10.0,160.8099173553719,"New York, NY",Lundin, Olga Elida,Miss
+3,1,0,32.0,0,0,350403.0,7.5792,80,0,15.0,160.8099173553719,"New York, NY",Lundstrom, Thure Edvin,Mr
+3,0,0,29.8811345124283,0,0,349235.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Lyntakoff, Stanko,Mr
+3,0,0,29.8811345124283,0,0,42795.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",MacKay, George William,Mr
+3,1,1,29.8811345124283,0,0,370370.0,7.75,80,2,15.0,160.8099173553719,"New York, NY",Madigan," Margaret ""Maggie""",Miss
+3,1,0,24.0,0,0,17369.0,7.1417,80,0,13.0,160.8099173553719,"New York, NY",Madsen, Fridtjof Arne,Mr
+3,0,0,22.0,0,0,23101275.0,7.125,80,0,13.0,160.8099173553719,"New York, NY",Maenpaa, Matti Alexanteri,Mr
+3,0,1,29.8811345124283,0,0,330924.0,7.8792,80,2,13.0,160.8099173553719,"New York, NY",Mahon, Bridget Delia,Miss
+3,0,0,29.8811345124283,0,0,43130.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Mahon, John,Mr
+3,0,0,29.8811345124283,0,0,2816.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Maisner, Simon,Mr
+3,0,0,29.0,0,0,23101268.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Makinen, Kalle Edvard,Mr
+3,1,0,29.8811345124283,0,0,2677.0,7.2292,80,1,15.0,160.8099173553719,"New York, NY",Mamee, Hanna,Mr
+3,0,1,30.5,0,0,364850.0,7.75,80,2,13.0,61.0,"New York, NY",Mangan, Mary,Miss
+3,1,1,29.8811345124283,0,0,36866.0,7.7375,80,2,16.0,160.8099173553719,"New York, NY",Mannion, Margareth,Miss
+3,0,0,29.8811345124283,0,0,2655.0,7.2292,175,1,13.0,160.8099173553719,"New York, NY",Mardirosian, Sarkis,Mr
+3,0,0,35.0,0,0,349213.0,7.8958,80,1,13.0,160.8099173553719,"New York, NY",Markoff, Marin,Mr
+3,0,0,33.0,0,0,349257.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Markun, Johann,Mr
+3,1,1,29.8811345124283,0,0,2649.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Masselmani, Fatima,Mrs
+3,0,0,29.8811345124283,0,0,349255.0,7.8958,80,1,13.0,160.8099173553719,"New York, NY",Matinoff, Nicola,Mr
+3,1,1,29.8811345124283,0,0,383123.0,7.75,80,2,1516.0,160.8099173553719,"New York, NY",McCarthy," Catherine ""Katie""",Miss
+3,1,0,29.8811345124283,0,0,367228.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",McCormack, Thomas Joseph,Mr
+3,1,1,29.8811345124283,2,0,367226.0,23.25,80,2,16.0,160.8099173553719,"New York, NY",McCoy, Agnes,Miss
+3,1,1,29.8811345124283,2,0,367226.0,23.25,80,2,16.0,160.8099173553719,"New York, NY",McCoy, Alicia,Miss
+3,1,0,29.8811345124283,2,0,367226.0,23.25,80,2,16.0,160.8099173553719,"New York, NY",McCoy, Bernard,Mr
+3,1,1,29.8811345124283,0,0,330932.0,7.7875,80,2,13.0,160.8099173553719,"New York, NY",McDermott, Brigdet Delia,Miss
+3,0,0,29.8811345124283,0,0,36568.0,15.5,80,2,13.0,160.8099173553719,"New York, NY",McEvoy, Michael,Mr
+3,1,1,29.8811345124283,0,0,330931.0,7.8792,80,2,13.0,160.8099173553719,"New York, NY",McGovern, Mary,Miss
+3,1,1,15.0,0,0,330923.0,8.0292,80,2,13.0,160.8099173553719,"New York, NY",McGowan," Anna ""Annie""",Miss
+3,0,1,35.0,0,0,9232.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",McGowan, Katherine,Miss
+3,0,0,29.8811345124283,0,0,370372.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",McMahon, Martin,Mr
+3,0,0,24.0,1,0,376566.0,16.1,80,0,13.0,160.8099173553719,"New York, NY",McNamee, Neal,Mr
+3,0,1,19.0,1,0,376566.0,16.1,80,0,13.0,53.0,"New York, NY",McNamee, Neal (Eileen O'Leary),Mrs
+3,0,1,29.8811345124283,0,0,370368.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",McNeill, Bridget,Miss
+3,0,1,29.8811345124283,0,0,392087.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Meanwell, (Marion Ogden),Miss
+3,0,1,29.8811345124283,0,0,343095.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Meek, Thomas (Annie Louise Rowley),Mrs
+3,0,0,55.5,0,0,511206.0,8.05,80,0,13.0,201.0,"New York, NY",Meo, Alfonzo,Mr
+3,0,0,29.8811345124283,0,0,368703.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Mernagh, Robert,Mr
+3,1,0,21.0,0,0,345501.0,7.775,80,0,15.0,160.8099173553719,"New York, NY",Midtsjo, Karl Albert,Mr
+3,0,0,29.8811345124283,0,0,359306.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Miles, Frank,Mr
+3,0,0,24.0,0,0,349233.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Mineff, Ivan,Mr
+3,0,0,21.0,0,0,349211.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Minkoff, Lazar,Mr
+3,0,0,28.0,0,0,349207.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Mionoff, Stoytcho,Mr
+3,0,0,29.8811345124283,0,0,349221.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Mitkoff, Mito,Mr
+3,1,1,29.8811345124283,0,0,330980.0,7.8792,80,2,16.0,160.8099173553719,"New York, NY",Mockler," Helen Mary ""Ellie""",Miss
+3,0,0,25.0,0,0,348123.0,7.65,179,0,13.0,309.0,"New York, NY",Moen, Sigurd Hansen,Mr
+3,1,0,6.0,0,1,392096.0,12.475,150,0,14.0,160.8099173553719,"New York, NY",Moor, Meier,Master
+3,1,1,27.0,0,1,392096.0,12.475,150,0,14.0,160.8099173553719,"New York, NY",Moor, (Beila),Mrs
+3,0,0,29.8811345124283,0,0,454510.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Moore, Leonard Charles,Mr
+3,1,1,29.8811345124283,1,0,371110.0,24.15,80,2,16.0,160.8099173553719,"New York, NY",Moran, Bertha,Miss
+3,0,0,29.8811345124283,1,0,371110.0,24.15,80,2,13.0,160.8099173553719,"New York, NY",Moran, Daniel J,Mr
+3,0,0,29.8811345124283,0,0,330877.0,8.4583,80,2,13.0,160.8099173553719,"New York, NY",Moran, James,Mr
+3,0,0,34.0,0,0,364506.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Morley, William,Mr
+3,0,0,29.8811345124283,0,0,372622.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Morrow, Thomas Rowan,Mr
+3,1,0,29.8811345124283,0,0,312991.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Moss, Albert Johan,Mr
+3,1,0,29.8811345124283,1,1,2661.0,15.2458,80,1,13.0,160.8099173553719,"New York, NY",Moubarek, Gerios,Master
+3,1,0,29.8811345124283,1,1,2661.0,15.2458,80,1,13.0,160.8099173553719,"New York, NY",Moubarek," Halim Gonios (""William George"")",Master
+3,1,1,29.8811345124283,0,2,2661.0,15.2458,80,1,13.0,160.8099173553719,"New York, NY",Moubarek," George (Omine ""Amenia"" Alexander)",Mrs
+3,1,1,29.8811345124283,0,0,2626.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Moussa, (Mantoura Boulos),Mrs
+3,0,0,29.8811345124283,0,0,374746.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Moutal, Rahamin Haim,Mr
+3,1,1,29.8811345124283,0,0,35852.0,7.7333,80,2,16.0,160.8099173553719,"New York, NY",Mullens," Katherine ""Katie""",Miss
+3,1,1,24.0,0,0,382653.0,7.75,80,2,15.0,160.8099173553719,"New York, NY",Mulvihill, Bertha E,Miss
+3,0,0,29.8811345124283,0,0,53235.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Murdlin, Joseph,Mr
+3,1,1,29.8811345124283,1,0,367230.0,15.5,80,2,16.0,160.8099173553719,"New York, NY",Murphy," Katherine ""Kate""",Miss
+3,1,1,29.8811345124283,1,0,367230.0,15.5,80,2,16.0,160.8099173553719,"New York, NY",Murphy, Margaret Jane,Miss
+3,1,1,29.8811345124283,0,0,36568.0,15.5,80,2,16.0,160.8099173553719,"New York, NY",Murphy, Nora,Miss
+3,0,0,18.0,0,0,347078.0,7.75,80,0,13.0,160.8099173553719,"New York, NY",Myhrman, Pehr Fabian Oliver Malkolm,Mr
+3,0,0,22.0,0,0,349206.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Naidenoff, Penko,Mr
+3,1,1,15.0,0,0,2667.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Najib," Adele Kiamie ""Jane""",Miss
+3,1,1,1.0,0,2,2653.0,15.7417,80,1,13.0,160.8099173553719,"New York, NY",Nakid," Maria (""Mary"")",Miss
+3,1,0,20.0,1,1,2653.0,15.7417,80,1,13.0,160.8099173553719,"New York, NY",Nakid, Sahid,Mr
+3,1,1,19.0,1,1,2653.0,15.7417,80,1,13.0,160.8099173553719,"New York, NY",Nakid," Said (Waika ""Mary"" Mowad)",Mrs
+3,0,0,33.0,0,0,53338.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Nancarrow, William Henry,Mr
+3,0,0,29.8811345124283,0,0,349218.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Nankoff, Minko,Mr
+3,0,0,29.8811345124283,0,0,2652.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Nasr, Mustafa,Mr
+3,0,1,29.8811345124283,0,0,365237.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Naughton, Hannah,Miss
+3,0,0,29.8811345124283,0,0,349234.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Nenkoff, Christo,Mr
+3,1,0,12.0,1,0,2651.0,11.2417,80,1,13.0,160.8099173553719,"New York, NY",Nicola-Yarred, Elias,Master
+3,1,1,14.0,1,0,2651.0,11.2417,80,1,13.0,160.8099173553719,"New York, NY",Nicola-Yarred, Jamila,Miss
+3,0,1,29.0,0,0,3101297.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Nieminen, Manta Josefina,Miss
+3,0,0,28.0,0,0,363611.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Niklasson, Samuel,Mr
+3,1,1,18.0,0,0,347066.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Nilsson, Berta Olivia,Miss
+3,1,1,26.0,0,0,347470.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Nilsson, Helmina Josefina,Miss
+3,0,0,21.0,0,0,350410.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Nilsson, August Ferdinand,Mr
+3,0,0,41.0,0,0,23101272.0,7.125,80,0,13.0,160.8099173553719,"Finland Sudbury, ON",Nirva, Iisakki Antino Aijo,Mr
+3,1,0,39.0,0,0,23101289.0,7.925,80,0,9.0,160.8099173553719,"New York, NY",Niskanen, Juha,Mr
+3,0,0,21.0,0,0,439886.0,7.8,80,0,13.0,160.8099173553719,"New York, NY",Nosworthy, Richard Cater,Mr
+3,0,0,28.5,0,0,2697.0,7.2292,80,1,13.0,181.0,"New York, NY",Novel, Mansouer,Mr
+3,1,1,22.0,0,0,347081.0,7.75,80,0,13.0,160.8099173553719,"New York, NY",Nysten, Anna Sofia,Miss
+3,0,0,61.0,0,0,345364.0,6.2375,80,0,13.0,160.8099173553719,"New York, NY",Nysveen, Johan Hansen,Mr
+3,0,0,29.8811345124283,1,0,370365.0,15.5,80,2,13.0,160.8099173553719,"New York, NY",O'Brien, Thomas,Mr
+3,0,0,29.8811345124283,0,0,330979.0,7.8292,80,2,13.0,160.8099173553719,"New York, NY",O'Brien, Timothy,Mr
+3,1,1,29.8811345124283,1,0,370365.0,15.5,80,2,13.0,160.8099173553719,"New York, NY",O'Brien," Thomas (Johanna ""Hannah"" Godfrey)",Mrs
+3,0,0,29.8811345124283,0,0,334912.0,7.7333,80,2,13.0,160.8099173553719,"New York, NY",O'Connell, Patrick D,Mr
+3,0,0,29.8811345124283,0,0,371060.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",O'Connor, Maurice,Mr
+3,0,0,29.8811345124283,0,0,366713.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",O'Connor, Patrick,Mr
+3,0,0,23.0,0,0,7267.0,9.225,80,0,13.0,160.8099173553719,"New York, NY",Odahl, Nils Martin,Mr
+3,0,1,29.8811345124283,0,0,364856.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",O'Donoghue, Bridget,Ms
+3,1,1,29.8811345124283,0,0,14311.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",O'Driscoll, Bridget,Miss
+3,1,1,29.8811345124283,0,0,330959.0,7.8792,80,2,13.0,160.8099173553719,"New York, NY",O'Dwyer," Ellen ""Nellie""",Miss
+3,1,1,22.0,0,0,347085.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Ohman, Velin,Miss
+3,1,0,29.8811345124283,0,0,368402.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",O'Keefe, Patrick,Mr
+3,1,1,29.8811345124283,0,0,330919.0,7.8292,80,2,13.0,160.8099173553719,"New York, NY",O'Leary," Hanora ""Norah""",Miss
+3,1,0,9.0,0,1,17368.0,3.1708,80,0,13.0,160.8099173553719,"New York, NY",Olsen, Artur Karl,Master
+3,0,0,28.0,0,0,4001.0,22.525,80,0,13.0,173.0,"New York, NY",Olsen, Henry Margido,Mr
+3,0,0,42.0,0,1,4579.0,8.4042,80,0,13.0,160.8099173553719,"New York, NY",Olsen, Karl Siegwart Andreas,Mr
+3,0,0,29.8811345124283,0,0,265302.0,7.3125,80,0,13.0,160.8099173553719,"New York, NY",Olsen, Ole Martin,Mr
+3,0,1,31.0,0,0,350407.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Olsson, Elina,Miss
+3,0,0,28.0,0,0,347464.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Olsson, Nils Johan Goransson,Mr
+3,1,0,32.0,0,0,347079.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Olsson, Oscar Wilhelm,Mr
+3,0,0,20.0,0,0,6563.0,9.225,80,0,13.0,89.0,"Oslo, Norway Cameron, WI",Olsvigen, Thor Anderson,Mr
+3,0,1,23.0,0,0,315085.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Oreskovic, Jelka,Miss
+3,0,1,20.0,0,0,315096.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Oreskovic, Marija,Miss
+3,0,0,20.0,0,0,315094.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Oreskovic, Luka,Mr
+3,0,0,16.0,0,0,7534.0,9.2167,80,0,13.0,160.8099173553719,"New York, NY",Osen, Olaf Elon,Mr
+3,1,1,31.0,0,0,349244.0,8.6833,80,0,13.0,160.8099173553719,"New York, NY",Osman, Mara,Mrs
+3,0,1,29.8811345124283,0,0,330909.0,7.6292,80,2,13.0,160.8099173553719,"New York, NY",O'Sullivan, Bridget Mary,Miss
+3,0,0,2.0,3,1,349909.0,21.075,80,0,13.0,4.0,"New York, NY",Palsson, Gosta Leonard,Master
+3,0,0,6.0,3,1,349909.0,21.075,80,0,13.0,160.8099173553719,"New York, NY",Palsson, Paul Folke,Master
+3,0,1,3.0,3,1,349909.0,21.075,80,0,13.0,160.8099173553719,"New York, NY",Palsson, Stina Viola,Miss
+3,0,1,8.0,3,1,349909.0,21.075,80,0,13.0,160.8099173553719,"New York, NY",Palsson, Torborg Danira,Miss
+3,0,1,29.0,0,4,349909.0,21.075,80,0,13.0,206.0,"New York, NY",Palsson, Nils (Alma Cornelia Berglund),Mrs
+3,0,0,1.0,4,1,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Panula, Eino Viljami,Master
+3,0,0,7.0,4,1,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Panula, Juha Niilo,Master
+3,0,0,2.0,4,1,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Panula, Urho Abraham,Master
+3,0,0,16.0,4,1,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Panula, Ernesti Arvid,Mr
+3,0,0,14.0,4,1,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Panula, Jaako Arnold,Mr
+3,0,1,41.0,0,5,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Panula, Juha (Maria Emilia Ojala),Mrs
+3,0,0,21.0,0,0,315097.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Pasic, Jakob,Mr
+3,0,0,19.0,0,0,358585.0,14.5,80,0,13.0,160.8099173553719,"New York, NY",Patchett, George,Mr
+3,0,0,29.8811345124283,0,0,3411.0,8.7125,80,1,13.0,160.8099173553719,"New York, NY",Paulner, Uscher,Mr
+3,0,0,32.0,0,0,349242.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Pavlovic, Stefo,Mr
+3,0,0,0.75,1,1,3101315.0,13.775,80,0,13.0,160.8099173553719,"New York, NY",Peacock, Alfred Edward,Master
+3,0,1,3.0,1,1,3101315.0,13.775,80,0,13.0,160.8099173553719,"New York, NY",Peacock, Treasteall,Miss
+3,0,1,26.0,0,2,3101315.0,13.775,80,0,13.0,160.8099173553719,"New York, NY",Peacock, Benjamin (Edith Nile),Mrs
+3,0,0,29.8811345124283,0,0,343271.0,7.0,80,0,13.0,160.8099173553719,"New York, NY",Pearce, Ernest,Mr
+3,0,0,29.8811345124283,0,0,345498.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Pedersen, Olaf,Mr
+3,0,0,29.8811345124283,0,0,52817.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Peduzzi, Joseph,Mr
+3,0,0,21.0,0,0,23101294.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Pekoniemi, Edvard,Mr
+3,0,0,25.0,0,0,23101291.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Peltomaki, Nikolai Johannes,Mr
+3,0,0,22.0,0,0,521174.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Perkin, John Henry,Mr
+3,1,0,25.0,1,0,347083.0,7.775,80,0,15.0,160.8099173553719,"New York, NY",Persson, Ernst Ulrik,Mr
+3,1,0,29.8811345124283,1,1,2668.0,22.3583,80,1,13.0,160.8099173553719,"New York, NY",Peter, Michael J,Master
+3,1,1,29.8811345124283,1,1,2668.0,22.3583,177,1,13.0,160.8099173553719,"New York, NY",Peter, Anna,Miss
+3,1,1,29.8811345124283,0,2,2668.0,22.3583,80,1,13.0,160.8099173553719,"New York, NY",Peter, Catherine (Catherine Rizk),Mrs
+3,0,1,29.8811345124283,0,0,330935.0,8.1375,80,2,13.0,160.8099173553719,"New York, NY",Peters, Katie,Miss
+3,0,0,24.0,0,0,342441.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Petersen, Marius,Mr
+3,0,1,28.0,0,0,349245.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Petranec, Matilda,Miss
+3,0,0,19.0,0,0,349212.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Petroff, Nedelio,Mr
+3,0,0,29.8811345124283,0,0,349215.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Petroff," Pastcho (""Pentcho"")",Mr
+3,0,0,25.0,1,0,347076.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Petterson, Johan Emil,Mr
+3,0,1,18.0,0,0,347087.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Pettersson, Ellen Natalia,Miss
+3,1,0,32.0,0,0,392078.0,8.05,147,0,9.0,160.8099173553719,"New York, NY",Pickard, Berk (Berk Trembisky),Mr
+3,0,0,29.8811345124283,0,0,349227.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Plotcharsky, Vasil,Mr
+3,0,0,17.0,0,0,315095.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Pokrnic, Mate,Mr
+3,0,0,24.0,0,0,315092.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Pokrnic, Tome,Mr
+3,0,0,29.8811345124283,0,0,349223.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Radeff, Alexander,Mr
+3,0,1,29.8811345124283,0,0,65305.0,8.1125,80,0,13.0,160.8099173553719,"New York, NY",Rasmussen, (Lena Jacobsen Solvang),Mrs
+3,0,0,29.8811345124283,0,0,2629.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Razi, Raihed,Mr
+3,0,0,29.8811345124283,0,0,362316.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Reed, James George,Mr
+3,0,0,38.0,0,0,349249.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Rekic, Tido,Mr
+3,0,0,21.0,0,0,342684.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Reynolds, Harold J,Mr
+3,0,0,10.0,4,1,382652.0,29.125,80,2,13.0,160.8099173553719,"New York, NY",Rice, Albert,Master
+3,0,0,4.0,4,1,382652.0,29.125,80,2,13.0,160.8099173553719,"New York, NY",Rice, Arthur,Master
+3,0,0,7.0,4,1,382652.0,29.125,80,2,13.0,160.8099173553719,"New York, NY",Rice, Eric,Master
+3,0,0,2.0,4,1,382652.0,29.125,80,2,13.0,160.8099173553719,"New York, NY",Rice, Eugene,Master
+3,0,0,8.0,4,1,382652.0,29.125,80,2,13.0,160.8099173553719,"New York, NY",Rice, George Hugh,Master
+3,0,1,39.0,0,5,382652.0,29.125,80,2,13.0,327.0,"New York, NY",Rice, William (Margaret Norton),Mrs
+3,0,1,22.0,0,0,3101295.0,39.6875,80,0,13.0,160.8099173553719,"New York, NY",Riihivouri," Susanna Juhantytar ""Sanni""",Miss
+3,0,0,35.0,0,0,23101273.0,7.125,80,0,13.0,160.8099173553719,"New York, NY",Rintamaki, Matti,Mr
+3,1,1,29.8811345124283,0,0,334915.0,7.7208,80,2,13.0,160.8099173553719,"New York, NY",Riordan," Johanna ""Hannah""",Miss
+3,0,0,29.8811345124283,0,0,364498.0,14.5,80,0,13.0,160.8099173553719,"New York, NY",Risien, Samuel Beard,Mr
+3,0,1,29.8811345124283,0,0,364498.0,14.5,80,0,13.0,160.8099173553719,"New York, NY",Risien, Samuel (Emma),Mrs
+3,0,0,50.0,1,0,53337.0,14.5,80,0,13.0,119.0,"New York, NY",Robins, Alexander A,Mr
+3,0,1,47.0,1,0,53337.0,14.5,80,0,13.0,7.0,"New York, NY",Robins, Alexander A (Grace Charity Laury),Mrs
+3,0,0,29.8811345124283,0,0,423567.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Rogers, William John,Mr
+3,0,0,29.8811345124283,0,0,312993.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Rommetvedt, Knud Paust,Mr
+3,0,1,2.0,1,1,370129.0,20.2125,80,0,13.0,160.8099173553719,"New York, NY",Rosblom, Salli Helena,Miss
+3,0,0,18.0,1,1,370129.0,20.2125,80,0,13.0,160.8099173553719,"New York, NY",Rosblom, Viktor Richard,Mr
+3,0,1,41.0,0,2,370129.0,20.2125,80,0,13.0,160.8099173553719,"New York, NY",Rosblom, Viktor (Helena Wilhelmina),Mrs
+3,1,1,29.8811345124283,0,0,342712.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Roth, Sarah A,Miss
+3,0,0,50.0,0,0,53594.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Rouse, Richard Henry,Mr
+3,0,0,16.0,0,0,420589.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Rush, Alfred George John,Mr
+3,1,0,29.8811345124283,0,0,383162.0,7.75,80,2,14.0,160.8099173553719,"New York, NY",Ryan, Edward,Mr
+3,0,0,29.8811345124283,0,0,371110.0,24.15,80,2,13.0,160.8099173553719,"New York, NY",Ryan, Patrick,Mr
+3,0,0,29.8811345124283,0,0,2671.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Saad, Amin,Mr
+3,0,0,25.0,0,0,2672.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Saad, Khalil,Mr
+3,0,0,29.8811345124283,0,0,2676.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Saade, Jean Nassr,Mr
+3,0,0,29.8811345124283,0,0,367655.0,7.7292,80,2,13.0,160.8099173553719,"New York, NY",Sadlier, Matthew,Mr
+3,0,0,29.8811345124283,0,0,1588.0,7.575,80,0,13.0,160.8099173553719,"New York, NY",Sadowitz, Harry,Mr
+3,0,0,38.5,0,0,3101262.0,7.25,80,0,13.0,32.0,"New York, NY",Saether, Simon Sivertsen,Mr
+3,0,0,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, Thomas Henry,Master
+3,0,0,14.5,8,2,2343.0,69.55,80,0,13.0,67.0,"New York, NY",Sage, William Henry,Master
+3,0,1,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, Ada,Miss
+3,0,1,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, Constance Gladys,Miss
+3,0,1,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage," Dorothy Edith ""Dolly""",Miss
+3,0,1,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, Stella Anna,Miss
+3,0,0,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, Douglas Bullen,Mr
+3,0,0,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, Frederick,Mr
+3,0,0,29.8811345124283,8,2,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, George John Jr,Mr
+3,0,0,29.8811345124283,1,9,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, John George,Mr
+3,0,1,29.8811345124283,1,9,2343.0,69.55,80,0,13.0,160.8099173553719,"New York, NY",Sage, John (Annie Bullen),Mrs
+3,0,0,24.0,0,0,7266.0,9.325,80,0,13.0,160.8099173553719,"New York, NY",Salander, Karl Johan,Mr
+3,1,1,21.0,0,0,343120.0,7.65,80,0,13.0,160.8099173553719,"New York, NY",Salkjelsvik, Anna Kristine,Miss
+3,0,0,39.0,0,0,3101296.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Salonen, Johan Werner,Mr
+3,0,0,29.8811345124283,2,0,2662.0,21.6792,80,1,13.0,160.8099173553719,"New York, NY",Samaan, Elias,Mr
+3,0,0,29.8811345124283,2,0,2662.0,21.6792,80,1,13.0,160.8099173553719,"New York, NY",Samaan, Hanna,Mr
+3,0,0,29.8811345124283,2,0,2662.0,21.6792,80,1,13.0,160.8099173553719,"New York, NY",Samaan, Youssef,Mr
+3,1,1,1.0,1,1,9549.0,16.7,184,0,13.0,160.8099173553719,"New York, NY",Sandstrom, Beatrice Irene,Miss
+3,1,1,24.0,0,2,9549.0,16.7,184,0,13.0,160.8099173553719,"New York, NY",Sandstrom, Hjalmar (Agnes Charlotta Bengtsson),Mrs
+3,1,1,4.0,1,1,9549.0,16.7,184,0,13.0,160.8099173553719,"New York, NY",Sandstrom, Marguerite Rut,Miss
+3,1,0,25.0,0,0,345768.0,9.5,80,0,11.0,160.8099173553719,"New York, NY",Sap, Julius,Mr
+3,0,0,20.0,0,0,52151.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Saundercock, William Henry,Mr
+3,0,0,24.5,0,0,342826.0,8.05,80,0,13.0,284.0,"New York, NY",Sawyer, Frederick Charles,Mr
+3,0,0,29.8811345124283,0,0,36209.0,7.725,80,2,13.0,160.8099173553719,"New York, NY",Scanlan, James,Mr
+3,0,0,29.8811345124283,0,0,349222.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Sdycoff, Todor,Mr
+3,0,0,29.8811345124283,0,0,370374.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Shaughnessy, Patrick,Mr
+3,1,0,29.0,0,0,345779.0,9.5,80,0,11.0,160.8099173553719,"New York, NY",Sheerlinck, Jan Baptist,Mr
+3,0,0,29.8811345124283,0,0,6212.0,15.1,80,0,13.0,160.8099173553719,"New York, NY",Shellard, Frederick William,Mr
+3,1,1,29.8811345124283,0,0,330968.0,7.7792,80,2,13.0,160.8099173553719,"New York, NY",Shine, Ellen Natalia,Miss
+3,0,0,29.8811345124283,0,0,374910.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Shorney, Charles Joseph,Mr
+3,0,0,29.8811345124283,0,0,392082.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Simmons, John,Mr
+3,0,0,22.0,0,0,2669.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Sirayanian, Orsen,Mr
+3,0,0,29.8811345124283,0,0,392092.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Sirota, Maurice,Mr
+3,0,0,40.0,0,0,349251.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Sivic, Husein,Mr
+3,0,0,21.0,0,0,23101280.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Sivola, Antti Wilhelm,Mr
+3,1,1,18.0,0,0,3101265.0,7.4958,80,0,16.0,160.8099173553719,"New York, NY",Sjoblom, Anna Sofia,Miss
+3,0,0,4.0,3,2,347088.0,27.9,80,0,13.0,160.8099173553719,"New York, NY",Skoog, Harald,Master
+3,0,0,10.0,3,2,347088.0,27.9,80,0,13.0,160.8099173553719,"New York, NY",Skoog, Karl Thorsten,Master
+3,0,1,9.0,3,2,347088.0,27.9,80,0,13.0,160.8099173553719,"New York, NY",Skoog, Mabel,Miss
+3,0,1,2.0,3,2,347088.0,27.9,80,0,13.0,160.8099173553719,"New York, NY",Skoog, Margit Elizabeth,Miss
+3,0,0,40.0,1,4,347088.0,27.9,80,0,13.0,160.8099173553719,"New York, NY",Skoog, Wilhelm,Mr
+3,0,1,45.0,1,4,347088.0,27.9,80,0,13.0,160.8099173553719,"New York, NY",Skoog, William (Anna Bernhardina Karlsson),Mrs
+3,0,0,29.8811345124283,0,0,349214.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Slabenoff, Petco,Mr
+3,0,0,29.8811345124283,0,0,392086.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Slocovski, Selman Francis,Mr
+3,0,0,29.8811345124283,0,0,315037.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Smiljanic, Mile,Mr
+3,0,0,29.8811345124283,0,0,384461.0,7.75,80,2,13.0,160.8099173553719,"New York, NY",Smith, Thomas,Mr
+3,1,1,29.8811345124283,0,0,335432.0,7.7333,80,2,13.0,160.8099173553719,"New York, NY",Smyth, Julia,Miss
+3,0,0,19.0,0,0,348124.0,7.65,179,0,13.0,160.8099173553719,"New York, NY",Soholt, Peter Andreas Lauritz Andersen,Mr
+3,0,0,30.0,0,0,518509.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Somerton, Francis William,Mr
+3,0,0,29.8811345124283,0,0,53236.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Spector, Woolf,Mr
+3,0,0,32.0,0,0,369943.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Spinner, Henry John,Mr
+3,0,0,29.8811345124283,0,0,349208.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Staneff, Ivan,Mr
+3,0,0,33.0,0,0,349239.0,8.6625,80,1,13.0,160.8099173553719,"New York, NY",Stankovic, Ivan,Mr
+3,1,1,23.0,0,0,2314.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",Stanley, Amy Zillah Elsie,Miss
+3,0,0,21.0,0,0,445380.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Stanley, Edward Roland,Mr
+3,0,0,60.5,0,0,3701.0,33.29547928134557,80,0,13.0,261.0,"New York, NY",Storey, Thomas,Mr
+3,0,0,19.0,0,0,349205.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Stoytcheff, Ilia,Mr
+3,0,1,22.0,0,0,7553.0,9.8375,80,0,13.0,160.8099173553719,"New York, NY",Strandberg, Ida Sofia,Miss
+3,1,0,31.0,0,0,23101288.0,7.925,80,0,9.0,160.8099173553719,"New York, NY",Stranden, Juho,Mr
+3,0,0,27.0,0,0,315083.0,8.6625,80,0,13.0,160.8099173553719,"New York, NY",Strilic, Ivan,Mr
+3,0,1,2.0,0,1,347054.0,10.4625,184,0,13.0,160.8099173553719,"New York, NY",Strom, Telma Matilda,Miss
+3,0,1,29.0,1,1,347054.0,10.4625,184,0,13.0,160.8099173553719,"New York, NY",Strom, Wilhelm (Elna Matilda Persson),Mrs
+3,1,0,16.0,0,0,392089.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Sunderland, Victor Francis,Mr
+3,1,0,44.0,0,0,23101269.0,7.925,80,0,15.0,160.8099173553719,"New York, NY",Sundman, Johan Julian,Mr
+3,0,0,25.0,0,0,392076.0,7.05,80,0,13.0,160.8099173553719,"New York, NY",Sutehall, Henry Jr,Mr
+3,0,0,74.0,0,0,347060.0,7.775,80,0,13.0,160.8099173553719,"New York, NY",Svensson, Johan,Mr
+3,1,0,14.0,0,0,7538.0,9.225,80,0,13.0,160.8099173553719,"New York, NY",Svensson, Johan Cervin,Mr
+3,0,0,24.0,0,0,350035.0,7.7958,80,0,13.0,160.8099173553719,"New York, NY",Svensson, Olof,Mr
+3,1,0,25.0,0,0,350033.0,7.7958,80,0,1315.0,160.8099173553719,"New York, NY",Tenglin, Gunnar Isidor,Mr
+3,0,0,34.0,0,0,363294.0,8.05,80,0,13.0,176.0,"New York, NY",Theobald, Thomas Leonard,Mr
+3,1,0,0.4167,0,1,2625.0,8.5167,80,1,16.0,160.8099173553719,"New York, NY",Thomas, Assad Alexander,Master
+3,0,0,29.8811345124283,1,0,2621.0,6.4375,80,1,13.0,160.8099173553719,"New York, NY",Thomas, Charles P,Mr
+3,0,0,29.8811345124283,0,0,2681.0,6.4375,80,1,13.0,160.8099173553719,"New York, NY",Thomas, John,Mr
+3,0,0,29.8811345124283,0,0,2684.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Thomas, Tannous,Mr
+3,1,1,16.0,1,1,2625.0,8.5167,80,1,14.0,160.8099173553719,"New York, NY",Thomas," Alexander (Thamine ""Thelma"")",Mrs
+3,0,0,29.8811345124283,0,0,32302.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Thomson, Alexander Morrison,Mr
+3,0,0,29.8811345124283,1,0,376564.0,16.1,80,0,13.0,160.8099173553719,"New York, NY",Thorneycroft, Percival,Mr
+3,1,1,29.8811345124283,1,0,376564.0,16.1,80,0,10.0,160.8099173553719,"New York, NY",Thorneycroft, Percival (Florence Kate White),Mrs
+3,0,0,32.0,0,0,23101293.0,7.925,80,0,13.0,160.8099173553719,"New York, NY",Tikkanen, Juho,Mr
+3,0,0,29.8811345124283,0,0,383121.0,7.75,182,2,13.0,160.8099173553719,"New York, NY",Tobin, Roger,Mr
+3,0,0,29.8811345124283,0,0,349216.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Todoroff, Lalio,Mr
+3,0,0,30.5,0,0,364499.0,8.05,80,0,13.0,50.0,"New York, NY",Tomlin, Ernest Portage,Mr
+3,0,0,44.0,0,0,364511.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Torber, Ernst William,Mr
+3,0,0,29.8811345124283,0,0,2673.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Torfa, Assad,Mr
+3,1,0,25.0,0,0,659942.7808429119,0.0,80,0,15.0,160.8099173553719,"New York, NY",Tornquist, William Henry,Mr
+3,0,0,29.8811345124283,0,0,2641.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Toufik, Nakli,Mr
+3,1,0,7.0,1,1,2650.0,15.2458,80,1,13.0,160.8099173553719,"New York, NY",Touma, Georges Youssef,Master
+3,1,1,9.0,1,1,2650.0,15.2458,80,1,13.0,160.8099173553719,"New York, NY",Touma, Maria Youssef,Miss
+3,1,1,29.0,0,2,2650.0,15.2458,80,1,13.0,160.8099173553719,"New York, NY",Touma, Darwis (Hanne Youssef Razi),Mrs
+3,0,0,36.0,0,0,349247.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Turcin, Stjepan,Mr
+3,1,1,18.0,0,0,4138.0,9.8417,80,0,15.0,160.8099173553719,"New York, NY",Turja, Anna Sofia,Miss
+3,1,1,63.0,0,0,4134.0,9.5875,80,0,15.0,160.8099173553719,"New York, NY",Turkula, (Hedwig),Mrs
+3,0,0,29.8811345124283,1,1,5851.0,14.5,80,0,13.0,160.8099173553719,"New York, NY",van Billiard, James William,Master
+3,0,0,11.5,1,1,5851.0,14.5,80,0,13.0,1.0,"New York, NY",van Billiard, Walter John,Master
+3,0,0,40.5,0,2,5851.0,14.5,80,0,13.0,255.0,"New York, NY",van Billiard, Austin Blyler,Mr
+3,0,1,10.0,0,2,345773.0,24.15,80,0,13.0,160.8099173553719,"New York, NY",Van Impe, Catharina,Miss
+3,0,0,36.0,1,1,345773.0,24.15,80,0,13.0,160.8099173553719,"New York, NY",Van Impe, Jean Baptiste,Mr
+3,0,1,30.0,1,1,345773.0,24.15,80,0,13.0,160.8099173553719,"New York, NY",Van Impe, Jean Baptiste (Rosalie Paula Govaert),Mrs
+3,0,0,29.8811345124283,0,0,345777.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",van Melkebeke, Philemon,Mr
+3,0,0,33.0,0,0,345780.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",Vande Velde, Johannes Joseph,Mr
+3,0,0,28.0,0,0,345770.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",Vande Walle, Nestor Cyriel,Mr
+3,0,0,28.0,0,0,345783.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",Vanden Steen, Leo Peter,Mr
+3,0,0,47.0,0,0,345765.0,9.0,80,0,13.0,160.8099173553719,"New York, NY",Vander Cruyssen, Victor,Mr
+3,0,1,18.0,2,0,345764.0,18.0,80,0,13.0,160.8099173553719,"New York, NY",Vander Planke, Augusta Maria,Miss
+3,0,0,31.0,3,0,345763.0,18.0,80,0,13.0,160.8099173553719,"New York, NY",Vander Planke, Julius,Mr
+3,0,0,16.0,2,0,345764.0,18.0,80,0,13.0,160.8099173553719,"New York, NY",Vander Planke, Leo Edmondus,Mr
+3,0,1,31.0,1,0,345763.0,18.0,80,0,13.0,160.8099173553719,"New York, NY",Vander Planke, Julius (Emelia Maria Vandemoortele),Mrs
+3,1,0,22.0,0,0,2658.0,7.225,80,1,1315.0,160.8099173553719,"New York, NY",Vartanian, David,Mr
+3,0,0,20.0,0,0,350416.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Vendel, Olof Edvin,Mr
+3,0,1,14.0,0,0,350406.0,7.8542,80,0,13.0,160.8099173553719,"New York, NY",Vestrom, Hulda Amanda Adolfina,Miss
+3,0,0,22.0,0,0,349252.0,7.8958,80,0,13.0,160.8099173553719,"New York, NY",Vovk, Janko,Mr
+3,0,0,22.0,0,0,345767.0,9.0,80,0,13.0,160.8099173553719,"Antwerp, Belgium / Stanton, OH",Waelens, Achille,Mr
+3,0,0,29.8811345124283,0,0,359309.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Ware, Frederick,Mr
+3,0,0,29.8811345124283,0,0,49867.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",Warren, Charles William,Mr
+3,0,0,29.8811345124283,0,0,3101316.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Webber, James,Mr
+3,0,0,32.5,0,0,345775.0,9.5,80,0,13.0,298.0,"New York, NY",Wenzel, Linhart,Mr
+3,1,1,38.0,0,0,2688.0,7.2292,80,1,13.0,160.8099173553719,"New York, NY",Whabee, George Joseph (Shawneene Abi-Saab),Mrs
+3,0,0,51.0,0,0,347064.0,7.75,80,0,13.0,160.8099173553719,"New York, NY",Widegren, Carl/Charles Peter,Mr
+3,0,0,18.0,1,0,3101267.0,6.4958,80,0,13.0,314.0,"New York, NY",Wiklund, Jakob Alfred,Mr
+3,0,0,21.0,1,0,3101266.0,6.4958,80,0,13.0,160.8099173553719,"New York, NY",Wiklund, Karl Johan,Mr
+3,1,1,47.0,1,0,363272.0,7.0,80,0,13.0,160.8099173553719,"New York, NY",Wilkes, James (Ellen Needs),Mrs
+3,0,0,29.8811345124283,0,0,3410.0,8.7125,80,0,13.0,160.8099173553719,"New York, NY",Willer," Aaron (""Abi Weller"")",Mr
+3,0,0,29.8811345124283,0,0,751.0,7.55,80,0,13.0,160.8099173553719,"New York, NY",Willey, Edward,Mr
+3,0,0,29.8811345124283,0,0,52466.0,8.05,80,0,13.0,160.8099173553719,"New York, NY",Williams," Howard Hugh ""Harry""",Mr
+3,0,0,28.5,0,0,54636.0,16.1,80,0,13.0,14.0,"New York, NY",Williams, Leslie,Mr
+3,0,0,21.0,0,0,3101317.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Windelov, Einar,Mr
+3,0,0,27.0,0,0,315154.0,8.6625,80,0,13.0,131.0,"New York, NY",Wirz, Albert,Mr
+3,0,0,29.8811345124283,0,0,434244.0,7.25,80,0,13.0,160.8099173553719,"New York, NY",Wiseman, Phillippe,Mr
+3,0,0,36.0,0,0,345771.0,9.5,80,0,13.0,160.8099173553719,"New York, NY",Wittevrongel, Camille,Mr
+3,0,0,27.0,1,0,2659.0,14.4542,80,1,13.0,160.8099173553719,"New York, NY",Yasbeck, Antoni,Mr
+3,1,1,15.0,1,0,2659.0,14.4542,80,1,13.0,160.8099173553719,"New York, NY",Yasbeck, Antoni (Selini Alexander),Mrs
+3,0,0,45.5,0,0,2628.0,7.225,80,1,13.0,312.0,"New York, NY",Youseff, Gerious,Mr
+3,0,0,29.8811345124283,0,0,2647.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Yousif, Wazli,Mr
+3,0,0,29.8811345124283,0,0,2627.0,14.4583,80,1,13.0,160.8099173553719,"New York, NY",Yousseff, Gerious,Mr
+3,0,1,14.5,1,0,2665.0,14.4542,80,1,13.0,328.0,"New York, NY",Zabour, Hileni,Miss
+3,0,1,29.8811345124283,1,0,2665.0,14.4542,80,1,13.0,160.8099173553719,"New York, NY",Zabour, Thamine,Miss
+3,0,0,26.5,0,0,2656.0,7.225,80,1,13.0,304.0,"New York, NY",Zakarian, Mapriededer,Mr
+3,0,0,27.0,0,0,2670.0,7.225,80,1,13.0,160.8099173553719,"New York, NY",Zakarian, Ortin,Mr
+3,0,0,29.0,0,0,315082.0,7.875,80,0,13.0,160.8099173553719,"New York, NY",Zimmerman, Leo,Mr
