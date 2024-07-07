@@ -34,33 +34,11 @@ import streamlit as st
 # For converting string to int
 from sklearn.preprocessing import LabelEncoder
 
-# Giving Title
-st.title("ML Algorithms on Inbuilt and Kaggle Datasets")
-
-# Now we are making a select box for dataset
-data_name=st.sidebar.selectbox("Select Dataset",
-                  ("Iris","Breast Cancer","Wine","Diabetes","Digits","Salary","Naive Bayes Classification","Car Evaluation"))
-
-# The Next is selecting algorithm
-# We will display this in the sidebar
-algorithm=st.sidebar.selectbox("Select Supervised Learning Algorithm",
-                     ("KNN","SVM","Decision Tree","Naive Bayes","Random Forest","Linear Regression","Logistic Regression"))
-
-# The Next is selecting regressor or classifier
-# We will display this in the sidebar
-if algorithm != 'Linear Regression' and algorithm != 'Logistic Regression' and algorithm != "Naive Bayes":
-    algorithm_type = st.sidebar.selectbox("Select Algorithm Type",
-                        ("Classifier","Regressor"))
-else:
-    st.sidebar.write(f"In {algorithm} Classifier and Regressor dosen't exist separately")
-    if algorithm == "Linear Regression":
-        algorithm_type = "Regressor"
-        st.sidebar.write("{} only does Regression".format(algorithm))
-    else:
-        algorithm_type = "Classifier"
-        st.sidebar.write(f"{algorithm} only does Classification")
+# To Disable Warnings
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Now we need to load the builtin dataset
+# For the other dataset we will read the csv file from the dataset folder
 # This is done using the load_dataset_name function
 def load_dataset(Data):
 
@@ -75,17 +53,17 @@ def load_dataset(Data):
     elif Data == "Digits":
         return datasets.load_digits()
     elif Data == "Salary":
-        return pd.read_csv("Salary_dataset.csv")
+        return pd.read_csv("Dataset/Salary_dataset.csv")
     elif Data == "Naive Bayes Classification" :
-        return pd.read_csv("Naive-Bayes-Classification-Data.csv")
+        return pd.read_csv("Dataset/Naive-Bayes-Classification-Data.csv")
+    elif Data == "Heart Disease Classification" :
+        return pd.read_csv("Dataset/Updated_heart_prediction.csv")
+    elif Data == "Titanic" :
+        return pd.read_csv("Dataset/Preprocessed Titanic Dataset.csv")
     else :
-        return pd.read_csv("car_evaluation.csv")
-
-# Now we need to call function to load the dataset
-data = load_dataset(data_name)
+        return pd.read_csv("Dataset/car_evaluation.csv")
 
 # Now after this we need to split between input and output
-
 # Defining Function for Input and Output
 def Input_output(data,data_name):
 
@@ -95,9 +73,15 @@ def Input_output(data,data_name):
     elif data_name == "Naive Bayes Classification":
         X, Y = data.drop("diabetes", axis=1), data['diabetes']
 
+    elif data_name == "Heart Disease Classification":
+        X, Y = data.drop("output", axis=1), data['output']
+
+    elif data_name == "Titanic":
+        X, Y = data.drop(columns = ["survived", "home.dest", "last_name", "first_name", "title"], axis=1), data['survived']
+
     elif data_name == "Car Evaluation":
 
-        df= data
+        df = data
 
         # For converting string columns to numeric values
         le = LabelEncoder()
@@ -116,9 +100,6 @@ def Input_output(data,data_name):
         Y = data.target
 
     return X,Y
-
-# Calling Function to get Input and Output
-X , Y = Input_output(data,data_name)
 
 # Adding Parameters so that we can select from various parameters for classifier
 def add_parameter_classifier_general(algorithm):
@@ -295,14 +276,6 @@ def add_parameter_regressor(algorithm):
 
     return params
 
-# Calling Function based on regressor and classifier
-# Here since the parameters for regressor and classifier are same for some algorithm we can directly use this
-# Because of this here except for this three algorithm we do not need to take parameters separately
-if (algorithm_type == "Regressor") and (algorithm == 'Decision Tree' or algorithm == 'Random Forest' or algorithm_type == "Linear Regression"):
-    params = add_parameter_regressor(algorithm)
-else :
-    params = add_parameter_classifier_general(algorithm)
-
 # Now we will build ML Model for this dataset and calculate accuracy for that for classifier
 def model_classifier(algorithm, params):
 
@@ -359,9 +332,9 @@ def model_regressor(algorithm, params):
 
 # Now we will write the dataset information
 # Since diabetes is a regression dataset, it does not have classes
-def info(data_name):
+def info(data_name, algorithm, algorithm_type, data, X, Y):
 
-    if data_name not in ["Diabetes","Salary","Naive Bayes Classification","Car Evaluation"]:
+    if data_name not in ["Diabetes","Salary","Naive Bayes Classification","Car Evaluation", "Heart Disease Classification", "Titanic"]:
         st.write(f"## Classification {data_name} Dataset")
         st.write(f'Algorithm is : {algorithm + " " + algorithm_type}')
 
@@ -416,6 +389,48 @@ def info(data_name):
         st.markdown(df.to_markdown(index=False), unsafe_allow_html=True)
         st.write("\n")
 
+    elif data_name == "Heart Disease Classification":
+
+        st.write(f"## Classification {data_name} Dataset")
+        st.write(f'Algorithm is : {algorithm + " " + algorithm_type}')
+
+        # Printing shape of data
+        st.write('Shape of Dataset is: ', X.shape)
+        st.write('Number of classes: ', len(np.unique(Y)))
+        # Making a dataframe to store target name and value
+
+        df = pd.DataFrame({"Target Value": list(np.unique(Y)),
+                           "Target Name": ['Less Chance Of Heart Attack', 'High Chance Of Heart Attack']})
+
+        # Display the DataFrame without index labels
+        st.write('Values and Name of Classes')
+
+        # Display the DataFrame as a Markdown table
+        # To successfully run this we need to install tabulate
+        st.markdown(df.to_markdown(index=False), unsafe_allow_html=True)
+        st.write("\n")
+
+    elif data_name == "Titanic":
+
+        st.write(f"## Classification {data_name} Dataset")
+        st.write(f'Algorithm is : {algorithm + " " + algorithm_type}')
+
+        # Printing shape of data
+        st.write('Shape of Dataset is: ', X.shape)
+        st.write('Number of classes: ', len(np.unique(Y)))
+        # Making a dataframe to store target name and value
+
+        df = pd.DataFrame({"Target Value": list(np.unique(Y)),
+                           "Target Name": ['Not Survived', 'Survived']})
+
+        # Display the DataFrame without index labels
+        st.write('Values and Name of Classes')
+
+        # Display the DataFrame as a Markdown table
+        # To successfully run this we need to install tabulate
+        st.markdown(df.to_markdown(index=False), unsafe_allow_html=True)
+        st.write("\n")
+
     else:
 
         st.write(f"## Classification {data_name} Dataset")
@@ -436,56 +451,12 @@ def info(data_name):
         st.markdown(df.to_markdown(index=False), unsafe_allow_html=True)
         st.write("\n")
 
-# Calling function to print Dataset Information
-info(data_name)
-
-# Now selecting classifier or regressor
-# Calling Function based on regressor and classifier
-if algorithm_type == "Regressor":
-    algo_model = model_regressor(algorithm,params)
-else :
-    algo_model = model_classifier(algorithm,params)
-
-# Now splitting into Testing and Training data
-# It will split into 80 % training data and 20 % Testing data
-x_train, x_test, y_train, y_test = train_test_split(X, Y, train_size=0.8)
-
-# Training algorithm
-algo_model.fit(x_train,y_train)
-
-# Now we will find the predicted values
-predict=algo_model.predict(x_test)
-
-# Finding Accuracy
-# Evaluating/Testing the model
-if algorithm != 'Linear Regression' and algorithm_type != 'Regressor':
-    # For all algorithm we will find accuracy
-    st.write("Training Accuracy is:",algo_model.score(x_train,y_train)*100)
-    st.write("Testing Accuracy is:",accuracy_score(y_test,predict)*100)
-else:
-    # Checking for Error
-    # Error is less as accuracy is more
-    # For linear regression we will find error
-    st.write("Mean Squared error is:",mean_squared_error(y_test,predict))
-    st.write("Mean Absolute error is:",mean_absolute_error(y_test,predict))
-
-# Plotting Dataset
-# Since there are many dimensions, first we will do Principle Component analysis to do dimension reduction and then plot
-pca=PCA(2)
-
-# Salary and Naive bayes classification data does not need pca
-if data_name != "Salary":
-    X = pca.fit_transform(X)
-
-# Plotting
-fig = plt.figure()
-
 # Now while plotting we have to show target variables for datasets
 # Now since diabetes is regression dataset it dosen't have target variables
 # So we have to apply condition and plot the graph according to the dataset
 # Seaborn is used as matplotlib does not display all label names
 
-def choice_classifier(data_name):
+def choice_classifier(data, data_name, X, Y):
 
     # Plotting Regression Plot for dataset diabetes
     # Since this is a regression dataset we show regression line as well
@@ -531,8 +502,12 @@ def choice_classifier(data_name):
         plt.legend(shadow=True)
         plt.title("Scatter Classification Plot of Dataset With Target Classes")
 
-
-def choice_regressor(data_name):
+# Now while plotting we have to show original value for datasets
+# Now since diabetes is regression dataset it dosen't have target variables
+# So we have to apply condition and plot the graph according to the dataset
+# Seaborn is used as matplotlib does not display all label names
+# We show the regression line and the original variables
+def choice_regressor(X, x_test, predict, data, data_name, Y, fig):
 
     # Plotting Regression Plot for dataset diabetes
     # Since this is a regression dataset we show regression line as well
@@ -575,18 +550,127 @@ def choice_regressor(data_name):
         plt.colorbar()
         plt.title("Scatter Regression Plot of Dataset With Target Classes")
 
-if algorithm_type == 'Regressor':
-    choice_regressor(data_name)
-else:
-    # Calling Function
-    choice_classifier(data_name)
+    return fig
 
-if data_name != "Salary" and data_name != "Naive Bayes Classification":
-    plt.xlabel('Principal Component 1')
-    plt.ylabel('Principal Component 2')
+# This prints the information about the dataset
+# It also builds the model according to the dataset being classification or regression dataset        
+def data_model_description(algorithm, algorithm_type, data_name, data, X, Y):
+    
+    # Calling function to print Dataset Information
+    info(data_name, algorithm, algorithm_type, data, X, Y)
+    
+    # Calling Function based on regressor and classifier
+    # Here since the parameters for regressor and classifier are same for some algorithm we can directly use this
+    # Because of this here except for this three algorithm we do not need to take parameters separately
+    if (algorithm_type == "Regressor") and (algorithm == 'Decision Tree' or algorithm == 'Random Forest' or algorithm_type == "Linear Regression"):
+        params = add_parameter_regressor(algorithm)
+    else :
+        params = add_parameter_classifier_general(algorithm)
 
-# Since we have done pca in naive bayes classification data for plotting regression plot
-if data_name == "Naive Bayes Classification" and algorithm_type == 'Regressor':
-    plt.xlabel('Principal Component 1')
-    plt.ylabel('Principal Component 2')
-st.pyplot(fig)
+    # Now selecting classifier or regressor
+    # Calling Function based on regressor and classifier
+    if algorithm_type == "Regressor":
+        algo_model = model_regressor(algorithm,params)
+    else :
+        algo_model = model_classifier(algorithm,params)
+
+    # Now splitting into Testing and Training data
+    # It will split into 80 % training data and 20 % Testing data
+    x_train, x_test, y_train, y_test = train_test_split(X, Y, train_size=0.8)
+
+    # Training algorithm
+    algo_model.fit(x_train,y_train)
+
+    # Plotting
+    fig = plt.figure()
+
+    # Now we will find the predicted values
+    predict=algo_model.predict(x_test)
+
+    X = pca_plot(data_name, X)
+
+    if algorithm_type == 'Regressor':
+        fig  = choice_regressor(X, x_test, predict, data, data_name, Y, fig)
+    else:
+        # Calling Function
+        fig = choice_classifier(data, data_name, X, Y)
+
+    if data_name != "Salary" and data_name != "Naive Bayes Classification":
+        plt.xlabel('Principal Component 1')
+        plt.ylabel('Principal Component 2')
+
+    # Since we have done pca in naive bayes classification data for plotting regression plot
+    if data_name == "Naive Bayes Classification" and algorithm_type == 'Regressor':
+        plt.xlabel('Principal Component 1')
+        plt.ylabel('Principal Component 2')
+
+    st.pyplot(fig)
+
+    # Finding Accuracy
+    # Evaluating/Testing the model
+    if algorithm != 'Linear Regression' and algorithm_type != 'Regressor':
+        # For all algorithm we will find accuracy
+        st.write("Training Accuracy is:",algo_model.score(x_train,y_train)*100)
+        st.write("Testing Accuracy is:",accuracy_score(y_test,predict)*100)
+    else:
+        # Checking for Error
+        # Error is less as accuracy is more
+        # For linear regression we will find error
+        st.write("Mean Squared error is:",mean_squared_error(y_test,predict))
+        st.write("Mean Absolute error is:",mean_absolute_error(y_test,predict))
+    
+# Doing PCA(Principal Component Analysis) on the dataset and then plotting it
+def pca_plot(data_name, X):
+    
+    # Plotting Dataset
+    # Since there are many dimensions, first we will do Principle Component analysis to do dimension reduction and then plot
+    pca=PCA(2)
+
+    # Salary and Naive bayes classification data does not need pca
+    if data_name != "Salary":
+        X = pca.fit_transform(X)
+
+    return X
+
+# Main Function    
+def main():
+    
+    # Giving Title
+    st.title("ML Algorithms on Inbuilt and Kaggle Datasets")
+
+    # Now we are making a select box for dataset
+    data_name=st.sidebar.selectbox("Select Dataset",
+                    ("Iris","Breast Cancer","Wine","Diabetes","Digits","Salary","Naive Bayes Classification","Car Evaluation", "Heart Disease Classification", "Titanic"))
+
+    # The Next is selecting algorithm
+    # We will display this in the sidebar
+    algorithm=st.sidebar.selectbox("Select Supervised Learning Algorithm",
+                        ("KNN","SVM","Decision Tree","Naive Bayes","Random Forest","Linear Regression","Logistic Regression"))
+
+    # The Next is selecting regressor or classifier
+    # We will display this in the sidebar
+    if algorithm != 'Linear Regression' and algorithm != 'Logistic Regression' and algorithm != "Naive Bayes":
+        algorithm_type = st.sidebar.selectbox("Select Algorithm Type",
+                            ("Classifier","Regressor"))
+    else:
+        st.sidebar.write(f"In {algorithm} Classifier and Regressor dosen't exist separately")
+        if algorithm == "Linear Regression":
+            algorithm_type = "Regressor"
+            st.sidebar.write("{} only does Regression".format(algorithm))
+        else:
+            algorithm_type = "Classifier"
+            st.sidebar.write(f"{algorithm} only does Classification")
+            
+    # Now we need to call function to load the dataset
+    data = load_dataset(data_name)
+    
+    # Calling Function to get Input and Output
+    X , Y = Input_output(data,data_name)
+    
+    data_model_description(algorithm, algorithm_type, data_name, data, X, Y)
+    
+# Starting Execution of the Program
+if __name__ == "__main__":
+
+    # Calling Main Function
+    main()
