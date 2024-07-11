@@ -74,14 +74,19 @@ You should be able to view the homepage of your app.
 
 ---
 
-## About Project :
+## About Project : HyperTuneML Platform
 
 <p>Complete Description about the project and resources used.</p>
 
---> In this project I made a streamlit website in which you can apply multiple supervised learning algorithm on various datasets.<br><br>
---> I also did Data Visualization to show the working of this algorithms on the datasets.<br><br>
---> I have deployed this website using streamlit.<br><br>
---> Visit Website from : <a href="https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/">ML Algorithms on Inbuilt and Kaggle Datasets</a>
+- **Streamlit Website for Machine Learning Algorithms**: Developed a dynamic web application using Streamlit where users can interactively apply multiple supervised learning algorithms to various datasets. The app is designed to showcase **improved model accuracy** through **hyperparameter tuning** on diverse **real-world datasets**.
+  
+- **Data Visualization**: Implemented comprehensive data visualization features to illustrate the performance and results of the applied algorithms on different datasets. Visualizations include graphs, charts, and metrics to enhance understanding.
+  
+- **Hyperparameter Tuning for Enhanced Model Accuracy**: Users can select specific hyperparameters and datasets, with the app displaying the corresponding accuracy metrics. Interactive graphs visually depict the algorithm's performance, providing **practical insights** into predictive analytics.
+  
+- **Deployment**: Successfully deployed the web application using Streamlit, making it accessible online for users to utilize and explore.
+  
+- **Project Website**: Explore the project and its functionalities [HyperTuneML Platform](https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/).
 
 ---
 
@@ -205,7 +210,19 @@ You should be able to view the homepage of your app.
 --> Contains Salary data for Regression.<br><br>
 --> The dataset has 2 columns-Years of Experience and Salary and 30 entries.<br><br>
 --> Column Years of Experience is used to find regression for Salary.<br><br>
---> Dataset is already cleaned,no preprocessing required.
+--> Dataset is already cleaned,no preprocessing required.<br>
+
+<h2>Heart Disease Dataset</h2>
+--> Dataset is taken from: <a href="https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-1024.png" height =40 width=40 title="Heart Disease Dataset" alt="Heart Disease Dataset"> </a><br><br>
+--> Contains heart disease dataset for Classification.<br><br>
+--> The Shape of dataset is 303 X 16.<br><br>
+--> Dataset is not cleaned, preprocessing is required.<br>
+
+<h2>Titanic Dataset</h2>
+--> Dataset is taken from: <a href="https://www.kaggle.com/datasets/vinicius150987/titanic3/data"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-1024.png" height =40 width=40 title="Titanic Dataset" alt="Titanic Dataset"> </a><br><br>
+--> Contains Titanic dataset for classification tasks (predicting survival).<br><br>
+--> The Shape of dataset is 1309 X 14.<br><br>
+--> Dataset is not cleaned, preprocessing is required.
 
 ---
 # Libraries Used 📚 💻
