@@ -634,9 +634,12 @@ def pca_plot(data_name, X):
 
 # Main Function    
 def main():
+
+    # Giving Title
+    st.title("HyperTuneML Platform")
     
     # Giving Title
-    st.title("ML Algorithms on Inbuilt and Kaggle Datasets")
+    st.write("### ML Algorithms on Inbuilt and Kaggle Datasets")
 
     # Now we are making a select box for dataset
     data_name=st.sidebar.selectbox("Select Dataset",
