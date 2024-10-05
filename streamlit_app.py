@@ -35,7 +35,9 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 
 # To Disable Warnings
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
+import warnings
+warnings.filterwarnings("ignore")
 
 # Now we need to load the builtin dataset
 # For the other dataset we will read the csv file from the dataset folder
