@@ -49,7 +49,7 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 
 # To Disable Warnings
-st.set_option("deprecation.showPyplotGlobalUse", False)
+# st.set_option("deprecation.showPyplotGlobalUse", False)
 import warnings
 
 warnings.filterwarnings("ignore")
