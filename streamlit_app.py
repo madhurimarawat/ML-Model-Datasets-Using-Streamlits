@@ -778,12 +778,6 @@ def pca_plot(data_name, X):
 # Main Function
 def main():
 
-    # Setting the page title
-    # This title will only be visible when running the app locally.
-    # In the deployed app, the title will be displayed as "Title - Streamlit," where "Title" is the one we provide.
-    # If we don't set the title, it will default to "Streamlit"
-    st.set_page_config(page_title="HyperTuneML Platform")
-
     # Giving Title
     st.title("HyperTuneML Platform")
 
@@ -878,6 +872,12 @@ def display_background_image(url, opacity):
 
 # Starting Execution of the Program
 if __name__ == "__main__":
+
+    # Setting the page title
+    # This title will only be visible when running the app locally.
+    # In the deployed app, the title will be displayed as "Title - Streamlit," where "Title" is the one we provide.
+    # If we don't set the title, it will default to "Streamlit"
+    st.set_page_config(page_title="HyperTuneML Platform")
 
     # Call function to display the background image with opacity
     display_background_image(
