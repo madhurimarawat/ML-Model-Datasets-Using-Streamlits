@@ -4,3 +4,4 @@ pandas
 tabulate
 seaborn
 matplotlib
+streamlit==1.36.0
