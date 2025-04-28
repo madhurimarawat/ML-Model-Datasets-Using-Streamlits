@@ -1,0 +1,393 @@
+<!-- 
+================================================================================
+Title       : 📜 The Ultimate Guide to Hyperparameter Tuning 🎯
+Author      : Madhurima Rawat
+Date        : 14th March 2025
+Description : 
+    This HTML document serves as an educational and humorous guide to 
+    hyperparameter tuning across various machine learning models, including 
+    Deep Learning (Neural Networks), Decision Trees, Random Forests, XGBoost, 
+    and Support Vector Machines (SVMs). 
+
+    It combines technical explanations, mathematical formulas (rendered via 
+    MathJax), and playful metaphors to make the concept of hyperparameter 
+    tuning engaging and easier to understand. The document is structured into 
+    sections, each focusing on a different algorithm, with relevant 
+    hyperparameters and their explanations.
+
+Dependencies :
+    - MathJax (for rendering mathematical equations)
+    - Polyfill (for ensuring ES6 compatibility)
+
+Styling     :
+    Inline CSS styles are used for typography, layout, and component-specific 
+    design. Emojis and humor are added to make the content more lively and 
+    reader-friendly.
+
+Usage       :
+    Open the HTML file in any modern web browser to view the guide.
+================================================================================
+-->
+
+<!DOCTYPE html> <!-- Defines the document type and version of HTML -->
+<html lang="en"> <!-- Sets the language to English -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <title>📜 The Ultimate Guide to Hyperparameter Tuning 🎯</title> <!-- Title shown in the browser tab -->
+
+    <!-- Loads polyfills for compatibility with ES6 features -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Loads MathJax for rendering mathematical formulas -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        /* Global styles for the entire page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Sets the font family */
+            margin: 0;
+            /* Removes default margin */
+            text-align: center;
+            /* Centers text inside elements */
+            padding: 20px;
+            /* Adds padding around the body content */
+            background-color: #f4f4f4;
+            /* Light grey background color */
+            color: #333;
+            /* Dark grey text color */
+            line-height: 1.6;
+            /* Improves readability by increasing line spacing */
+        }
+
+        /* Styles for all headings */
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+            /* Dark blue-grey for headings */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            /* Large font for the main heading */
+        }
+
+        h2 {
+            margin-top: 40px;
+            /* Adds space above h2 headings */
+        }
+
+        h3 {
+            margin-top: 30px;
+            /* Adds space above h3 headings */
+        }
+
+        /* Styles for the main content sections */
+        .section {
+            background: #fff;
+            /* White background for contrast */
+            padding: 20px;
+            /* Adds space inside each section */
+            margin-bottom: 20px;
+            /* Adds space below each section */
+            border-radius: 10px;
+            /* Rounded corners for sections */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            /* Subtle shadow effect */
+        }
+
+        /* Styles for unordered and ordered lists */
+        ul,
+        ol {
+            text-align: center;
+            /* Center-aligns the list items */
+            list-style-position: inside;
+            /* Moves the bullet points inside the content box */
+            padding: 0;
+            /* Removes default padding */
+        }
+
+        /* Styles for inline code snippets */
+        code {
+            background-color: #f1f1f1;
+            /* Light grey background for code */
+            padding: 2px 4px;
+            /* Adds padding around code */
+            border-radius: 4px;
+            /* Rounded corners */
+        }
+
+        /* Styles for emojis to increase size */
+        .emoji {
+            font-size: 1.5em;
+            /* Enlarges emoji */
+        }
+
+        /* Styles for horizontal rules */
+        hr {
+            border: 0;
+            /* Removes default border */
+            border-top: 2px solid #ccc;
+            /* Adds a custom border line */
+            margin: 40px 0;
+            /* Adds space above and below the rule */
+        }
+
+        /* Styles for formulas displayed in special boxes */
+        .formula {
+            background-color: #eef;
+            /* Light blue background for formulas */
+            padding: 10px;
+            /* Padding around the formula */
+            margin: 10px 0;
+            /* Adds space above and below */
+            display: inline-block;
+            /* Allows block properties but inline placement */
+            border-radius: 8px;
+            /* Rounded corners */
+        }
+
+        /* Styles for highlighted terms */
+        .highlight {
+            font-weight: bold;
+            /* Makes text bold */
+            color: #34495e;
+            /* Dark blue-grey for emphasis */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main heading of the guide -->
+    <h1>📜 The Ultimate Guide to Hyperparameter Tuning 🎯</h1>
+
+    <!-- Introductory paragraph -->
+    <p>
+        Welcome to the <strong>wild world of hyperparameter tuning</strong>, where you throw random numbers at a model
+        and pray it doesn't overfit into oblivion. Let's dive into the madness of tuning these
+        <em>sacred parameters</em> across different models. Buckle up! 🚀
+    </p>
+
+    <hr> <!-- Horizontal separator -->
+
+    <!-- Section for Deep Learning hyperparameters -->
+    <div class="section">
+        <h2>🤖 Deep Learning (Neural Networks) - The "Needy Ex"</h2>
+
+        <!-- Description of neural networks -->
+        <p>
+            Neural networks are like that one ex who needs constant attention. If you don’t babysit them with proper
+            hyperparameters, they'll either ghost you (<em>underfitting</em>) or get clingy (<em>overfitting</em>).
+        </p>
+
+        <!-- Subheading for hyperparameters list -->
+        <h3>🔥 Hyperparameters to Tame the Beast:</h3>
+
+        <ul>
+            <!-- Learning Rate parameter -->
+            <li><span class="highlight">Learning Rate</span> \((\alpha)\)
+                <ul>
+                    <li><em>Scientific Name:</em> Step Size in Gradient Descent</li>
+                    <li><em>Discovered By:</em> Isaac Newton (kind of, thanks to calculus)</li>
+                    <li class="formula">\( w = w - \alpha \frac{\partial L}{\partial w} \)</li>
+                    <li><em>Concept:</em> Determines how aggressively the model updates weights. Too high and it jumps
+                        off cliffs; too low and it crawls like a snail.</li>
+                </ul>
+            </li>
+
+            <!-- Batch Size parameter -->
+            <li><span class="highlight">Batch Size</span> \((B)\)
+                <ul>
+                    <li><em>Scientific Name:</em> Mini-Batch Stochastic Gradient Descent Chunk Size</li>
+                    <li><em>Discovered By:</em> Whoever realized full gradient descent takes too long</li>
+                    <li class="formula">\( L_{batch} = \frac{1}{B} \sum_{i=1}^{B} L_i \)</li>
+                    <li><em>Concept:</em> Controls how many data points are used in one iteration. Small batches learn
+                        fast but are noisy, large batches are stable but slow.</li>
+                </ul>
+            </li>
+
+            <!-- Number of Layers & Neurons parameter -->
+            <li><span class="highlight">Number of Layers & Neurons</span>
+                <ul>
+                    <li><em>Scientific Name:</em> Depth & Width of a Neural Network</li>
+                    <li><em>Inspired By:</em> The human brain (but much dumber)</li>
+                    <li><em>Concept:</em> More layers mean more feature extraction but also more risk of exploding
+                        gradients.</li>
+                </ul>
+            </li>
+
+            <!-- Dropout Rate parameter -->
+            <li><span class="highlight">Dropout Rate</span> \((p)\)
+                <ul>
+                    <li><em>Scientific Name:</em> Regularization via Random Neuron Elimination</li>
+                    <li class="formula">\( h_i = \frac{a_i}{1-p} \)</li>
+                    <li><em>Concept:</em> Dropout prevents overfitting by randomly turning off neurons. Like forcing
+                        your model to train while blindfolded.</li>
+                </ul>
+            </li>
+
+            <!-- Activation Function parameter -->
+            <li><span class="highlight">Activation Function</span>
+                <ul>
+                    <li><strong>ReLU (Rectified Linear Unit):</strong> \( f(x) = max(0, x) \) - "I work until I die."
+                    </li>
+                    <li><strong>Sigmoid:</strong> \( f(x) = \frac{1}{1+e^{-x}} \) - "I’m stuck between 0 and 1. Help."
+                    </li>
+                    <li><strong>Tanh:</strong> \( f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \) - "I’m just a
+                        stretched-out sigmoid."</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Section for Decision Trees and Random Forests hyperparameters -->
+    <div class="section">
+        <h2>🌲 Decision Trees & Random Forests - "The Overthinker"</h2>
+
+        <p>
+            Decision Trees are like that one friend who turns every minor decision into a full-blown investigation. Add
+            too many trees (<em>Random Forests</em>), and suddenly it’s a <strong>forest of confusion</strong>.
+        </p>
+
+        <h3>🌳 Hyperparameters to Prune the Overthinker:</h3>
+
+        <ul>
+            <!-- Max Depth parameter -->
+            <li><span class="highlight">Max Depth</span> \((D_{max})\)
+                <ul>
+                    <li><em>Scientific Name:</em> Tree Growth Limiter</li>
+                    <li><em>Concept:</em> Determines how many splits a tree can make. Too deep, and it memorizes
+                        everything; too shallow, and it misses patterns.</li>
+                </ul>
+            </li>
+
+            <!-- Min Samples Split parameter -->
+            <li><span class="highlight">Min Samples Split</span> \((N_{split})\)
+                <ul>
+                    <li><em>Scientific Name:</em> Node Splitting Threshold</li>
+                    <li><em>Concept:</em> The minimum number of samples needed to split a node. Avoids creating useless
+                        tiny branches.</li>
+                </ul>
+            </li>
+
+            <!-- Criterion parameter -->
+            <li><span class="highlight">Criterion</span> (Gini vs. Entropy)
+                <ul>
+                    <li><strong>Gini Index:</strong> \( 1 - \sum p_i^2 \) - Measures impurity</li>
+                    <li><strong>Entropy:</strong> \( -\sum p_i \log_2 p_i \) - Measures unpredictability</li>
+                    <li><em>Concept:</em> If you like simplicity, go Gini. If you like math, go Entropy.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Section for XGBoost hyperparameters -->
+    <div class="section">
+        <h2>🔮 XGBoost - "The Overachiever"</h2>
+
+        <p>
+            XGBoost is like the nerd in class who studies <em>way too hard</em> and crushes every competition. But
+            tuning
+            it? Nightmare fuel. 😵‍💫
+        </p>
+
+        <h3>📈 Hyperparameters for XGBoost:</h3>
+
+        <ul>
+            <!-- Learning Rate parameter -->
+            <li><span class="highlight">Learning Rate</span> \((\eta)\)
+                <ul>
+                    <li class="formula">\( w = w - \eta \nabla L \)</li>
+                    <li><em>Concept:</em> Slow and steady wins the race. Unless it’s too slow, then you never finish.
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Max Depth parameter -->
+            <li><span class="highlight">Max Depth</span> \((D_{max})\) - Same concept as Decision Trees.</li>
+
+            <!-- Gamma parameter -->
+            <li><span class="highlight">Gamma</span> \((\gamma)\)
+                <ul>
+                    <li><em>Concept:</em> Controls whether a node should split. High gamma? "Only split if it's
+                        <em>really</em> worth it."
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Section for SVM hyperparameters-->
+    <div class="section">
+        <h2>🔄 Support Vector Machines (SVMs) - "The Perfectionist"</h2>
+
+        <p>SVMs are like those people who <em>always</em> find the optimal line in traffic but take forever to do it.
+            🚗💨</p>
+
+        <h3>⚖️ Hyperparameters to Make SVM Behave:</h3>
+        <ul>
+            <li><span class="highlight">Kernel Type</span> \(K(x, y)\)
+                <ul>
+                    <li><strong>Linear:</strong> \( K(x, y) = x^T y \)</li>
+                    <li><strong>Polynomial:</strong> \( K(x, y) = (x^T y + c)^d \)</li>
+                    <li><strong>RBF:</strong> \( K(x, y) = e^{-\gamma ||x - y||^2} \)</li>
+                </ul>
+            </li>
+            <li><span class="highlight">Regularization Parameter</span> \(C\)
+                <ul>
+                    <li><em>Concept:</em> Balances the trade-off between a smooth decision boundary and classifying
+                        training
+                        points
+                        correctly.</li>
+                    <li class="formula">Minimize: \( \frac{1}{2} ||w||^2 + C \sum \xi_i \)</li>
+                    <li>Low \(C\): "I’ll let some points slide." High \(C\): "I must get everything perfect!"</li>
+                </ul>
+            </li>
+            <li><span class="highlight">Gamma</span> \((\gamma)\)
+                <ul>
+                    <li><em>Concept:</em> Defines how far the influence of a single training example reaches.</li>
+                    <li>Low \(\gamma\): "I look at the big picture." High \(\gamma\): "I focus on the tiny details."
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+    <div class="section">
+        <h2>🎉 Final Thoughts 🎉</h2>
+
+        <p>Hyperparameter tuning is part science, part art, and part rolling the dice. Whether you grid search, random
+            search,
+            or go full Bayesian optimization wizard 🧙‍♂️, remember:</p>
+
+        <blockquote><strong>"With great hyperparameters comes great responsibility!"</strong></blockquote>
+
+        <p>Good luck tuning! And may your models be ever in your favor. 🏹</p>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2>🎭 Conclusion - Hyperparameter Tuning is a Circus 🎪</h2>
+
+        <p>Tuning hyperparameters is like training a cat—you don’t control it, you just <strong>convince</strong> it
+            that your way is better. 🐱</p>
+
+        <p>Remember, the best tuning strategy is:</p>
+        <ol>
+            <li>Start with sane defaults (not too extreme, not too conservative).</li>
+            <li>Use <strong>Grid Search</strong> or <strong>Random Search</strong> if you're feeling lucky.</li>
+            <li>If you're <em>really</em> feeling fancy, go for <strong>Bayesian Optimization</strong> (because math).
+            </li>
+        </ol>
+
+        <p>Now go forth, tune like a mad scientist, and may your loss function always decrease! 🚀</p>
+    </div>
+
+</body>
+
+</html>
