@@ -7,7 +7,7 @@ This repository contains my machine learning models implementation code using st
 
 ---
 
-# Mode of Execution Used <img src="https://th.bing.com/th/id/R.c936445e15a65dfdba20a63e14e7df39?rik=fqWqO9kKIVlK7g&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f58481537cef1014c0b5e4968.png&ehk=dtrTKn1QsJ3%2b2TFlSfLR%2fxHdNYHdrqqCUUs8voipcI8%3d&risl=&pid=ImgRaw&r=0" title="PyCharm" alt="PyCharm" width="40" height="40">&nbsp;<img src="https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png" title="Streamlit" alt="Streamlit" width="40" height="40">
+# Mode of Execution Used <img src="https://th.bing.com/th/id/R.c936445e15a65dfdba20a63e14e7df39?rik=fqWqO9kKIVlK7g&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f58481537cef1014c0b5e4968.png&ehk=dtrTKn1QsJ3%2b2TFlSfLR%2fxHdNYHdrqqCUUs8voipcI8%3d&risl=&pid=ImgRaw&r=0" title="PyCharm" alt="PyCharm" width="40" height="40">&nbsp;<img src="https://raw.githubusercontent.com/github/explore/968d1eb8fb6b704c6be917f0000283face4f33ee/topics/streamlit/streamlit.png" title="Streamlit" alt="Streamlit" width="40" height="40">
 
 
 <h2>Pycharm</h2>
@@ -88,6 +88,8 @@ You should be able to view the homepage of your app.
 - **Deployment**: Successfully deployed the web application using Streamlit, making it accessible online for users to utilize and explore.
   
 - **Project Website**: Explore the project and its functionalities [HyperTuneML Platform](https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/).
+
+- <strong>Simple Guide to Hyperparameter Tuning</strong>: A fun and easy-to-understand explanation of this topic is available in the <a href="Hyperparameter Tuning.html"><strong>Hyperparameter Tuning.html</strong></a> and <a href="Hyperparameter Tuning.pdf"><strong>Hyperparameter Tuning.pdf</strong></a> links.
 
 ---
 
